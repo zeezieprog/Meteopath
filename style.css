@@ -29,3 +29,44 @@
 .company-role,.company-card .company-role{font-size:.95rem}
 .company-kind,.company-note,.person-institution,.person-link,.tab-item-note{font-size:.86rem;line-height:1.7}
 @media(max-width:660px){.detail-banner p,.detail-intro-copy,.feature-box p{font-size:.95rem}.course-name{font-size:.91rem}}
+
+/* V5 — text-first edition: photos replaced by typographic/data-inspired shapes. */
+.hero-visual-data{min-height:480px;height:515px;position:relative;display:flex;align-items:center;justify-content:center;padding:14px 0 12px}
+.atlas-surface{position:relative;isolation:isolate;overflow:hidden;width:94%;height:92%;border:1px solid rgba(194,222,255,.28);border-radius:20px 65px 20px 20px;background:radial-gradient(circle at 52% 47%,rgba(86,139,178,.14),transparent 45%),linear-gradient(145deg,rgba(31,68,94,.9),rgba(10,29,49,.96));box-shadow:0 30px 85px rgba(0,0,0,.28);}
+.atlas-surface:before{content:"";position:absolute;inset:0;background-image:linear-gradient(to right,rgba(255,255,255,.06) 1px,transparent 1px),linear-gradient(to bottom,rgba(255,255,255,.055) 1px,transparent 1px);background-size:39px 39px;mask-image:radial-gradient(ellipse at 50% 50%,black 20%,transparent 85%)}
+.atlas-topline,.atlas-bottomline{position:absolute;z-index:2;left:25px;right:25px;display:flex;align-items:center;justify-content:space-between;gap:10px;color:#cfdfed;font-size:.69rem;letter-spacing:.13em;font-weight:800;line-height:1.6}
+.atlas-topline{top:27px}.atlas-bottomline{bottom:23px}.atlas-topline .status-dot{margin-right:3px;width:7px;height:7px}
+.atlas-bottomline strong{color:#fca68e}.atlas-coords{color:#99b4cf;font-weight:600}
+.atlas-rings{position:absolute;left:50%;top:51%;transform:translate(-50%,-50%);height:330px;width:330px;border-radius:50%;background:conic-gradient(from 65deg,rgba(240,137,117,.36),transparent 45deg,rgba(90,159,212,.15) 150deg,transparent 250deg,rgba(240,137,117,.36));animation:atlas-spin 36s linear infinite}
+.atlas-rings:before,.atlas-rings:after,.atlas-rings span{position:absolute;display:block;content:"";border-radius:50%;inset:14px;border:1px solid rgba(184,215,237,.37)}
+.atlas-rings:after{inset:45px;border-style:dashed;opacity:.7}
+.atlas-rings .ring-a{inset:-23px;border-color:rgba(255,255,255,.13)}.atlas-rings .ring-b{inset:78px;border-color:rgba(255,255,255,.23)}.atlas-rings .ring-c{inset:120px;border-color:rgba(246,172,136,.55)}.atlas-rings .ring-cross{border-radius:0;inset:-22px 50%;width:1px;border:0;background:rgba(255,255,255,.12)}
+.atlas-center{position:absolute;z-index:2;left:50%;top:51%;transform:translate(-50%,-50%);text-align:center;display:grid;justify-items:center;gap:0;width:240px}
+.atlas-center strong{font-family:'Plus Jakarta Sans',sans-serif;font-size:clamp(6.5rem,10vw,9.4rem);line-height:1;letter-spacing:-.1em;color:#f4f8ff;font-weight:800;padding-right:.12em;text-shadow:0 14px 45px #071628}
+.atlas-center small,.atlas-center span{color:#b8d2e7;font-size:.7rem;font-weight:800;letter-spacing:.23em}
+.atlas-center span{color:#ffb6a2;letter-spacing:.14em}
+.atlas-floating-stat{position:absolute;z-index:3;left:-4px;bottom:31px;background:rgba(9,25,42,.95);border:1px solid rgba(195,220,241,.33);box-shadow:0 14px 35px #06121f66;padding:16px 20px;border-radius:8px;display:grid;gap:4px}
+.atlas-floating-stat small{font-size:.67rem;letter-spacing:.16em;color:#8ba9c5;font-weight:800}.atlas-floating-stat strong{font-size:.85rem;color:#ffb29e}.atlas-floating-stat span{font-size:.76rem;color:#e3ebf5}
+@keyframes atlas-spin{to{transform:translate(-50%,-50%) rotate(360deg)}}
+.spec-graphic{position:relative;overflow:hidden;display:flex;align-items:center;justify-content:center;height:194px;flex:none;background:radial-gradient(circle at 78% 50%,color-mix(in srgb,var(--track-accent) 24%,transparent),transparent 44%),linear-gradient(125deg,#122b43,#264861)}
+.spec-graphic:before{content:"";position:absolute;inset:0;background-image:linear-gradient(90deg,rgba(255,255,255,.055) 1px,transparent 1px),linear-gradient(rgba(255,255,255,.055) 1px,transparent 1px);background-size:34px 34px}
+.spec-graphic:after{content:"";position:absolute;width:185px;height:185px;border:1px solid rgba(255,255,255,.24);border-radius:50%;right:-42px;top:-25px;transition:transform .5s ease}
+.spec-card:hover .spec-graphic:after{transform:scale(1.22)}
+.spec-graphic-orbit{position:absolute;width:130px;height:130px;right:-14px;top:-6px;border:1px dashed rgba(255,255,255,.23);border-radius:50%}
+.spec-graphic-index{position:relative;z-index:1;font-size:6rem;font-weight:800;letter-spacing:-.09em;font-family:'Plus Jakarta Sans',sans-serif;color:#f4f7ff;line-height:1;text-shadow:0 14px 45px #10243aaa}
+.spec-graphic-caption{position:absolute;z-index:1;left:16px;bottom:14px;font-size:.68rem;letter-spacing:.14em;text-transform:uppercase;font-weight:800;color:var(--track-accent)}
+.detail-mini-mark{margin:22px 0 22px;height:150px;border:1px solid #385975;border-radius:10px;background:radial-gradient(circle at 60% 42%,color-mix(in srgb,var(--track-accent) 18%,transparent),transparent 55%),linear-gradient(145deg,#23415d,#10253b);color:#f6f9ff;display:grid;place-items:center;font-family:'Plus Jakarta Sans',sans-serif;font-size:4.7rem;letter-spacing:-.08em;font-weight:800;position:relative;overflow:hidden}
+.detail-mini-mark:before,.detail-mini-mark:after{content:"";position:absolute;border-radius:50%;width:135px;height:135px;border:1px solid rgba(255,255,255,.17);right:-20px;top:-30px}
+.detail-mini-mark:after{width:90px;height:90px;right:0;top:-10px;border-style:dashed}
+.detail-banner-data{min-height:260px;height:100%;max-height:345px;position:relative;overflow:hidden;border:1px solid #54718b;border-radius:10px;background:radial-gradient(circle at center,color-mix(in srgb,var(--track-accent) 16%,transparent),transparent 56%),linear-gradient(140deg,#193650,#0a223a);display:flex;flex-direction:column;align-items:center;justify-content:center}
+.detail-banner-data:before{content:"";position:absolute;inset:0;background-image:linear-gradient(to right,rgba(255,255,255,.06) 1px,transparent 1px),linear-gradient(to bottom,rgba(255,255,255,.06) 1px,transparent 1px);background-size:32px 32px}
+.detail-orbit-1,.detail-orbit-2{position:absolute;width:240px;height:240px;border:1px solid rgba(255,255,255,.22);border-radius:50%}.detail-orbit-2{width:182px;height:182px;border-style:dashed}
+.detail-banner-index{z-index:1;font-size:clamp(6rem,9vw,9rem);font-weight:800;line-height:1;letter-spacing:-.11em;padding-right:.11em;color:#f4f9ff;font-family:'Plus Jakarta Sans',sans-serif}
+.detail-banner-caption{position:relative;z-index:1;text-align:center;color:var(--track-accent);font-size:.68rem;line-height:1.6;letter-spacing:.15em;font-weight:800}
+.company-spotlight-art{position:relative;overflow:hidden;min-height:215px;display:flex;flex-direction:column;justify-content:center;align-items:flex-start;padding:28px 34px;background:radial-gradient(circle at 70% 48%,rgba(244,143,113,.16),transparent 55%),linear-gradient(145deg,#24435e,#102b44)}
+.company-spotlight-lines{position:absolute;inset:0;background-image:linear-gradient(115deg,transparent 48%,rgba(255,255,255,.1) 49%,transparent 50%),linear-gradient(90deg,rgba(255,255,255,.05) 1px,transparent 1px);background-size:60px 60px,34px 34px}
+.company-spotlight-art strong{font-family:'Plus Jakarta Sans',sans-serif;font-size:clamp(4.5rem,8vw,6.5rem);line-height:1;font-weight:800;letter-spacing:-.08em;color:#fff;z-index:1}
+.company-spotlight-art strong span{font-size:.45em;color:#ffb9a4;vertical-align:top;letter-spacing:0}.industry-label,.company-spotlight-art small{position:relative;z-index:1;color:#d2e0ed;font-size:.68rem;font-weight:800;letter-spacing:.15em}.company-spotlight-art small{color:#ffc1b0}
+@media(max-width:930px){.hero-visual-data{height:430px;min-height:420px}.atlas-rings{height:285px;width:285px}.atlas-topline,.atlas-bottomline{font-size:.58rem}.atlas-coords{display:none}.detail-mini-mark{grid-row:2 / 5;margin:12px 0 0;height:145px}}
+@media(max-width:660px){.hero-visual-data{height:360px;min-height:355px;margin-top:18px}.atlas-surface{width:100%;height:98%;border-radius:15px 50px 15px 15px}.atlas-rings{height:245px;width:245px}.atlas-center strong{font-size:6.5rem}.atlas-topline,.atlas-bottomline{left:14px;right:14px;font-size:.53rem;letter-spacing:.08em}.atlas-topline{top:16px}.atlas-bottomline{bottom:13px}.atlas-floating-stat{left:4px;bottom:0;padding:10px 12px}.atlas-floating-stat span{font-size:.67rem}.atlas-floating-stat strong{font-size:.74rem}.spec-graphic{height:205px}.detail-mini-mark{height:118px;font-size:3.6rem}.detail-banner-data{min-height:190px;height:210px;max-height:none}.detail-orbit-1{width:170px;height:170px}.detail-orbit-2{width:115px;height:115px}.detail-banner-index{font-size:6rem}.company-spotlight-art{min-height:170px;padding:22px 24px}.company-spotlight-art strong{font-size:5rem}}
+@media(prefers-reduced-motion:reduce){.atlas-rings{animation:none}}
