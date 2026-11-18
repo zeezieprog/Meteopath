@@ -362,3 +362,21 @@ section,main,article,.wrap{min-width:0}
 @media(prefers-reduced-motion:reduce){
  *,*::before,*::after{scroll-behavior:auto!important;animation-duration:.01ms!important;transition-duration:.01ms!important}
 }
+
+/* Final font precedence: enforce Genesis General Sans for headings after legacy typography */
+body h1,body h2,body h3,body h4,body h5,body h6,
+body h1 *,body h2 *,body h3 *,body h4 *,body h5 *,body h6 *,
+body .brand-name,body .brand-name *,body .footer-logo,
+body .metric-number,body .spec-graphic-index,body .journey-number,
+body .atlas-center strong{
+ font-family:"General Sans","DM Sans",system-ui,sans-serif!important;
+ font-weight:700!important;letter-spacing:-.035em!important;
+}
+body .course-code,body .course-credits,body .atlas-topline,
+body .atlas-bottomline,body .journey-time,body .spec-num{
+ font-family:"JetBrains Mono",ui-monospace,monospace!important;
+}
+body .nav a,body .btn,body .field-label,body .filter-pill,
+body .detail-tab,body input,body select,body textarea{
+ font-family:"DM Sans",system-ui,sans-serif!important;
+}
