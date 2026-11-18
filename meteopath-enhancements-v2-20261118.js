@@ -81,8 +81,83 @@ function drawCompare(){
   ];
   result.innerHTML=stateText+'<div class="compare-table-wrap"><table class="compare-table"><thead><tr><th scope="col">Aspek</th>'+selected.map(function(t){return '<th scope="col">'+esc(t.name)+'</th>'}).join('')+'</tr></thead><tbody>'+rows.map(function(row){return '<tr><th scope="row">'+esc(row[0])+'</th>'+selected.map(function(t){return '<td>'+esc(row[1](t))+'</td>'}).join('')+'</tr>'}).join('')+'<tr><th scope="row">Lihat detail</th>'+selected.map(function(t){return '<td><a data-open-track="'+esc(t.slug)+'" href="spesialisasi.html#detail?track='+esc(t.slug)+'">Buka spesialisasi</a></td>'}).join('')+'</tr></tbody></table></div><p class="compare-note">Pilihan ini hanya untuk eksplorasi. Konsultasikan mata kuliah dengan dosen wali.</p>';
 }
-function drawCareer(){const t=trackBySlug[$("#careerTrack").value],st=t.careerPath.split("→").map(function(x){return x.trim()}).filter(Boolean).slice(0,4);$("#careerResult").innerHTML='<div class="career-overview"><h3>'+esc(t.name)+'</h3><p>'+esc(t.work)+'</p></div><div class="career-steps">'+st.map(function(s,i){return '<div class="career-step"><small>TAHAP '+(i+1)+'</small><strong>'+esc(s)+'</strong></div>'}).join('')+'</div><p class="career-tips"><strong>Kompetensi:</strong> '+esc(t.skills.slice(0,5).join(", "))+'. <a href="#proyek" data-choose-project="'+esc(t.slug)+'">Lihat contoh proyek </a></p>'}
-function drawProjects(){const tr=$("#projectTrack").value,level=$("#projectLevel").value,p=dataSetProjects().filter(function(x){return (tr==="all"||x.track===tr)&&(level==="all"||x.level===level)});$("#projectCount").textContent=p.length+" PROYEK";$("#projectGrid").innerHTML=p.length?p.map(function(x){return '<article class="project-card"><span class="project-level">'+esc(x.level)+'</span><h3>'+esc(x.title)+'</h3><small>'+esc(trackBySlug[x.track].name)+'</small><p>'+esc(x.summary)+'</p><small>Tools: '+esc(x.tools)+'</small><p><strong>Hasil:</strong> '+esc(x.output)+'</p><details><summary>Lihat langkah-langkah</summary><ol>'+x.steps.map(function(s){return '<li>'+esc(s)+'</li>'}).join('')+'</ol></details></article>'}).join(''):'<div class="no-results">Tidak ada proyek yang cocok.</div>'}
+
+/* Detailed career explorer v8 with readable step-by-step project guides */
+function careerBullets(xs,klass){
+ return '<ul class="'+(klass||'career-list')+'">'+(xs||[]).map(function(x){return '<li>'+esc(x)+'</li>'}).join('')+'</ul>';
+}
+function careerBlock(title,items){
+ return '<section class="career-info-block"><h4>'+esc(title)+'</h4>'+careerBullets(items)+'</section>';
+}
+function drawCareer(){
+ const t=trackBySlug[$("#careerTrack").value];if(!t)return;
+ const g=(window.METEOPATH_CAREER_GUIDES||{})[t.slug]||{
+  intro:t.summary,daily:[t.work],foundation:t.prepare||[],tools:t.skills||[],
+  outputs:[t.project],roles:String(t.careerPath||'').split('→').slice(0,3).map(function(x,i){return [i?'Berkembang':'Mulai',x.trim(),'Contoh jalur karier yang bersifat ilustratif.']}),
+  timeline:[['Fondasi','Pelajari konsep dan perangkat yang relevan.'],['Eksplorasi','Kerjakan satu proyek sederhana.'],['Pengalaman','Cari pengalaman riset atau magang.'],['Portofolio','Dokumentasikan metode, hasil, dan keterbatasan.']],
+  experience:['Diskusikan opsi karier dengan dosen atau alumni.'],sectors:['Lihat direktori organisasi terkait.'],caution:'Persyaratan penerimaan kerja berbeda menurut posisi dan organisasi.'
+ };
+ const roles=(g.roles||[]).map(function(row){return '<article class="career-role-card"><span class="career-stage">'+esc(row[0])+'</span><h5>'+esc(row[1])+'</h5><p>'+esc(row[2])+'</p></article>'}).join('');
+ const timeline=(g.timeline||[]).map(function(row){return '<article class="career-timeline-item"><span>'+esc(row[0])+'</span><p>'+esc(row[1])+'</p></article>'}).join('');
+ $("#careerResult").innerHTML='<div class="career-guide">'
+  +'<div class="career-cover"><p class="career-eyebrow">Panduan eksplorasi profesi</p><h3>'+esc(t.name)+'</h3><p class="career-intro">'+esc(g.intro)+'</p><p class="career-cover-bottom"><strong>Fokus utama</strong><span>'+esc(t.tagline)+'</span></p></div>'
+  +'<div class="career-block-grid">'+careerBlock('Seperti apa aktivitas pekerjaan sehari hari?',g.daily)+careerBlock('Hasil kerja yang biasanya dibuat',g.outputs)+'</div>'
+  +'<section class="career-guide-section"><div class="career-guide-heading"><h4>Contoh jenjang profesi</h4><p>Ini contoh arah profesi, bukan urutan promosi yang wajib atau jaminan pekerjaan.</p></div><div class="career-role-grid">'+roles+'</div></section>'
+  +'<section class="career-guide-section"><div class="career-guide-heading"><h4>Apa saja yang harus dipersiapkan?</h4><p>Mulai dari fondasi ilmu, lalu latih perangkat yang benar benar dipakai pada pekerjaan bidang ini.</p></div><div class="career-block-grid">'+careerBlock('Dasar teori dan mata kuliah pendukung',g.foundation)+careerBlock('Software, data, dan alat yang perlu dikenali',g.tools)+'</div></section>'
+  +'<section class="career-guide-section"><div class="career-guide-heading"><h4>Rencana belajar bertahap</h4><p>Urutan dapat disesuaikan dengan semester dan pengalamanmu.</p></div><div class="career-timeline">'+timeline+'</div></section>'
+  +'<div class="career-block-grid">'+careerBlock('Pengalaman yang dapat dicari sejak kuliah',g.experience)+careerBlock('Contoh sektor pengguna keahlian',g.sectors)+'</div>'
+  +'<div class="career-guide-caution"><strong>Catatan penting</strong><p>'+esc(g.caution)+'</p></div>'
+  +'<div class="career-guide-actions"><a class="career-primary-action" href="#proyek" data-choose-project="'+esc(t.slug)+'">Temukan proyek untuk bidang ini</a><a class="career-secondary-action" href="perusahaan.html#perusahaan">Lihat organisasi terkait</a><a class="career-secondary-action" href="spesialisasi.html#detail?track='+encodeURIComponent(t.slug)+'">Lihat mata kuliah</a></div>'
+  +'<p class="career-disclaimer">Panduan belajar bersifat editorial, bukan persyaratan resmi masuk kerja atau paket akademik. Verifikasi syarat organisasi dan diskusikan IRS dengan dosen wali.</p>'
+  +'</div>';
+}
+function projectBullets(items){
+ return '<ul class="project-detail-list">'+(items||[]).map(function(x){return '<li>'+esc(x)+'</li>'}).join('')+'</ul>';
+}
+function projectSourceList(keys){
+ const directory=window.METEOPATH_SOURCE_DIRECTORY||{};
+ return '<ul class="project-data-sources">'+(keys||[]).map(function(k){
+  const s=directory[k];if(!s)return '';
+  const u=trustedUrl(s.url);
+  return '<li><strong>'+(u?'<a href="'+esc(u)+'" target="_blank" rel="noopener noreferrer">'+esc(s.name)+'</a>':esc(s.name))+'</strong><span>'+esc(s.hint)+'</span></li>';
+ }).join('')+'</ul>';
+}
+function detailedProjectCard(x){
+ const d=(window.METEOPATH_PROJECT_DETAILS||{})[x.id]||{
+  duration:'Menyesuaikan cakupan',prereq:['Pahami konsep dan alat yang dibutuhkan.'],steps:x.steps,
+  data:[],checks:['Periksa kualitas data dan ketepatan metode.'],deliverables:[x.output],
+  next:'Kembangkan proyek dengan data atau pendekatan tambahan.'
+ };
+ const t=trackBySlug[x.track];
+ const stepList='<ol class="project-detail-steps">'+d.steps.map(function(s){return '<li>'+esc(s)+'</li>'}).join('')+'</ol>';
+ return '<article class="project-card project-card-detailed">'
+  +'<div class="project-card-top"><span class="project-level">'+esc(x.level)+'</span><span class="project-duration">'+esc(d.duration)+'</span></div>'
+  +'<p class="project-field">'+esc(t?t.name:'Meteorologi')+'</p><h3>'+esc(x.title)+'</h3><p class="project-summary">'+esc(x.summary)+'</p>'
+  +'<section class="project-visible-prep"><h4>Persiapan sebelum memulai</h4>'+projectBullets(d.prereq)+'</section>'
+  +'<div class="project-compact-details"><p><strong>Perangkat utama</strong><span>'+esc(x.tools)+'</span></p><p><strong>Hasil yang dituju</strong><span>'+esc(x.output)+'</span></p></div>'
+  +'<details class="project-detailed-disclosure"><summary>Lihat panduan lengkap proyek</summary><div class="project-details-content">'
+  +'<section><h5>Langkah pengerjaan</h5>'+stepList+'</section>'
+  +'<section><h5>Dataset dan dokumentasi rujukan</h5>'+projectSourceList(d.data)+'</section>'
+  +'<section><h5>Bagaimana memeriksa hasil?</h5>'+projectBullets(d.checks)+'</section>'
+  +'<section><h5>Hasil yang dapat ditampilkan di portofolio</h5>'+projectBullets(d.deliverables)+'</section>'
+  +'<section><h5>Pengembangan lanjutan</h5><p>'+esc(d.next)+'</p></section>'
+  +'<aside class="project-portfolio-tip"><strong>Cara menjelaskan proyek saat melamar</strong><p>Sampaikan pertanyaan awal, sumber data, metode, hasil utama, pemeriksaan kualitas, dan keterbatasan. Sertakan dokumentasi atau tautan kode bila memungkinkan.</p></aside>'
+  +'</div></details></article>';
+}
+function drawProjects(){
+ const tr=$("#projectTrack").value,level=$("#projectLevel").value;
+ const field=$("#projectSearch"),q=field?field.value.trim().toLocaleLowerCase('id'):'';
+ const filtered=dataSetProjects().filter(function(x){
+  if(tr!=='all'&&x.track!==tr)return false;
+  if(level!=='all'&&x.level!==level)return false;
+  if(!q)return true;
+  const d=(window.METEOPATH_PROJECT_DETAILS||{})[x.id]||{};
+  return [x.title,x.summary,x.tools,x.output,trackBySlug[x.track]?.name,(d.prereq||[]).join(' '),(d.steps||[]).join(' ')].join(' ').toLocaleLowerCase('id').includes(q);
+ });
+ $("#projectCount").textContent=filtered.length+' proyek ditemukan';
+ $("#projectGrid").innerHTML=filtered.length?filtered.map(detailedProjectCard).join(''):'<div class="no-results">Tidak ada proyek yang sesuai. Coba ubah filter atau kata kunci.</div>';
+}
+
 function dataSetProjects(){return dataset.projects}
 let currentPlan=safeGet("meteopath-plan",null);
 function planInfo(p){const t=trackBySlug[p.track]||tracks[0],phases={awal:"Tahun awal kuliah",menengah:"Tahun menengah kuliah",akhir:"Menjelang lulus",lulusan:"Lulusan baru"},actions={awal:"Kuatkan dasar kuliah dan uji minat lewat satu proyek kecil.",menengah:"Bangun portofolio lengkap dan mulai cari pengalaman riset atau magang.",akhir:"Selaraskan tugas akhir, magang, dan lamaran kerja atau studi lanjut.",lulusan:"Evaluasi persyaratan posisi entry-level dan tunjukkan bukti kompetensi."};
@@ -93,6 +168,7 @@ function drawPlan(){if(!currentPlan)return;const p=planInfo(currentPlan);$("#pla
 function initV6(){
  options($("#careerTrack"),false);options($("#projectTrack"),true);options($("#planTrack"),false);
  $("#careerTrack").addEventListener("change",drawCareer);$("#projectTrack").addEventListener("change",drawProjects);$("#projectLevel").addEventListener("change",drawProjects);
+ const projectSearch=$("#projectSearch");if(projectSearch)projectSearch.addEventListener("input",drawProjects);
  drawCompare();drawCareer();drawProjects();
  $("#compareOptions").addEventListener("change",function(e){const c=e.target.closest("input");if(!c)return;if(c.checked&&comparison.length<3&&!comparison.includes(c.value))comparison.push(c.value);else if(!c.checked)comparison=comparison.filter(function(v){return v!==c.value});drawCompare()});
  $("#compareResult").addEventListener("click",function(e){const reset=e.target.closest("#compareReset");if(reset){comparison=[];drawCompare();return}const a=e.target.closest("[data-open-track]");if(a){e.preventDefault();window.location.assign("spesialisasi.html#detail?track="+encodeURIComponent(a.dataset.openTrack))}});

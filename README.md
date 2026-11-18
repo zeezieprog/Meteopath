@@ -17,3 +17,9 @@ index.html (halaman), style.css (tema + animasi), script.js (katalog), v6.js (fi
 Sumber kurikulum: https://meteo.itb.ac.id/?page_id=2621&lang=id . Data perusahaan adalah kecocokan sektor, bukan lowongan aktif. Data alumni dikelompokkan berdasarkan pengalaman karier, bukan bukti paket spesialisasi akademik. Pemilihan IRS harus dikonfirmasi dengan dosen wali. Revisi data 18 November 2026 tidak berarti semua profil dan tautan diverifikasi ulang. Koreksi: GitHub Issues.
 
 Bukan website resmi ITB.
+
+## Panduan karier dan proyek yang lebih rinci
+
+Halaman `karier.html` memuat panduan untuk 8 spesialisasi dan 16 proyek dengan aktivitas profesi, jenjang contoh, persiapan akademik, perangkat, tahap belajar, durasi perkiraan, sumber data, langkah pengerjaan, evaluasi, serta keluaran portofolio. Konten disimpan pada `career-content-v8.js`, gaya visual pada `career-explorer-v8.css`, dan tampilan dinamis pada `meteopath-enhancements-v2-20261118.js`.
+
+Syarat kerja bervariasi dan proyek ini bukan sumber lowongan aktif atau panduan akademik resmi.
