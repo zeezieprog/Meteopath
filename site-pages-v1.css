@@ -166,3 +166,70 @@ body[data-page] .footer{margin-top:0!important;}
   .home-feature .feature-index{font-size:9px}
   .home-feature h3{font-size:15px!important}
 }
+
+/* HOMEPAGE AFTER REMOVING ATLAS CARD — streamlined editorial hero */
+body[data-page="home"] .hero .hero-layout {
+  display:block!important;
+  width:min(calc(100% - 48px),1120px)!important;
+  max-width:1120px!important;
+  margin-inline:auto!important;
+}
+body[data-page="home"] .hero .hero-copy {
+  width:100%!important;
+  max-width:970px!important;
+  margin:0 auto!important;
+  text-align:center!important;
+}
+body[data-page="home"] .hero .hero-copy h1 {
+  width:100%!important;
+  max-width:980px!important;
+  margin:20px auto 24px!important;
+  text-wrap:balance;
+}
+body[data-page="home"] .hero .hero-desc {
+  margin-left:auto!important;
+  margin-right:auto!important;
+  max-width:680px!important;
+}
+body[data-page="home"] .hero .kicker {
+  display:flex!important;
+  align-items:center!important;
+  justify-content:center!important;
+  gap:10px!important;
+}
+body[data-page="home"] .hero .hero-actions {
+  display:flex!important;
+  align-items:center!important;
+  justify-content:center!important;
+  gap:16px!important;
+  margin-top:30px!important;
+}
+body[data-page="home"] .hero .hero-trust {
+  display:flex!important;
+  justify-content:center!important;
+  align-items:center!important;
+}
+body[data-page="home"] .hero.section-dark {
+  padding:72px 0 58px!important;
+}
+@media(max-width:640px) {
+  body[data-page="home"] .hero .hero-layout {
+    width:calc(100% - 40px)!important;
+  }
+  body[data-page="home"] .hero .hero-copy h1 {
+    font-size:clamp(2.35rem,9.4vw,3.4rem)!important;
+    line-height:1.08!important;
+    margin:18px auto 20px!important;
+  }
+  body[data-page="home"] .hero .hero-actions {
+    flex-direction:column!important;
+    align-items:stretch!important;
+  }
+  body[data-page="home"] .hero .hero-desc {
+    font-size:14px!important;
+    line-height:1.75!important;
+  }
+  body[data-page="home"] .hero.section-dark {
+    padding:49px 0 45px!important;
+  }
+}
