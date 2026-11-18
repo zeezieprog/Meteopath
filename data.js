@@ -335,7 +335,9 @@ window.METEOPATH_DATA = {
       "URL LinkedIn": "https://id.linkedin.com/in/khanifahafifi",
       "Kekuatan Bukti": "Tinggi",
       "Sumber Pendukung Lain": "",
-      "initials": "KA"
+      "initials": "KA",
+      "degreeStatus": "S1 Meteorologi ITB tercantum",
+      "verifiedAt": null
     },
     {
       "No": "2",
@@ -351,7 +353,9 @@ window.METEOPATH_DATA = {
       "URL LinkedIn": "https://id.linkedin.com/in/narizka-nanda-purwadani",
       "Kekuatan Bukti": "Tinggi",
       "Sumber Pendukung Lain": "",
-      "initials": "NN"
+      "initials": "NN",
+      "degreeStatus": "S1 Meteorologi ITB tercantum",
+      "verifiedAt": null
     },
     {
       "No": "3",
@@ -367,7 +371,9 @@ window.METEOPATH_DATA = {
       "URL LinkedIn": "https://id.linkedin.com/in/prof-dr-erma-yulihastin-a2334038",
       "Kekuatan Bukti": "Tinggi",
       "Sumber Pendukung Lain": "",
-      "initials": "EY"
+      "initials": "EY",
+      "degreeStatus": "S1 Meteorologi ITB tercantum",
+      "verifiedAt": null
     },
     {
       "No": "4",
@@ -383,7 +389,9 @@ window.METEOPATH_DATA = {
       "URL LinkedIn": "https://id.linkedin.com/in/rekhapermatasandi",
       "Kekuatan Bukti": "Sedang",
       "Sumber Pendukung Lain": "",
-      "initials": "RP"
+      "initials": "RP",
+      "degreeStatus": "S1 Meteorologi ITB tercantum",
+      "verifiedAt": null
     },
     {
       "No": "5",
@@ -399,7 +407,9 @@ window.METEOPATH_DATA = {
       "URL LinkedIn": "https://id.linkedin.com/in/riris-ayu-wulandari-6b685ba4",
       "Kekuatan Bukti": "Tinggi",
       "Sumber Pendukung Lain": "",
-      "initials": "RA"
+      "initials": "RA",
+      "degreeStatus": "S1 Meteorologi ITB tercantum",
+      "verifiedAt": null
     },
     {
       "No": "6",
@@ -415,7 +425,9 @@ window.METEOPATH_DATA = {
       "URL LinkedIn": "https://id.linkedin.com/in/alfiahrizqiramdhini",
       "Kekuatan Bukti": "Tinggi",
       "Sumber Pendukung Lain": "",
-      "initials": "AR"
+      "initials": "AR",
+      "degreeStatus": "S1 Meteorologi ITB tercantum",
+      "verifiedAt": null
     },
     {
       "No": "7",
@@ -431,7 +443,9 @@ window.METEOPATH_DATA = {
       "URL LinkedIn": "https://id.linkedin.com/in/firas-rasyad",
       "Kekuatan Bukti": "Sedang",
       "Sumber Pendukung Lain": "",
-      "initials": "FR"
+      "initials": "FR",
+      "degreeStatus": "Riwayat S1 Meteorologi belum terverifikasi",
+      "verifiedAt": null
     },
     {
       "No": "8",
@@ -447,7 +461,9 @@ window.METEOPATH_DATA = {
       "URL LinkedIn": "https://id.linkedin.com/in/roudhotuljannahitb",
       "Kekuatan Bukti": "Sedang",
       "Sumber Pendukung Lain": "",
-      "initials": "RJ"
+      "initials": "RJ",
+      "degreeStatus": "S1 Meteorologi ITB tercantum",
+      "verifiedAt": null
     },
     {
       "No": "9",
@@ -463,7 +479,9 @@ window.METEOPATH_DATA = {
       "URL LinkedIn": "https://id.linkedin.com/in/fattahghiffari",
       "Kekuatan Bukti": "Tinggi",
       "Sumber Pendukung Lain": "https://meteo.itb.ac.id/?lang=id&p=2958",
-      "initials": "FG"
+      "initials": "FG",
+      "degreeStatus": "S1 Meteorologi ITB tercantum",
+      "verifiedAt": null
     },
     {
       "No": "10",
@@ -479,7 +497,9 @@ window.METEOPATH_DATA = {
       "URL LinkedIn": "https://id.linkedin.com/in/ganeshaakbrtd",
       "Kekuatan Bukti": "Tinggi",
       "Sumber Pendukung Lain": "",
-      "initials": "GA"
+      "initials": "GA",
+      "degreeStatus": "S1 Meteorologi ITB tercantum",
+      "verifiedAt": null
     },
     {
       "No": "11",
@@ -495,7 +515,9 @@ window.METEOPATH_DATA = {
       "URL LinkedIn": "https://id.linkedin.com/in/fahannr",
       "Kekuatan Bukti": "Tinggi",
       "Sumber Pendukung Lain": "",
-      "initials": "MI"
+      "initials": "MI",
+      "degreeStatus": "S1 Meteorologi ITB tercantum",
+      "verifiedAt": null
     },
     {
       "No": "12",
@@ -511,7 +533,9 @@ window.METEOPATH_DATA = {
       "URL LinkedIn": "https://id.linkedin.com/in/faizahka",
       "Kekuatan Bukti": "Tinggi",
       "Sumber Pendukung Lain": "",
-      "initials": "SN"
+      "initials": "SN",
+      "degreeStatus": "S1 Meteorologi ITB tercantum",
+      "verifiedAt": null
     },
     {
       "No": "13",
@@ -527,7 +551,9 @@ window.METEOPATH_DATA = {
       "URL LinkedIn": "https://id.linkedin.com/in/ziad-mohammad-abdillah-127064442",
       "Kekuatan Bukti": "Tinggi",
       "Sumber Pendukung Lain": "",
-      "initials": "ZM"
+      "initials": "ZM",
+      "degreeStatus": "S1 Meteorologi ITB tercantum",
+      "verifiedAt": null
     },
     {
       "No": "14",
@@ -543,7 +569,9 @@ window.METEOPATH_DATA = {
       "URL LinkedIn": "https://id.linkedin.com/in/ryohansen",
       "Kekuatan Bukti": "Tinggi",
       "Sumber Pendukung Lain": "",
-      "initials": "HH"
+      "initials": "HH",
+      "degreeStatus": "S1 Meteorologi ITB tercantum",
+      "verifiedAt": null
     },
     {
       "No": "15",
@@ -559,7 +587,9 @@ window.METEOPATH_DATA = {
       "URL LinkedIn": "https://id.linkedin.com/in/fandybalbo",
       "Kekuatan Bukti": "Tinggi",
       "Sumber Pendukung Lain": "",
-      "initials": "FB"
+      "initials": "FB",
+      "degreeStatus": "S1 Meteorologi ITB tercantum",
+      "verifiedAt": null
     },
     {
       "No": "16",
@@ -575,7 +605,9 @@ window.METEOPATH_DATA = {
       "URL LinkedIn": "https://id.linkedin.com/in/kawtsar-mukhtar-b6501713b",
       "Kekuatan Bukti": "Tinggi",
       "Sumber Pendukung Lain": "",
-      "initials": "KM"
+      "initials": "KM",
+      "degreeStatus": "Riwayat S1 Meteorologi belum terverifikasi",
+      "verifiedAt": null
     },
     {
       "No": "17",
@@ -591,7 +623,9 @@ window.METEOPATH_DATA = {
       "URL LinkedIn": "https://id.linkedin.com/in/ferosaarsadita",
       "Kekuatan Bukti": "Tinggi",
       "Sumber Pendukung Lain": "https://ahacentre.org/ace-management-team/",
-      "initials": "FA"
+      "initials": "FA",
+      "degreeStatus": "S1 Meteorologi ITB tercantum",
+      "verifiedAt": null
     },
     {
       "No": "18",
@@ -607,7 +641,9 @@ window.METEOPATH_DATA = {
       "URL LinkedIn": "https://id.linkedin.com/in/yogaswara",
       "Kekuatan Bukti": "Tinggi",
       "Sumber Pendukung Lain": "",
-      "initials": "MY"
+      "initials": "MY",
+      "degreeStatus": "S1 Meteorologi ITB tercantum",
+      "verifiedAt": null
     },
     {
       "No": "19",
@@ -623,7 +659,9 @@ window.METEOPATH_DATA = {
       "URL LinkedIn": "https://id.linkedin.com/in/imamyosa",
       "Kekuatan Bukti": "Tinggi",
       "Sumber Pendukung Lain": "https://meteo.itb.ac.id/?lang=en&paged=12",
-      "initials": "IM"
+      "initials": "IM",
+      "degreeStatus": "S1 Meteorologi ITB tercantum",
+      "verifiedAt": null
     },
     {
       "No": "20",
@@ -639,7 +677,9 @@ window.METEOPATH_DATA = {
       "URL LinkedIn": "https://id.linkedin.com/in/shievaameliasavitri",
       "Kekuatan Bukti": "Sedang",
       "Sumber Pendukung Lain": "",
-      "initials": "SA"
+      "initials": "SA",
+      "degreeStatus": "S1 Meteorologi ITB tercantum",
+      "verifiedAt": null
     },
     {
       "No": "21",
@@ -655,7 +695,9 @@ window.METEOPATH_DATA = {
       "URL LinkedIn": "https://id.linkedin.com/in/bilal-septian-573155102",
       "Kekuatan Bukti": "Sedang",
       "Sumber Pendukung Lain": "",
-      "initials": "BS"
+      "initials": "BS",
+      "degreeStatus": "S1 Meteorologi ITB tercantum",
+      "verifiedAt": null
     },
     {
       "No": "22",
@@ -671,7 +713,9 @@ window.METEOPATH_DATA = {
       "URL LinkedIn": "https://id.linkedin.com/in/rizkyauliarahayu",
       "Kekuatan Bukti": "Tinggi",
       "Sumber Pendukung Lain": "",
-      "initials": "RA"
+      "initials": "RA",
+      "degreeStatus": "S1 Meteorologi ITB tercantum",
+      "verifiedAt": null
     },
     {
       "No": "23",
@@ -687,7 +731,9 @@ window.METEOPATH_DATA = {
       "URL LinkedIn": "https://id.linkedin.com/in/ghina-fujiawati-j",
       "Kekuatan Bukti": "Tinggi",
       "Sumber Pendukung Lain": "",
-      "initials": "GF"
+      "initials": "GF",
+      "degreeStatus": "S1 Meteorologi ITB tercantum",
+      "verifiedAt": null
     },
     {
       "No": "24",
@@ -703,7 +749,9 @@ window.METEOPATH_DATA = {
       "URL LinkedIn": "https://id.linkedin.com/in/puji-rosita-sibuea",
       "Kekuatan Bukti": "Tinggi",
       "Sumber Pendukung Lain": "",
-      "initials": "PR"
+      "initials": "PR",
+      "degreeStatus": "Riwayat S1 Meteorologi belum terverifikasi",
+      "verifiedAt": null
     },
     {
       "No": "25",
@@ -719,7 +767,9 @@ window.METEOPATH_DATA = {
       "URL LinkedIn": "https://id.linkedin.com/in/luthfiyyahhnf",
       "Kekuatan Bukti": "Tinggi",
       "Sumber Pendukung Lain": "",
-      "initials": "LH"
+      "initials": "LH",
+      "degreeStatus": "S1 Meteorologi ITB tercantum",
+      "verifiedAt": null
     },
     {
       "No": "26",
@@ -735,7 +785,9 @@ window.METEOPATH_DATA = {
       "URL LinkedIn": "https://id.linkedin.com/in/alif-abdul-aziz",
       "Kekuatan Bukti": "Tinggi",
       "Sumber Pendukung Lain": "",
-      "initials": "AA"
+      "initials": "AA",
+      "degreeStatus": "Riwayat S1 Meteorologi belum terverifikasi",
+      "verifiedAt": null
     },
     {
       "No": "27",
@@ -751,7 +803,9 @@ window.METEOPATH_DATA = {
       "URL LinkedIn": "https://id.linkedin.com/in/kristynatasha",
       "Kekuatan Bukti": "Tinggi",
       "Sumber Pendukung Lain": "",
-      "initials": "KN"
+      "initials": "KN",
+      "degreeStatus": "S1 Meteorologi ITB tercantum",
+      "verifiedAt": null
     },
     {
       "No": "28",
@@ -767,7 +821,9 @@ window.METEOPATH_DATA = {
       "URL LinkedIn": "https://id.linkedin.com/in/rafid-zulfikar",
       "Kekuatan Bukti": "Tinggi",
       "Sumber Pendukung Lain": "",
-      "initials": "MR"
+      "initials": "MR",
+      "degreeStatus": "S1 Meteorologi ITB tercantum",
+      "verifiedAt": null
     },
     {
       "No": "29",
@@ -783,7 +839,9 @@ window.METEOPATH_DATA = {
       "URL LinkedIn": "https://id.linkedin.com/in/emelio-exaudi",
       "Kekuatan Bukti": "Tinggi",
       "Sumber Pendukung Lain": "",
-      "initials": "EE"
+      "initials": "EE",
+      "degreeStatus": "S1 Meteorologi ITB tercantum",
+      "verifiedAt": null
     },
     {
       "No": "30",
@@ -799,7 +857,9 @@ window.METEOPATH_DATA = {
       "URL LinkedIn": "https://id.linkedin.com/in/ridhafatony",
       "Kekuatan Bukti": "Tinggi",
       "Sumber Pendukung Lain": "https://digilib.itb.ac.id/gdl/view_data/dampak-boreal-summer-intraseasonal-oscillation-kuat-terhadap-pola-diurnal-curah-hujan-di-indonesia/",
-      "initials": "RF"
+      "initials": "RF",
+      "degreeStatus": "S1 Meteorologi ITB tercantum",
+      "verifiedAt": null
     },
     {
       "No": "31",
@@ -815,7 +875,9 @@ window.METEOPATH_DATA = {
       "URL LinkedIn": "https://id.linkedin.com/in/prawyudha",
       "Kekuatan Bukti": "Tinggi",
       "Sumber Pendukung Lain": "https://digilib.itb.ac.id/gdl/view_data/analisis-sirkulasi-angin-anabatik-dan-angin-katabatik-cekungan-bandung-pada-musim-hujan/",
-      "initials": "PY"
+      "initials": "PY",
+      "degreeStatus": "S1 Meteorologi ITB tercantum",
+      "verifiedAt": null
     },
     {
       "No": "32",
@@ -831,7 +893,9 @@ window.METEOPATH_DATA = {
       "URL LinkedIn": "https://id.linkedin.com/in/rifdaamara",
       "Kekuatan Bukti": "Tinggi",
       "Sumber Pendukung Lain": "",
-      "initials": "RA"
+      "initials": "RA",
+      "degreeStatus": "S1 Meteorologi ITB tercantum",
+      "verifiedAt": null
     },
     {
       "No": "33",
@@ -847,814 +911,1170 @@ window.METEOPATH_DATA = {
       "URL LinkedIn": "https://id.linkedin.com/in/muhammadzaky11",
       "Kekuatan Bukti": "Tinggi",
       "Sumber Pendukung Lain": "",
-      "initials": "MZ"
+      "initials": "MZ",
+      "degreeStatus": "S1 Meteorologi ITB tercantum",
+      "verifiedAt": null
     }
   ],
   "companies": [
     {
-      "No": "1",
-      "Spesialisasi": "Sains Atmosfer",
-      "Perusahaan / Instansi": "BRIN — Pusat Riset Iklim dan Atmosfer",
-      "Jenis Organisasi": "Instansi riset",
-      "Cakupan": "Indonesia",
-      "Contoh Posisi": "Peneliti atmosfer; Asisten riset",
-      "Mengapa Relevan": "Riset dinamika, fisika awan, variabilitas atmosfer",
-      "Jenis Bukti": "Kegiatan riset resmi",
-      "Status Jurusan / S1": "Belum diperiksa untuk lowongan spesifik",
-      "Skill Utama": "Python; fisika atmosfer; statistika; publikasi",
-      "URL Bukti": "https://brin.go.id/news/112989/kontribusis-periset-brin-dalam-menjaga-kualitas-udara",
-      "URL Karier / Situs": "https://brin.go.id/",
-      "Catatan Validasi": "Lowongan dan syarat pendidikan harus diperiksa kembali pada saat melamar.",
-      "initials": "BP"
+      "id": "brin-pusat-riset-iklim-dan-atmosfer",
+      "name": "BRIN — Pusat Riset Iklim dan Atmosfer",
+      "type": "Instansi riset",
+      "region": "Indonesia",
+      "site": "https://brin.go.id/",
+      "specializations": [
+        "Sains Atmosfer",
+        "Perubahan Iklim",
+        "Prediksi Cuaca dan Iklim"
+      ],
+      "references": [
+        {
+          "specialization": "Sains Atmosfer",
+          "role": "Peneliti atmosfer; Asisten riset",
+          "reason": "Riset dinamika, fisika awan, variabilitas atmosfer",
+          "evidenceType": "Kegiatan riset resmi",
+          "qualification": "Belum diperiksa untuk lowongan spesifik",
+          "skills": "Python; fisika atmosfer; statistika; publikasi",
+          "source": "https://brin.go.id/news/112989/kontribusis-periset-brin-dalam-menjaga-kualitas-udara",
+          "site": "https://brin.go.id/",
+          "note": "Lowongan dan syarat pendidikan harus diperiksa kembali pada saat melamar."
+        },
+        {
+          "specialization": "Perubahan Iklim",
+          "role": "Climate Scientist; Peneliti",
+          "reason": "Kajian perubahan iklim dan pemodelan iklim",
+          "evidenceType": "Riset resmi",
+          "qualification": "Belum diperiksa untuk lowongan spesifik",
+          "skills": "CMIP6; statistik iklim; Python",
+          "source": "https://www.brin.go.id/news/130700/brin-dan-iap-cas-kembangkan-platform-pemodelan-iklim-untuk-baca-risiko-cuaca-ekstrem-dan-pangan-indonesia",
+          "site": "https://www.brin.go.id/news/130700/brin-dan-iap-cas-kembangkan-platform-pemodelan-iklim-untuk-baca-risiko-cuaca-ekstrem-dan-pangan-indonesia",
+          "note": "Lowongan dan syarat pendidikan harus diperiksa kembali pada saat melamar."
+        },
+        {
+          "specialization": "Prediksi Cuaca dan Iklim",
+          "role": "Atmospheric Modeler; Climate Scientist",
+          "reason": "Kolaborasi pengembangan platform pemodelan iklim",
+          "evidenceType": "Riset/proyek resmi",
+          "qualification": "Persyaratan rekrutmen riset terpisah",
+          "skills": "WRF; pemodelan iklim; Python; HPC",
+          "source": "https://www.brin.go.id/news/130700/brin-dan-iap-cas-kembangkan-platform-pemodelan-iklim-untuk-baca-risiko-cuaca-ekstrem-dan-pangan-indonesia",
+          "site": "https://www.brin.go.id/news/130700/brin-dan-iap-cas-kembangkan-platform-pemodelan-iklim-untuk-baca-risiko-cuaca-ekstrem-dan-pangan-indonesia",
+          "note": "Lowongan dan syarat pendidikan harus diperiksa kembali pada saat melamar."
+        }
+      ]
     },
     {
-      "No": "2",
-      "Spesialisasi": "Sains Atmosfer",
-      "Perusahaan / Instansi": "ITB — Kelompok Keahlian Sains Atmosfer",
-      "Jenis Organisasi": "Perguruan tinggi",
-      "Cakupan": "Indonesia",
-      "Contoh Posisi": "Asisten riset; peneliti; dosen",
-      "Mengapa Relevan": "Penelitian dinamika dan fenomena atmosfer",
-      "Jenis Bukti": "Halaman riset resmi",
-      "Status Jurusan / S1": "Untuk dosen umumnya memerlukan studi lanjut",
-      "Skill Utama": "Dinamika atmosfer; Python; jurnal ilmiah",
-      "URL Bukti": "https://itb.ac.id/atmospheric-science-research-group",
-      "URL Karier / Situs": "https://meteo.itb.ac.id/",
-      "Catatan Validasi": "Lowongan dan syarat pendidikan harus diperiksa kembali pada saat melamar.",
-      "initials": "IK"
+      "id": "itb-kelompok-keahlian-sains-atmosfer",
+      "name": "ITB — Kelompok Keahlian Sains Atmosfer",
+      "type": "Perguruan tinggi",
+      "region": "Indonesia",
+      "site": "https://meteo.itb.ac.id/",
+      "specializations": [
+        "Sains Atmosfer"
+      ],
+      "references": [
+        {
+          "specialization": "Sains Atmosfer",
+          "role": "Asisten riset; peneliti; dosen",
+          "reason": "Penelitian dinamika dan fenomena atmosfer",
+          "evidenceType": "Halaman riset resmi",
+          "qualification": "Untuk dosen umumnya memerlukan studi lanjut",
+          "skills": "Dinamika atmosfer; Python; jurnal ilmiah",
+          "source": "https://itb.ac.id/atmospheric-science-research-group",
+          "site": "https://meteo.itb.ac.id/",
+          "note": "Lowongan dan syarat pendidikan harus diperiksa kembali pada saat melamar."
+        }
+      ]
     },
     {
-      "No": "3",
-      "Spesialisasi": "Sains Atmosfer",
-      "Perusahaan / Instansi": "Tomorrow.io",
-      "Jenis Organisasi": "Perusahaan teknologi cuaca",
-      "Cakupan": "Internasional",
-      "Contoh Posisi": "Atmospheric Scientist; Meteorological Data Scientist",
-      "Mengapa Relevan": "Analisis atmosfer, data observasi dan model cuaca",
-      "Jenis Bukti": "Lowongan terdokumentasi",
-      "Status Jurusan / S1": "Ya, lowongan menyebut Meteorology/Atmospheric Science; pengalaman tambahan diperlukan",
-      "Skill Utama": "Python; satelit; AI; data cuaca",
-      "URL Bukti": "https://job-boards.greenhouse.io/tomorrow/jobs/8035679003",
-      "URL Karier / Situs": "https://www.tomorrow.io/",
-      "Catatan Validasi": "Lowongan dan syarat pendidikan harus diperiksa kembali pada saat melamar.",
-      "initials": "T"
+      "id": "tomorrow-io",
+      "name": "Tomorrow.io",
+      "type": "Perusahaan teknologi cuaca",
+      "region": "Internasional",
+      "site": "https://www.tomorrow.io/",
+      "specializations": [
+        "Sains Atmosfer",
+        "Operasional Meteorologi",
+        "Sains Data Meteorologi",
+        "Prediksi Cuaca dan Iklim"
+      ],
+      "references": [
+        {
+          "specialization": "Sains Atmosfer",
+          "role": "Atmospheric Scientist; Meteorological Data Scientist",
+          "reason": "Analisis atmosfer, data observasi dan model cuaca",
+          "evidenceType": "Lowongan terdokumentasi",
+          "qualification": "Ya, lowongan menyebut Meteorology/Atmospheric Science; pengalaman tambahan diperlukan",
+          "skills": "Python; satelit; AI; data cuaca",
+          "source": "https://job-boards.greenhouse.io/tomorrow/jobs/8035679003",
+          "site": "https://www.tomorrow.io/",
+          "note": "Lowongan dan syarat pendidikan harus diperiksa kembali pada saat melamar."
+        },
+        {
+          "specialization": "Operasional Meteorologi",
+          "role": "Operational Meteorologist; Meteorological Data Scientist",
+          "reason": "Lowongan mencantumkan pengalaman operational meteorologist",
+          "evidenceType": "Lowongan terdokumentasi",
+          "qualification": "Ya, gelar Meteorology/Atmospheric Science pada contoh lowongan",
+          "skills": "Forecast; satelit; AI tools; komunikasi",
+          "source": "https://job-boards.greenhouse.io/tomorrow/jobs/8035679003",
+          "site": "https://job-boards.greenhouse.io/tomorrow/jobs/8035679003",
+          "note": "Lowongan dan syarat pendidikan harus diperiksa kembali pada saat melamar."
+        },
+        {
+          "specialization": "Sains Data Meteorologi",
+          "role": "Meteorological Data Scientist",
+          "reason": "Lowongan sains data yang mensyaratkan Meteorology/Atmospheric Science",
+          "evidenceType": "Lowongan terdokumentasi",
+          "qualification": "Ya, gelar Meteorology/Atmospheric Science disebut; membutuhkan pengalaman",
+          "skills": "Python; ML; weather data; visualisasi",
+          "source": "https://job-boards.greenhouse.io/tomorrow/jobs/8035679003",
+          "site": "https://job-boards.greenhouse.io/tomorrow/jobs/8035679003",
+          "note": "Lowongan dan syarat pendidikan harus diperiksa kembali pada saat melamar."
+        },
+        {
+          "specialization": "Prediksi Cuaca dan Iklim",
+          "role": "Weather Model Scientist; Meteorological Data Scientist",
+          "reason": "Penggunaan model cuaca AI dan data satelit",
+          "evidenceType": "Lowongan terdokumentasi",
+          "qualification": "Gelar Meteorology/Atmospheric Science tercantum pada contoh lowongan",
+          "skills": "AI forecast; satelit; Python",
+          "source": "https://job-boards.greenhouse.io/tomorrow/jobs/8035679003",
+          "site": "https://job-boards.greenhouse.io/tomorrow/jobs/8035679003",
+          "note": "Lowongan dan syarat pendidikan harus diperiksa kembali pada saat melamar."
+        }
+      ]
     },
     {
-      "No": "4",
-      "Spesialisasi": "Sains Atmosfer",
-      "Perusahaan / Instansi": "Rainmaker Technology Corporation",
-      "Jenis Organisasi": "Perusahaan teknologi atmosfer",
-      "Cakupan": "Internasional",
-      "Contoh Posisi": "Quantitative Meteorologist",
-      "Mengapa Relevan": "Fisika awan, presipitasi, statistik, eksperimen dan NWP",
-      "Jenis Bukti": "Lowongan terdokumentasi",
-      "Status Jurusan / S1": "Periksa kualifikasi pada lowongan",
-      "Skill Utama": "Fisika awan; NWP; statistik; Python",
-      "URL Bukti": "https://jobs.ashbyhq.com/rainmaker/ed944a1e-db16-435c-bcc3-5a6c53fc099c",
-      "URL Karier / Situs": "https://jobs.ashbyhq.com/rainmaker/ed944a1e-db16-435c-bcc3-5a6c53fc099c",
-      "Catatan Validasi": "Lowongan dan syarat pendidikan harus diperiksa kembali pada saat melamar.",
-      "initials": "RT"
+      "id": "rainmaker-technology-corporation",
+      "name": "Rainmaker Technology Corporation",
+      "type": "Perusahaan teknologi atmosfer",
+      "region": "Internasional",
+      "site": "https://jobs.ashbyhq.com/rainmaker/ed944a1e-db16-435c-bcc3-5a6c53fc099c",
+      "specializations": [
+        "Sains Atmosfer",
+        "Sains Data Meteorologi",
+        "Prediksi Cuaca dan Iklim"
+      ],
+      "references": [
+        {
+          "specialization": "Sains Atmosfer",
+          "role": "Quantitative Meteorologist",
+          "reason": "Fisika awan, presipitasi, statistik, eksperimen dan NWP",
+          "evidenceType": "Lowongan terdokumentasi",
+          "qualification": "Periksa kualifikasi pada lowongan",
+          "skills": "Fisika awan; NWP; statistik; Python",
+          "source": "https://jobs.ashbyhq.com/rainmaker/ed944a1e-db16-435c-bcc3-5a6c53fc099c",
+          "site": "https://jobs.ashbyhq.com/rainmaker/ed944a1e-db16-435c-bcc3-5a6c53fc099c",
+          "note": "Lowongan dan syarat pendidikan harus diperiksa kembali pada saat melamar."
+        },
+        {
+          "specialization": "Sains Data Meteorologi",
+          "role": "Quantitative Meteorologist",
+          "reason": "Peran kombinasi pemodelan atmosfer dan analisis statistik",
+          "evidenceType": "Lowongan terdokumentasi",
+          "qualification": "Periksa syarat pengalaman",
+          "skills": "Statistika; NWP; Python; model kuantitatif",
+          "source": "https://jobs.ashbyhq.com/rainmaker/ed944a1e-db16-435c-bcc3-5a6c53fc099c",
+          "site": "https://jobs.ashbyhq.com/rainmaker/ed944a1e-db16-435c-bcc3-5a6c53fc099c",
+          "note": "Lowongan dan syarat pendidikan harus diperiksa kembali pada saat melamar."
+        },
+        {
+          "specialization": "Prediksi Cuaca dan Iklim",
+          "role": "Quantitative Meteorologist",
+          "reason": "Lowongan mencantumkan WRF, HRRR, GFS/ECMWF dan asimilasi",
+          "evidenceType": "Lowongan terdokumentasi",
+          "qualification": "Periksa syarat pengalaman",
+          "skills": "NWP; ensemble; WRF; statistika",
+          "source": "https://jobs.ashbyhq.com/rainmaker/ed944a1e-db16-435c-bcc3-5a6c53fc099c",
+          "site": "https://jobs.ashbyhq.com/rainmaker/ed944a1e-db16-435c-bcc3-5a6c53fc099c",
+          "note": "Lowongan dan syarat pendidikan harus diperiksa kembali pada saat melamar."
+        }
+      ]
     },
     {
-      "No": "5",
-      "Spesialisasi": "Sains Atmosfer",
-      "Perusahaan / Instansi": "Development Innovation Lab — University of Chicago",
-      "Jenis Organisasi": "Pusat riset universitas",
-      "Cakupan": "Internasional / riset Indonesia",
-      "Contoh Posisi": "Atmospheric Scientist; Research Scientist",
-      "Mengapa Relevan": "Riset prediksi cuaca yang berorientasi dampak Indonesia",
-      "Jenis Bukti": "Lowongan terdokumentasi",
-      "Status Jurusan / S1": "Peran yang dijumpai mensyaratkan pengalaman",
-      "Skill Utama": "NWP; analisis statistik; AI; riset",
-      "URL Bukti": "https://dil.uchicago.edu/opportunities/senior-atmospheric-scientist-human-centered-weather-forecasts/",
-      "URL Karier / Situs": "https://dil.uchicago.edu/opportunities/senior-atmospheric-scientist-human-centered-weather-forecasts/",
-      "Catatan Validasi": "Lowongan dan syarat pendidikan harus diperiksa kembali pada saat melamar.",
-      "initials": "DI"
+      "id": "development-innovation-lab-university-of-chicago",
+      "name": "Development Innovation Lab — University of Chicago",
+      "type": "Pusat riset universitas",
+      "region": "Internasional / riset Indonesia",
+      "site": "https://dil.uchicago.edu/opportunities/senior-atmospheric-scientist-human-centered-weather-forecasts/",
+      "specializations": [
+        "Sains Atmosfer"
+      ],
+      "references": [
+        {
+          "specialization": "Sains Atmosfer",
+          "role": "Atmospheric Scientist; Research Scientist",
+          "reason": "Riset prediksi cuaca yang berorientasi dampak Indonesia",
+          "evidenceType": "Lowongan terdokumentasi",
+          "qualification": "Peran yang dijumpai mensyaratkan pengalaman",
+          "skills": "NWP; analisis statistik; AI; riset",
+          "source": "https://dil.uchicago.edu/opportunities/senior-atmospheric-scientist-human-centered-weather-forecasts/",
+          "site": "https://dil.uchicago.edu/opportunities/senior-atmospheric-scientist-human-centered-weather-forecasts/",
+          "note": "Lowongan dan syarat pendidikan harus diperiksa kembali pada saat melamar."
+        }
+      ]
     },
     {
-      "No": "6",
-      "Spesialisasi": "Energi Terbarukan",
-      "Perusahaan / Instansi": "Vena Energy / Vena Group",
-      "Jenis Organisasi": "Pengembang energi terbarukan",
-      "Cakupan": "Indonesia / Asia Pasifik",
-      "Contoh Posisi": "Wind/Solar Resource Analyst; Energy Analyst",
-      "Mengapa Relevan": "Memiliki proyek PLTS/PLTB dan tim resource assessment",
-      "Jenis Bukti": "Kegiatan usaha resmi",
-      "Status Jurusan / S1": "Belum dikonfirmasi untuk jabatan spesifik lulusan Meteorologi",
-      "Skill Utama": "Analisis angin; radiasi surya; QGIS; Python",
-      "URL Bukti": "https://venagroup.com/our-capabilities/",
-      "URL Karier / Situs": "https://venagroup.com/",
-      "Catatan Validasi": "Lowongan dan syarat pendidikan harus diperiksa kembali pada saat melamar.",
-      "initials": "VE"
+      "id": "vena-energy-vena-group",
+      "name": "Vena Energy / Vena Group",
+      "type": "Pengembang energi terbarukan",
+      "region": "Indonesia / Asia Pasifik",
+      "site": "https://venagroup.com/",
+      "specializations": [
+        "Energi Terbarukan"
+      ],
+      "references": [
+        {
+          "specialization": "Energi Terbarukan",
+          "role": "Wind/Solar Resource Analyst; Energy Analyst",
+          "reason": "Memiliki proyek PLTS/PLTB dan tim resource assessment",
+          "evidenceType": "Kegiatan usaha resmi",
+          "qualification": "Belum dikonfirmasi untuk jabatan spesifik lulusan Meteorologi",
+          "skills": "Analisis angin; radiasi surya; QGIS; Python",
+          "source": "https://venagroup.com/our-capabilities/",
+          "site": "https://venagroup.com/",
+          "note": "Lowongan dan syarat pendidikan harus diperiksa kembali pada saat melamar."
+        }
+      ]
     },
     {
-      "No": "7",
-      "Spesialisasi": "Energi Terbarukan",
-      "Perusahaan / Instansi": "TÜV SÜD Indonesia",
-      "Jenis Organisasi": "Konsultan/inspeksi teknis",
-      "Cakupan": "Indonesia / Internasional",
-      "Contoh Posisi": "Wind Resource Analyst; Energy Assessment Specialist",
-      "Mengapa Relevan": "Jasa resource analysis dan penilaian proyek angin",
-      "Jenis Bukti": "Layanan resmi",
-      "Status Jurusan / S1": "Belum dikonfirmasi untuk jabatan spesifik lulusan Meteorologi",
-      "Skill Utama": "Wind resource; analisis ketidakpastian; energy yield",
-      "URL Bukti": "https://www.tuvsud.com/en-id/industries/energy/wind-power/resource-analysis",
-      "URL Karier / Situs": "https://www.tuvsud.com/en-id",
-      "Catatan Validasi": "Lowongan dan syarat pendidikan harus diperiksa kembali pada saat melamar.",
-      "initials": "TS"
+      "id": "tuv-sud-indonesia",
+      "name": "TÜV SÜD Indonesia",
+      "type": "Konsultan/inspeksi teknis",
+      "region": "Indonesia / Internasional",
+      "site": "https://www.tuvsud.com/en-id",
+      "specializations": [
+        "Energi Terbarukan"
+      ],
+      "references": [
+        {
+          "specialization": "Energi Terbarukan",
+          "role": "Wind Resource Analyst; Energy Assessment Specialist",
+          "reason": "Jasa resource analysis dan penilaian proyek angin",
+          "evidenceType": "Layanan resmi",
+          "qualification": "Belum dikonfirmasi untuk jabatan spesifik lulusan Meteorologi",
+          "skills": "Wind resource; analisis ketidakpastian; energy yield",
+          "source": "https://www.tuvsud.com/en-id/industries/energy/wind-power/resource-analysis",
+          "site": "https://www.tuvsud.com/en-id",
+          "note": "Lowongan dan syarat pendidikan harus diperiksa kembali pada saat melamar."
+        }
+      ]
     },
     {
-      "No": "8",
-      "Spesialisasi": "Energi Terbarukan",
-      "Perusahaan / Instansi": "Vestas",
-      "Jenis Organisasi": "Manufaktur dan jasa energi angin",
-      "Cakupan": "Internasional",
-      "Contoh Posisi": "Wind Resource Assessment; Energy Analytics",
-      "Mengapa Relevan": "Kegiatan pengembangan dan siting energi angin",
-      "Jenis Bukti": "Kegiatan usaha resmi",
-      "Status Jurusan / S1": "Belum dikonfirmasi untuk jabatan spesifik lulusan Meteorologi",
-      "Skill Utama": "Wind resource; GIS; data analytics",
-      "URL Bukti": "https://www.vestas.com/en/about/this-is-vestas/our-capabilities",
-      "URL Karier / Situs": "https://www.vestas.com/en/careers",
-      "Catatan Validasi": "Lowongan dan syarat pendidikan harus diperiksa kembali pada saat melamar.",
-      "initials": "V"
+      "id": "vestas",
+      "name": "Vestas",
+      "type": "Manufaktur dan jasa energi angin",
+      "region": "Internasional",
+      "site": "https://www.vestas.com/en/careers",
+      "specializations": [
+        "Energi Terbarukan"
+      ],
+      "references": [
+        {
+          "specialization": "Energi Terbarukan",
+          "role": "Wind Resource Assessment; Energy Analytics",
+          "reason": "Kegiatan pengembangan dan siting energi angin",
+          "evidenceType": "Kegiatan usaha resmi",
+          "qualification": "Belum dikonfirmasi untuk jabatan spesifik lulusan Meteorologi",
+          "skills": "Wind resource; GIS; data analytics",
+          "source": "https://www.vestas.com/en/about/this-is-vestas/our-capabilities",
+          "site": "https://www.vestas.com/en/careers",
+          "note": "Lowongan dan syarat pendidikan harus diperiksa kembali pada saat melamar."
+        }
+      ]
     },
     {
-      "No": "9",
-      "Spesialisasi": "Energi Terbarukan",
-      "Perusahaan / Instansi": "Solargis",
-      "Jenis Organisasi": "Perusahaan analitik energi surya",
-      "Cakupan": "Internasional",
-      "Contoh Posisi": "Solar Resource Analyst; Solar Data Analyst",
-      "Mengapa Relevan": "Menyediakan solar resource dan meteo assessment",
-      "Jenis Bukti": "Layanan resmi",
-      "Status Jurusan / S1": "Belum dikonfirmasi untuk jabatan spesifik lulusan Meteorologi",
-      "Skill Utama": "Radiasi surya; model PV; statistika; GIS",
-      "URL Bukti": "https://solargis.com/services/solar-resource-assessment",
-      "URL Karier / Situs": "https://solargis.com/",
-      "Catatan Validasi": "Lowongan dan syarat pendidikan harus diperiksa kembali pada saat melamar.",
-      "initials": "S"
+      "id": "solargis",
+      "name": "Solargis",
+      "type": "Perusahaan analitik energi surya",
+      "region": "Internasional",
+      "site": "https://solargis.com/",
+      "specializations": [
+        "Energi Terbarukan"
+      ],
+      "references": [
+        {
+          "specialization": "Energi Terbarukan",
+          "role": "Solar Resource Analyst; Solar Data Analyst",
+          "reason": "Menyediakan solar resource dan meteo assessment",
+          "evidenceType": "Layanan resmi",
+          "qualification": "Belum dikonfirmasi untuk jabatan spesifik lulusan Meteorologi",
+          "skills": "Radiasi surya; model PV; statistika; GIS",
+          "source": "https://solargis.com/services/solar-resource-assessment",
+          "site": "https://solargis.com/",
+          "note": "Lowongan dan syarat pendidikan harus diperiksa kembali pada saat melamar."
+        }
+      ]
     },
     {
-      "No": "10",
-      "Spesialisasi": "Energi Terbarukan",
-      "Perusahaan / Instansi": "WRI Indonesia",
-      "Jenis Organisasi": "Lembaga nirlaba / riset kebijakan",
-      "Cakupan": "Indonesia",
-      "Contoh Posisi": "Energy System Modeler; Low-Carbon Technology Analyst",
-      "Mengapa Relevan": "Proyek analisis sistem energi dan transisi energi",
-      "Jenis Bukti": "Lowongan terdokumentasi",
-      "Status Jurusan / S1": "Persyaratan berbeda per posisi",
-      "Skill Utama": "Model energi; Python; analisis kebijakan",
-      "URL Bukti": "https://www.wri.org/careers/jobs/energy-system-modeler-2026-jr100422",
-      "URL Karier / Situs": "https://www.wri.org/careers",
-      "Catatan Validasi": "Lowongan dan syarat pendidikan harus diperiksa kembali pada saat melamar.",
-      "initials": "WI"
+      "id": "wri-indonesia",
+      "name": "WRI Indonesia",
+      "type": "Lembaga nirlaba / riset kebijakan",
+      "region": "Indonesia",
+      "site": "https://www.wri.org/careers",
+      "specializations": [
+        "Energi Terbarukan",
+        "Kebencanaan Hidrometeorologi dan Lingkungan",
+        "Perubahan Iklim",
+        "Sains Data Meteorologi"
+      ],
+      "references": [
+        {
+          "specialization": "Energi Terbarukan",
+          "role": "Energy System Modeler; Low-Carbon Technology Analyst",
+          "reason": "Proyek analisis sistem energi dan transisi energi",
+          "evidenceType": "Lowongan terdokumentasi",
+          "qualification": "Persyaratan berbeda per posisi",
+          "skills": "Model energi; Python; analisis kebijakan",
+          "source": "https://www.wri.org/careers/jobs/energy-system-modeler-2026-jr100422",
+          "site": "https://www.wri.org/careers",
+          "note": "Lowongan dan syarat pendidikan harus diperiksa kembali pada saat melamar."
+        },
+        {
+          "specialization": "Kebencanaan Hidrometeorologi dan Lingkungan",
+          "role": "Geospatial Data Analyst; Climate Urban Analyst",
+          "reason": "Pekerjaan GIS dan analisis spasial terkait iklim",
+          "evidenceType": "Lowongan terdokumentasi",
+          "qualification": "Geografi/Geomatika/Geodesi/CS atau terkait + pengalaman GIS tercantum pada contoh lowongan",
+          "skills": "QGIS; ArcGIS; GEE; GDAL; Python",
+          "source": "https://wri.wd501.myworkdayjobs.com/wri/job/Geospatial-Data-Analyst_2026-JR100472",
+          "site": "https://wri-indonesia.org/",
+          "note": "Lowongan dan syarat pendidikan harus diperiksa kembali pada saat melamar."
+        },
+        {
+          "specialization": "Perubahan Iklim",
+          "role": "Climate Research Analyst; Climate Urban Analyst",
+          "reason": "Analisis iklim, adaptasi, GIS dan kebijakan",
+          "evidenceType": "Bukti posisi profesional",
+          "qualification": "Belum dikonfirmasi untuk jabatan spesifik lulusan Meteorologi",
+          "skills": "Skenario iklim; GIS; analisis kebijakan",
+          "source": "https://wri-indonesia.org/en/profile/ardi-nur-armanto",
+          "site": "https://wri-indonesia.org/",
+          "note": "Lowongan dan syarat pendidikan harus diperiksa kembali pada saat melamar."
+        },
+        {
+          "specialization": "Sains Data Meteorologi",
+          "role": "Geospatial Data Analyst",
+          "reason": "Posisi pengolahan data geospasial untuk lingkungan",
+          "evidenceType": "Lowongan terdokumentasi",
+          "qualification": "Syarat jurusan terkait GIS/CS/Geodesi; Meteorologi tidak eksplisit",
+          "skills": "Python; GIS; GEE; GDAL",
+          "source": "https://wri.wd501.myworkdayjobs.com/wri/job/Geospatial-Data-Analyst_2026-JR100472",
+          "site": "https://wri.wd501.myworkdayjobs.com/wri/job/Geospatial-Data-Analyst_2026-JR100472",
+          "note": "Lowongan dan syarat pendidikan harus diperiksa kembali pada saat melamar."
+        }
+      ]
     },
     {
-      "No": "11",
-      "Spesialisasi": "Kebencanaan Hidrometeorologi dan Lingkungan",
-      "Perusahaan / Instansi": "PT Geo Enviro Omega",
-      "Jenis Organisasi": "Konsultan kebencanaan dan geospasial",
-      "Cakupan": "Indonesia",
-      "Contoh Posisi": "Disaster Risk Analyst; Flood Modeler; GIS Analyst",
-      "Mengapa Relevan": "Pemodelan banjir, sistem peringatan, GIS",
-      "Jenis Bukti": "Layanan/proyek resmi",
-      "Status Jurusan / S1": "Belum dikonfirmasi untuk jabatan spesifik lulusan Meteorologi",
-      "Skill Utama": "GIS; pemodelan banjir; Python; risiko bencana",
-      "URL Bukti": "https://www.geo.co.id/",
-      "URL Karier / Situs": "https://www.geo.co.id/",
-      "Catatan Validasi": "Lowongan dan syarat pendidikan harus diperiksa kembali pada saat melamar.",
-      "initials": "PG"
+      "id": "pt-geo-enviro-omega",
+      "name": "PT Geo Enviro Omega",
+      "type": "Konsultan kebencanaan dan geospasial",
+      "region": "Indonesia",
+      "site": "https://www.geo.co.id/",
+      "specializations": [
+        "Kebencanaan Hidrometeorologi dan Lingkungan",
+        "Perubahan Iklim",
+        "Sains Data Meteorologi"
+      ],
+      "references": [
+        {
+          "specialization": "Kebencanaan Hidrometeorologi dan Lingkungan",
+          "role": "Disaster Risk Analyst; Flood Modeler; GIS Analyst",
+          "reason": "Pemodelan banjir, sistem peringatan, GIS",
+          "evidenceType": "Layanan/proyek resmi",
+          "qualification": "Belum dikonfirmasi untuk jabatan spesifik lulusan Meteorologi",
+          "skills": "GIS; pemodelan banjir; Python; risiko bencana",
+          "source": "https://www.geo.co.id/",
+          "site": "https://www.geo.co.id/",
+          "note": "Lowongan dan syarat pendidikan harus diperiksa kembali pada saat melamar."
+        },
+        {
+          "specialization": "Perubahan Iklim",
+          "role": "Climate Risk Analyst; Resilience Consultant",
+          "reason": "Konsultansi ketahanan iklim dan profil risiko",
+          "evidenceType": "Layanan/proyek resmi",
+          "qualification": "Belum dikonfirmasi untuk jabatan spesifik lulusan Meteorologi",
+          "skills": "GIS; risiko; data lingkungan",
+          "source": "https://www.geo.co.id/",
+          "site": "https://www.geo.co.id/",
+          "note": "Lowongan dan syarat pendidikan harus diperiksa kembali pada saat melamar."
+        },
+        {
+          "specialization": "Sains Data Meteorologi",
+          "role": "GIS/Data Analyst; Hazard Modeler",
+          "reason": "Mengintegrasikan sains, data dan ML untuk risiko bencana",
+          "evidenceType": "Layanan/proyek resmi",
+          "qualification": "Belum dikonfirmasi untuk jabatan spesifik lulusan Meteorologi",
+          "skills": "Python; GIS; ML; data spasial",
+          "source": "https://www.geo.co.id/",
+          "site": "https://www.geo.co.id/",
+          "note": "Lowongan dan syarat pendidikan harus diperiksa kembali pada saat melamar."
+        }
+      ]
     },
     {
-      "No": "12",
-      "Spesialisasi": "Kebencanaan Hidrometeorologi dan Lingkungan",
-      "Perusahaan / Instansi": "Deltares",
-      "Jenis Organisasi": "Lembaga riset terapan/konsultasi",
-      "Cakupan": "Internasional, proyek di Indonesia",
-      "Contoh Posisi": "Flood Risk Analyst; Hydrologist; Modeler",
-      "Mengapa Relevan": "Pekerjaan pemodelan dan manajemen risiko banjir",
-      "Jenis Bukti": "Proyek/keahlian resmi",
-      "Status Jurusan / S1": "Belum dikonfirmasi untuk jabatan spesifik lulusan Meteorologi",
-      "Skill Utama": "HEC-RAS; GIS; hidrologi; statistik",
-      "URL Bukti": "https://www.deltares.nl/en/expertise/our-people/ferdinand-diermanse",
-      "URL Karier / Situs": "https://www.deltares.nl/en",
-      "Catatan Validasi": "Lowongan dan syarat pendidikan harus diperiksa kembali pada saat melamar.",
-      "initials": "D"
+      "id": "deltares",
+      "name": "Deltares",
+      "type": "Lembaga riset terapan/konsultasi",
+      "region": "Internasional, proyek di Indonesia",
+      "site": "https://www.deltares.nl/en",
+      "specializations": [
+        "Kebencanaan Hidrometeorologi dan Lingkungan"
+      ],
+      "references": [
+        {
+          "specialization": "Kebencanaan Hidrometeorologi dan Lingkungan",
+          "role": "Flood Risk Analyst; Hydrologist; Modeler",
+          "reason": "Pekerjaan pemodelan dan manajemen risiko banjir",
+          "evidenceType": "Proyek/keahlian resmi",
+          "qualification": "Belum dikonfirmasi untuk jabatan spesifik lulusan Meteorologi",
+          "skills": "HEC-RAS; GIS; hidrologi; statistik",
+          "source": "https://www.deltares.nl/en/expertise/our-people/ferdinand-diermanse",
+          "site": "https://www.deltares.nl/en",
+          "note": "Lowongan dan syarat pendidikan harus diperiksa kembali pada saat melamar."
+        }
+      ]
     },
     {
-      "No": "13",
-      "Spesialisasi": "Kebencanaan Hidrometeorologi dan Lingkungan",
-      "Perusahaan / Instansi": "Arup",
-      "Jenis Organisasi": "Konsultan rekayasa",
-      "Cakupan": "Internasional",
-      "Contoh Posisi": "Flood Risk Analyst; Resilience Consultant",
-      "Mengapa Relevan": "Lowongan terkait banjir, adaptasi dan ketahanan iklim",
-      "Jenis Bukti": "Lowongan terdokumentasi",
-      "Status Jurusan / S1": "Sering mensyaratkan latar teknik terkait; cek per lowongan",
-      "Skill Utama": "GIS; hidroklimatologi; risiko; komunikasi teknis",
-      "URL Bukti": "https://jobs.arup.com/jobs/graduate-water-engineer-consultant-37331",
-      "URL Karier / Situs": "https://jobs.arup.com/",
-      "Catatan Validasi": "Lowongan dan syarat pendidikan harus diperiksa kembali pada saat melamar.",
-      "initials": "A"
+      "id": "arup",
+      "name": "Arup",
+      "type": "Konsultan rekayasa",
+      "region": "Internasional",
+      "site": "https://jobs.arup.com/",
+      "specializations": [
+        "Kebencanaan Hidrometeorologi dan Lingkungan",
+        "Perubahan Iklim"
+      ],
+      "references": [
+        {
+          "specialization": "Kebencanaan Hidrometeorologi dan Lingkungan",
+          "role": "Flood Risk Analyst; Resilience Consultant",
+          "reason": "Lowongan terkait banjir, adaptasi dan ketahanan iklim",
+          "evidenceType": "Lowongan terdokumentasi",
+          "qualification": "Sering mensyaratkan latar teknik terkait; cek per lowongan",
+          "skills": "GIS; hidroklimatologi; risiko; komunikasi teknis",
+          "source": "https://jobs.arup.com/jobs/graduate-water-engineer-consultant-37331",
+          "site": "https://jobs.arup.com/",
+          "note": "Lowongan dan syarat pendidikan harus diperiksa kembali pada saat melamar."
+        },
+        {
+          "specialization": "Perubahan Iklim",
+          "role": "Climate Resilience Analyst; Adaptation Consultant",
+          "reason": "Climate change risk, resilience dan adaptation services",
+          "evidenceType": "Layanan resmi",
+          "qualification": "Perlu memeriksa syarat tiap lowongan",
+          "skills": "GIS; climate hazard; risiko aset",
+          "source": "https://www.arup.com/en-us/services/climate-change-risk-resilience-and-adaptation/",
+          "site": "https://jobs.arup.com/",
+          "note": "Lowongan dan syarat pendidikan harus diperiksa kembali pada saat melamar."
+        }
+      ]
     },
     {
-      "No": "14",
-      "Spesialisasi": "Kebencanaan Hidrometeorologi dan Lingkungan",
-      "Perusahaan / Instansi": "WRI Indonesia",
-      "Jenis Organisasi": "Lembaga nirlaba / riset",
-      "Cakupan": "Indonesia",
-      "Contoh Posisi": "Geospatial Data Analyst; Climate Urban Analyst",
-      "Mengapa Relevan": "Pekerjaan GIS dan analisis spasial terkait iklim",
-      "Jenis Bukti": "Lowongan terdokumentasi",
-      "Status Jurusan / S1": "Geografi/Geomatika/Geodesi/CS atau terkait + pengalaman GIS tercantum pada contoh lowongan",
-      "Skill Utama": "QGIS; ArcGIS; GEE; GDAL; Python",
-      "URL Bukti": "https://wri.wd501.myworkdayjobs.com/wri/job/Geospatial-Data-Analyst_2026-JR100472",
-      "URL Karier / Situs": "https://wri-indonesia.org/",
-      "Catatan Validasi": "Lowongan dan syarat pendidikan harus diperiksa kembali pada saat melamar.",
-      "initials": "WI"
+      "id": "bgt-hydromet",
+      "name": "BGT Hydromet",
+      "type": "Perusahaan solusi hidrometeorologi",
+      "region": "Indonesia / Internasional",
+      "site": "https://www.bgt-hydromet.com/careers.html",
+      "specializations": [
+        "Kebencanaan Hidrometeorologi dan Lingkungan"
+      ],
+      "references": [
+        {
+          "specialization": "Kebencanaan Hidrometeorologi dan Lingkungan",
+          "role": "Hydromet Consultant; Technical Project Staff",
+          "reason": "Solusi hidrologi dan pengurangan risiko bencana",
+          "evidenceType": "Halaman karier",
+          "qualification": "Cek syarat lowongan yang tersedia",
+          "skills": "Hydrology; IoT; GIS; analisis data",
+          "source": "https://www.bgt-hydromet.com/careers.html",
+          "site": "https://www.bgt-hydromet.com/careers.html",
+          "note": "Lowongan dan syarat pendidikan harus diperiksa kembali pada saat melamar."
+        }
+      ]
     },
     {
-      "No": "15",
-      "Spesialisasi": "Kebencanaan Hidrometeorologi dan Lingkungan",
-      "Perusahaan / Instansi": "BGT Hydromet",
-      "Jenis Organisasi": "Perusahaan solusi hidrometeorologi",
-      "Cakupan": "Indonesia / Internasional",
-      "Contoh Posisi": "Hydromet Consultant; Technical Project Staff",
-      "Mengapa Relevan": "Solusi hidrologi dan pengurangan risiko bencana",
-      "Jenis Bukti": "Halaman karier",
-      "Status Jurusan / S1": "Cek syarat lowongan yang tersedia",
-      "Skill Utama": "Hydrology; IoT; GIS; analisis data",
-      "URL Bukti": "https://www.bgt-hydromet.com/careers.html",
-      "URL Karier / Situs": "https://www.bgt-hydromet.com/careers.html",
-      "Catatan Validasi": "Lowongan dan syarat pendidikan harus diperiksa kembali pada saat melamar.",
-      "initials": "BH"
+      "id": "pt-prihaditama",
+      "name": "PT Prihaditama",
+      "type": "Konsultan geosains / survei",
+      "region": "Indonesia",
+      "site": "https://www.prihaditama.com/",
+      "specializations": [
+        "Kebencanaan Hidrometeorologi dan Lingkungan",
+        "Teknologi dan Instrumentasi Meteorologi",
+        "Operasional Meteorologi"
+      ],
+      "references": [
+        {
+          "specialization": "Kebencanaan Hidrometeorologi dan Lingkungan",
+          "role": "Met-Ocean Surveyor; Hydrology Survey Analyst",
+          "reason": "Survei met-ocean dan hidrologi",
+          "evidenceType": "Layanan resmi",
+          "qualification": "Belum dikonfirmasi untuk jabatan spesifik lulusan Meteorologi",
+          "skills": "Survei lapangan; AWS; GIS; hidrologi",
+          "source": "https://www.prihaditama.com/public/service/survei-metosean",
+          "site": "https://www.prihaditama.com/",
+          "note": "Lowongan dan syarat pendidikan harus diperiksa kembali pada saat melamar."
+        },
+        {
+          "specialization": "Teknologi dan Instrumentasi Meteorologi",
+          "role": "Met-Ocean Field Technician; Survey Specialist",
+          "reason": "Pengukuran met-ocean dengan AWS",
+          "evidenceType": "Layanan resmi",
+          "qualification": "Belum dikonfirmasi untuk jabatan spesifik lulusan Meteorologi",
+          "skills": "AWS; survei lapangan; pengolahan data",
+          "source": "https://www.prihaditama.com/public/service/survei-metosean",
+          "site": "https://www.prihaditama.com/public/service/survei-metosean",
+          "note": "Lowongan dan syarat pendidikan harus diperiksa kembali pada saat melamar."
+        },
+        {
+          "specialization": "Operasional Meteorologi",
+          "role": "Met-Ocean Analyst; Weather Survey Specialist",
+          "reason": "Survei angin dan pengamatan met-ocean",
+          "evidenceType": "Layanan resmi",
+          "qualification": "Belum membuktikan adanya posisi prakirawan operasional",
+          "skills": "AWS; ocean meteorology; survei lapangan",
+          "source": "https://www.prihaditama.com/public/service/survei-metosean",
+          "site": "https://www.prihaditama.com/public/service/survei-metosean",
+          "note": "Lowongan dan syarat pendidikan harus diperiksa kembali pada saat melamar."
+        }
+      ]
     },
     {
-      "No": "16",
-      "Spesialisasi": "Kebencanaan Hidrometeorologi dan Lingkungan",
-      "Perusahaan / Instansi": "PT Prihaditama",
-      "Jenis Organisasi": "Konsultan geosains / survei",
-      "Cakupan": "Indonesia",
-      "Contoh Posisi": "Met-Ocean Surveyor; Hydrology Survey Analyst",
-      "Mengapa Relevan": "Survei met-ocean dan hidrologi",
-      "Jenis Bukti": "Layanan resmi",
-      "Status Jurusan / S1": "Belum dikonfirmasi untuk jabatan spesifik lulusan Meteorologi",
-      "Skill Utama": "Survei lapangan; AWS; GIS; hidrologi",
-      "URL Bukti": "https://www.prihaditama.com/public/service/survei-metosean",
-      "URL Karier / Situs": "https://www.prihaditama.com/",
-      "Catatan Validasi": "Lowongan dan syarat pendidikan harus diperiksa kembali pada saat melamar.",
-      "initials": "PP"
+      "id": "ekologika-consultants",
+      "name": "Ekologika Consultants",
+      "type": "Konsultan lingkungan",
+      "region": "Indonesia",
+      "site": "https://id.linkedin.com/jobs/view/gis-analyst-at-ekologika-consultants-4427459763",
+      "specializations": [
+        "Kebencanaan Hidrometeorologi dan Lingkungan"
+      ],
+      "references": [
+        {
+          "specialization": "Kebencanaan Hidrometeorologi dan Lingkungan",
+          "role": "GIS Analyst",
+          "reason": "Lowongan GIS Analyst",
+          "evidenceType": "Lowongan terdokumentasi",
+          "qualification": "Cek persyaratan bidang pendidikan",
+          "skills": "QGIS; ArcGIS; analisis lingkungan",
+          "source": "https://id.linkedin.com/jobs/view/gis-analyst-at-ekologika-consultants-4427459763",
+          "site": "https://id.linkedin.com/jobs/view/gis-analyst-at-ekologika-consultants-4427459763",
+          "note": "Lowongan dan syarat pendidikan harus diperiksa kembali pada saat melamar."
+        }
+      ]
     },
     {
-      "No": "17",
-      "Spesialisasi": "Kebencanaan Hidrometeorologi dan Lingkungan",
-      "Perusahaan / Instansi": "Ekologika Consultants",
-      "Jenis Organisasi": "Konsultan lingkungan",
-      "Cakupan": "Indonesia",
-      "Contoh Posisi": "GIS Analyst",
-      "Mengapa Relevan": "Lowongan GIS Analyst",
-      "Jenis Bukti": "Lowongan terdokumentasi",
-      "Status Jurusan / S1": "Cek persyaratan bidang pendidikan",
-      "Skill Utama": "QGIS; ArcGIS; analisis lingkungan",
-      "URL Bukti": "https://id.linkedin.com/jobs/view/gis-analyst-at-ekologika-consultants-4427459763",
-      "URL Karier / Situs": "https://id.linkedin.com/jobs/view/gis-analyst-at-ekologika-consultants-4427459763",
-      "Catatan Validasi": "Lowongan dan syarat pendidikan harus diperiksa kembali pada saat melamar.",
-      "initials": "EC"
+      "id": "erm",
+      "name": "ERM",
+      "type": "Konsultan lingkungan dan iklim",
+      "region": "Indonesia / Internasional",
+      "site": "https://www.erm.com/about/locations/indonesia/",
+      "specializations": [
+        "Perubahan Iklim"
+      ],
+      "references": [
+        {
+          "specialization": "Perubahan Iklim",
+          "role": "Climate Risk Consultant; Sustainability Analyst",
+          "reason": "Praktik climate risk, resilience dan sustainability",
+          "evidenceType": "Program karier dan layanan resmi",
+          "qualification": "Latar environmental science/engineering/data terkait dipertimbangkan; periksa posisi",
+          "skills": "Risiko iklim; CMIP6; ESG; komunikasi",
+          "source": "https://www.erm.com/erm-careers/early-careers/",
+          "site": "https://www.erm.com/about/locations/indonesia/",
+          "note": "Lowongan dan syarat pendidikan harus diperiksa kembali pada saat melamar."
+        }
+      ]
     },
     {
-      "No": "18",
-      "Spesialisasi": "Perubahan Iklim",
-      "Perusahaan / Instansi": "ERM",
-      "Jenis Organisasi": "Konsultan lingkungan dan iklim",
-      "Cakupan": "Indonesia / Internasional",
-      "Contoh Posisi": "Climate Risk Consultant; Sustainability Analyst",
-      "Mengapa Relevan": "Praktik climate risk, resilience dan sustainability",
-      "Jenis Bukti": "Program karier dan layanan resmi",
-      "Status Jurusan / S1": "Latar environmental science/engineering/data terkait dipertimbangkan; periksa posisi",
-      "Skill Utama": "Risiko iklim; CMIP6; ESG; komunikasi",
-      "URL Bukti": "https://www.erm.com/erm-careers/early-careers/",
-      "URL Karier / Situs": "https://www.erm.com/about/locations/indonesia/",
-      "Catatan Validasi": "Lowongan dan syarat pendidikan harus diperiksa kembali pada saat melamar.",
-      "initials": "E"
+      "id": "south-pole",
+      "name": "South Pole",
+      "type": "Konsultan solusi iklim",
+      "region": "Indonesia / Internasional",
+      "site": "https://careers.southpole.com/",
+      "specializations": [
+        "Perubahan Iklim"
+      ],
+      "references": [
+        {
+          "specialization": "Perubahan Iklim",
+          "role": "Climate Advisory Consultant; Climate Risk Specialist",
+          "reason": "Climate risk, advisory dan kebijakan karbon",
+          "evidenceType": "Layanan dan portal karier",
+          "qualification": "Belum dikonfirmasi untuk jabatan spesifik lulusan Meteorologi",
+          "skills": "Risk assessment; skenario iklim; ESG",
+          "source": "https://www.southpole.com/about-us",
+          "site": "https://careers.southpole.com/",
+          "note": "Lowongan dan syarat pendidikan harus diperiksa kembali pada saat melamar."
+        }
+      ]
     },
     {
-      "No": "19",
-      "Spesialisasi": "Perubahan Iklim",
-      "Perusahaan / Instansi": "South Pole",
-      "Jenis Organisasi": "Konsultan solusi iklim",
-      "Cakupan": "Indonesia / Internasional",
-      "Contoh Posisi": "Climate Advisory Consultant; Climate Risk Specialist",
-      "Mengapa Relevan": "Climate risk, advisory dan kebijakan karbon",
-      "Jenis Bukti": "Layanan dan portal karier",
-      "Status Jurusan / S1": "Belum dikonfirmasi untuk jabatan spesifik lulusan Meteorologi",
-      "Skill Utama": "Risk assessment; skenario iklim; ESG",
-      "URL Bukti": "https://www.southpole.com/about-us",
-      "URL Karier / Situs": "https://careers.southpole.com/",
-      "Catatan Validasi": "Lowongan dan syarat pendidikan harus diperiksa kembali pada saat melamar.",
-      "initials": "SP"
+      "id": "zurich-resilience-solutions",
+      "name": "Zurich Resilience Solutions",
+      "type": "Asuransi dan konsultansi risiko",
+      "region": "Internasional",
+      "site": "https://www.zurich.com/",
+      "specializations": [
+        "Perubahan Iklim"
+      ],
+      "references": [
+        {
+          "specialization": "Perubahan Iklim",
+          "role": "Climate Resilience Analyst; Risk Advisor",
+          "reason": "Kerja sama jasa asesmen risiko perubahan iklim",
+          "evidenceType": "Kegiatan usaha resmi",
+          "qualification": "Belum dikonfirmasi untuk jabatan spesifik lulusan Meteorologi",
+          "skills": "Risiko fisik iklim; pemodelan eksposur",
+          "source": "https://www.southpole.com/news/zurich-teams-up-with-south-pole",
+          "site": "https://www.zurich.com/",
+          "note": "Lowongan dan syarat pendidikan harus diperiksa kembali pada saat melamar."
+        }
+      ]
     },
     {
-      "No": "20",
-      "Spesialisasi": "Perubahan Iklim",
-      "Perusahaan / Instansi": "Arup",
-      "Jenis Organisasi": "Konsultan rekayasa dan keberlanjutan",
-      "Cakupan": "Internasional",
-      "Contoh Posisi": "Climate Resilience Analyst; Adaptation Consultant",
-      "Mengapa Relevan": "Climate change risk, resilience dan adaptation services",
-      "Jenis Bukti": "Layanan resmi",
-      "Status Jurusan / S1": "Perlu memeriksa syarat tiap lowongan",
-      "Skill Utama": "GIS; climate hazard; risiko aset",
-      "URL Bukti": "https://www.arup.com/en-us/services/climate-change-risk-resilience-and-adaptation/",
-      "URL Karier / Situs": "https://jobs.arup.com/",
-      "Catatan Validasi": "Lowongan dan syarat pendidikan harus diperiksa kembali pada saat melamar.",
-      "initials": "A"
+      "id": "pt-len-industri",
+      "name": "PT Len Industri",
+      "type": "BUMN teknologi dan elektronika",
+      "region": "Indonesia",
+      "site": "https://www.len.co.id/",
+      "specializations": [
+        "Teknologi dan Instrumentasi Meteorologi"
+      ],
+      "references": [
+        {
+          "specialization": "Teknologi dan Instrumentasi Meteorologi",
+          "role": "Weather Instrumentation Engineer; Systems Engineer",
+          "reason": "Pengembangan AWOS, AWS maritim, ARG dan alat ukur",
+          "evidenceType": "Proyek/kolaborasi resmi",
+          "qualification": "Belum dikonfirmasi untuk jabatan spesifik lulusan Meteorologi",
+          "skills": "Sensor; IoT; telemetri; quality control",
+          "source": "https://www.bmkg.go.id/siaran-pers/komitmen-kurangi-impor-peralatan-operasional-bmkg-kerjasama-dengan-pt-len-industri",
+          "site": "https://www.len.co.id/",
+          "note": "Lowongan dan syarat pendidikan harus diperiksa kembali pada saat melamar."
+        }
+      ]
     },
     {
-      "No": "21",
-      "Spesialisasi": "Perubahan Iklim",
-      "Perusahaan / Instansi": "WRI Indonesia",
-      "Jenis Organisasi": "Lembaga nirlaba / riset kebijakan",
-      "Cakupan": "Indonesia",
-      "Contoh Posisi": "Climate Research Analyst; Climate Urban Analyst",
-      "Mengapa Relevan": "Analisis iklim, adaptasi, GIS dan kebijakan",
-      "Jenis Bukti": "Bukti posisi profesional",
-      "Status Jurusan / S1": "Belum dikonfirmasi untuk jabatan spesifik lulusan Meteorologi",
-      "Skill Utama": "Skenario iklim; GIS; analisis kebijakan",
-      "URL Bukti": "https://wri-indonesia.org/en/profile/ardi-nur-armanto",
-      "URL Karier / Situs": "https://wri-indonesia.org/",
-      "Catatan Validasi": "Lowongan dan syarat pendidikan harus diperiksa kembali pada saat melamar.",
-      "initials": "WI"
+      "id": "vaisala",
+      "name": "Vaisala",
+      "type": "Produsen instrumen meteorologi",
+      "region": "Internasional",
+      "site": "https://www.vaisala.com/en/products/surface-weather-observations",
+      "specializations": [
+        "Teknologi dan Instrumentasi Meteorologi"
+      ],
+      "references": [
+        {
+          "specialization": "Teknologi dan Instrumentasi Meteorologi",
+          "role": "Field Service Engineer; Weather Observation Specialist",
+          "reason": "AWS, radar, alat observasi dan peralatan cuaca",
+          "evidenceType": "Halaman karier dan produk resmi",
+          "qualification": "Belum dikonfirmasi untuk jabatan spesifik lulusan Meteorologi",
+          "skills": "Kalibrasi; sensor; elektronika; AWS",
+          "source": "https://www.vaisala.com/en/careers",
+          "site": "https://www.vaisala.com/en/products/surface-weather-observations",
+          "note": "Lowongan dan syarat pendidikan harus diperiksa kembali pada saat melamar."
+        }
+      ]
     },
     {
-      "No": "22",
-      "Spesialisasi": "Perubahan Iklim",
-      "Perusahaan / Instansi": "Zurich Resilience Solutions",
-      "Jenis Organisasi": "Asuransi dan konsultansi risiko",
-      "Cakupan": "Internasional",
-      "Contoh Posisi": "Climate Resilience Analyst; Risk Advisor",
-      "Mengapa Relevan": "Kerja sama jasa asesmen risiko perubahan iklim",
-      "Jenis Bukti": "Kegiatan usaha resmi",
-      "Status Jurusan / S1": "Belum dikonfirmasi untuk jabatan spesifik lulusan Meteorologi",
-      "Skill Utama": "Risiko fisik iklim; pemodelan eksposur",
-      "URL Bukti": "https://www.southpole.com/news/zurich-teams-up-with-south-pole",
-      "URL Karier / Situs": "https://www.zurich.com/",
-      "Catatan Validasi": "Lowongan dan syarat pendidikan harus diperiksa kembali pada saat melamar.",
-      "initials": "ZR"
+      "id": "campbell-scientific",
+      "name": "Campbell Scientific",
+      "type": "Produsen sistem pemantauan lingkungan",
+      "region": "Internasional",
+      "site": "https://www.campbellsci.com/",
+      "specializations": [
+        "Teknologi dan Instrumentasi Meteorologi"
+      ],
+      "references": [
+        {
+          "specialization": "Teknologi dan Instrumentasi Meteorologi",
+          "role": "Instrumentation Specialist; Environmental Monitoring Engineer",
+          "reason": "Desain dan implementasi datalogger serta AWS",
+          "evidenceType": "Halaman karier dan produk resmi",
+          "qualification": "Belum dikonfirmasi untuk jabatan spesifik lulusan Meteorologi",
+          "skills": "Datalogger; elektronika; IoT; kalibrasi",
+          "source": "https://www.campbellsci.com/careers",
+          "site": "https://www.campbellsci.com/",
+          "note": "Lowongan dan syarat pendidikan harus diperiksa kembali pada saat melamar."
+        }
+      ]
     },
     {
-      "No": "23",
-      "Spesialisasi": "Perubahan Iklim",
-      "Perusahaan / Instansi": "PT Geo Enviro Omega",
-      "Jenis Organisasi": "Konsultan risiko / iklim",
-      "Cakupan": "Indonesia",
-      "Contoh Posisi": "Climate Risk Analyst; Resilience Consultant",
-      "Mengapa Relevan": "Konsultansi ketahanan iklim dan profil risiko",
-      "Jenis Bukti": "Layanan/proyek resmi",
-      "Status Jurusan / S1": "Belum dikonfirmasi untuk jabatan spesifik lulusan Meteorologi",
-      "Skill Utama": "GIS; risiko; data lingkungan",
-      "URL Bukti": "https://www.geo.co.id/",
-      "URL Karier / Situs": "https://www.geo.co.id/",
-      "Catatan Validasi": "Lowongan dan syarat pendidikan harus diperiksa kembali pada saat melamar.",
-      "initials": "PG"
+      "id": "pt-petrucs-instrument-indonesia",
+      "name": "PT Petrucs Instrument Indonesia",
+      "type": "Perusahaan instrumentasi",
+      "region": "Indonesia",
+      "site": "https://petrucsindo.com/",
+      "specializations": [
+        "Teknologi dan Instrumentasi Meteorologi"
+      ],
+      "references": [
+        {
+          "specialization": "Teknologi dan Instrumentasi Meteorologi",
+          "role": "AWS Technician; IoT Monitoring Engineer",
+          "reason": "Instalasi/pemeliharaan AWS kapal",
+          "evidenceType": "Layanan/proyek resmi",
+          "qualification": "Belum dikonfirmasi untuk jabatan spesifik lulusan Meteorologi",
+          "skills": "ESP32; IoT; elektronika; AWS",
+          "source": "https://petrucsindo.com/",
+          "site": "https://petrucsindo.com/",
+          "note": "Lowongan dan syarat pendidikan harus diperiksa kembali pada saat melamar."
+        }
+      ]
     },
     {
-      "No": "24",
-      "Spesialisasi": "Perubahan Iklim",
-      "Perusahaan / Instansi": "BRIN — Pusat Riset Iklim dan Atmosfer",
-      "Jenis Organisasi": "Instansi riset",
-      "Cakupan": "Indonesia",
-      "Contoh Posisi": "Climate Scientist; Peneliti",
-      "Mengapa Relevan": "Kajian perubahan iklim dan pemodelan iklim",
-      "Jenis Bukti": "Riset resmi",
-      "Status Jurusan / S1": "Belum diperiksa untuk lowongan spesifik",
-      "Skill Utama": "CMIP6; statistik iklim; Python",
-      "URL Bukti": "https://www.brin.go.id/news/130700/brin-dan-iap-cas-kembangkan-platform-pemodelan-iklim-untuk-baca-risiko-cuaca-ekstrem-dan-pangan-indonesia",
-      "URL Karier / Situs": "https://www.brin.go.id/news/130700/brin-dan-iap-cas-kembangkan-platform-pemodelan-iklim-untuk-baca-risiko-cuaca-ekstrem-dan-pangan-indonesia",
-      "Catatan Validasi": "Lowongan dan syarat pendidikan harus diperiksa kembali pada saat melamar.",
-      "initials": "BP"
+      "id": "pt-kemenangan",
+      "name": "PT Kemenangan",
+      "type": "Penyedia instrumen meteorologi",
+      "region": "Indonesia",
+      "site": "https://www.kemenangan.co.id/id/produk/produk-klimatologi/",
+      "specializations": [
+        "Teknologi dan Instrumentasi Meteorologi"
+      ],
+      "references": [
+        {
+          "specialization": "Teknologi dan Instrumentasi Meteorologi",
+          "role": "Instrument Support; Weather Station Technical Specialist",
+          "reason": "Distribusi/peralatan meteorologi dan klimatologi",
+          "evidenceType": "Produk/layanan resmi",
+          "qualification": "Belum dikonfirmasi untuk jabatan spesifik lulusan Meteorologi",
+          "skills": "AWS; sensor; pemeliharaan",
+          "source": "https://www.kemenangan.co.id/id/produk/produk-klimatologi/",
+          "site": "https://www.kemenangan.co.id/id/produk/produk-klimatologi/",
+          "note": "Lowongan dan syarat pendidikan harus diperiksa kembali pada saat melamar."
+        }
+      ]
     },
     {
-      "No": "25",
-      "Spesialisasi": "Teknologi dan Instrumentasi Meteorologi",
-      "Perusahaan / Instansi": "PT Len Industri",
-      "Jenis Organisasi": "BUMN teknologi dan elektronika",
-      "Cakupan": "Indonesia",
-      "Contoh Posisi": "Weather Instrumentation Engineer; Systems Engineer",
-      "Mengapa Relevan": "Pengembangan AWOS, AWS maritim, ARG dan alat ukur",
-      "Jenis Bukti": "Proyek/kolaborasi resmi",
-      "Status Jurusan / S1": "Belum dikonfirmasi untuk jabatan spesifik lulusan Meteorologi",
-      "Skill Utama": "Sensor; IoT; telemetri; quality control",
-      "URL Bukti": "https://www.bmkg.go.id/siaran-pers/komitmen-kurangi-impor-peralatan-operasional-bmkg-kerjasama-dengan-pt-len-industri",
-      "URL Karier / Situs": "https://www.len.co.id/",
-      "Catatan Validasi": "Lowongan dan syarat pendidikan harus diperiksa kembali pada saat melamar.",
-      "initials": "PL"
+      "id": "bmkg",
+      "name": "BMKG",
+      "type": "Instansi pemerintah",
+      "region": "Indonesia",
+      "site": "https://www.bmkg.go.id/",
+      "specializations": [
+        "Teknologi dan Instrumentasi Meteorologi",
+        "Operasional Meteorologi",
+        "Prediksi Cuaca dan Iklim"
+      ],
+      "references": [
+        {
+          "specialization": "Teknologi dan Instrumentasi Meteorologi",
+          "role": "Pengamat Meteorologi; Specialist Instrumentasi",
+          "reason": "Jaringan observasi cuaca dan instrumentasi",
+          "evidenceType": "Tugas kelembagaan",
+          "qualification": "Mengikuti persyaratan formasi pemerintah",
+          "skills": "Sensor; standar observasi; kalibrasi",
+          "source": "https://www.bmkg.go.id/siaran-pers/komitmen-kurangi-impor-peralatan-operasional-bmkg-kerjasama-dengan-pt-len-industri",
+          "site": "https://www.bmkg.go.id/",
+          "note": "Lowongan dan syarat pendidikan harus diperiksa kembali pada saat melamar."
+        },
+        {
+          "specialization": "Operasional Meteorologi",
+          "role": "Forecaster; Prakirawan meteorologi publik/penerbangan/maritim",
+          "reason": "Tugas operasional peringatan dan prakiraan cuaca",
+          "evidenceType": "Tugas kelembagaan",
+          "qualification": "Mengikuti persyaratan formasi dan jabatan",
+          "skills": "METAR; TAF; radar; komunikasi risiko",
+          "source": "https://ppsdm.bmkg.go.id/jadwaldiklat/info_diklat/694",
+          "site": "https://www.bmkg.go.id/",
+          "note": "Lowongan dan syarat pendidikan harus diperiksa kembali pada saat melamar."
+        },
+        {
+          "specialization": "Prediksi Cuaca dan Iklim",
+          "role": "NWP Analyst; Forecast Model Specialist",
+          "reason": "Penggunaan dan pengembangan sistem prediksi cuaca",
+          "evidenceType": "Kegiatan resmi",
+          "qualification": "Sesuai formasi pemerintah",
+          "skills": "NWP; pemodelan; verifikasi",
+          "source": "https://ppsdm.bmkg.go.id/beritaadmin/detail/20",
+          "site": "https://www.bmkg.go.id/",
+          "note": "Lowongan dan syarat pendidikan harus diperiksa kembali pada saat melamar."
+        }
+      ]
     },
     {
-      "No": "26",
-      "Spesialisasi": "Teknologi dan Instrumentasi Meteorologi",
-      "Perusahaan / Instansi": "Vaisala",
-      "Jenis Organisasi": "Produsen instrumen meteorologi",
-      "Cakupan": "Internasional",
-      "Contoh Posisi": "Field Service Engineer; Weather Observation Specialist",
-      "Mengapa Relevan": "AWS, radar, alat observasi dan peralatan cuaca",
-      "Jenis Bukti": "Halaman karier dan produk resmi",
-      "Status Jurusan / S1": "Belum dikonfirmasi untuk jabatan spesifik lulusan Meteorologi",
-      "Skill Utama": "Kalibrasi; sensor; elektronika; AWS",
-      "URL Bukti": "https://www.vaisala.com/en/careers",
-      "URL Karier / Situs": "https://www.vaisala.com/en/products/surface-weather-observations",
-      "Catatan Validasi": "Lowongan dan syarat pendidikan harus diperiksa kembali pada saat melamar.",
-      "initials": "V"
+      "id": "fugro",
+      "name": "Fugro",
+      "type": "Perusahaan geodata / offshore",
+      "region": "Indonesia / Internasional",
+      "site": "https://www.fugro.com/",
+      "specializations": [
+        "Operasional Meteorologi"
+      ],
+      "references": [
+        {
+          "specialization": "Operasional Meteorologi",
+          "role": "Marine Weather Forecaster; MetOcean Analyst",
+          "reason": "Lowongan spesifik prakirawan cuaca maritim",
+          "evidenceType": "Lowongan terdokumentasi",
+          "qualification": "Kompetensi meteorologi dan oseanografi dicantumkan",
+          "skills": "Sinoptik; satelit; NWP; marine weather",
+          "source": "https://id.linkedin.com/jobs/view/marine-weather-forecaster-at-fugro-3709601149",
+          "site": "https://www.fugro.com/",
+          "note": "Lowongan dan syarat pendidikan harus diperiksa kembali pada saat melamar."
+        }
+      ]
     },
     {
-      "No": "27",
-      "Spesialisasi": "Teknologi dan Instrumentasi Meteorologi",
-      "Perusahaan / Instansi": "Campbell Scientific",
-      "Jenis Organisasi": "Produsen sistem pemantauan lingkungan",
-      "Cakupan": "Internasional",
-      "Contoh Posisi": "Instrumentation Specialist; Environmental Monitoring Engineer",
-      "Mengapa Relevan": "Desain dan implementasi datalogger serta AWS",
-      "Jenis Bukti": "Halaman karier dan produk resmi",
-      "Status Jurusan / S1": "Belum dikonfirmasi untuk jabatan spesifik lulusan Meteorologi",
-      "Skill Utama": "Datalogger; elektronika; IoT; kalibrasi",
-      "URL Bukti": "https://www.campbellsci.com/careers",
-      "URL Karier / Situs": "https://www.campbellsci.com/",
-      "Catatan Validasi": "Lowongan dan syarat pendidikan harus diperiksa kembali pada saat melamar.",
-      "initials": "CS"
+      "id": "stormgeo",
+      "name": "StormGeo",
+      "type": "Penyedia layanan cuaca komersial",
+      "region": "Internasional",
+      "site": "https://stormgeo.com/careers",
+      "specializations": [
+        "Operasional Meteorologi",
+        "Sains Data Meteorologi",
+        "Prediksi Cuaca dan Iklim"
+      ],
+      "references": [
+        {
+          "specialization": "Operasional Meteorologi",
+          "role": "Meteorologist; Weather Forecaster",
+          "reason": "Lowongan forecasting untuk energi dan maritim",
+          "evidenceType": "Lowongan terdokumentasi",
+          "qualification": "Cek lokasi kerja dan syarat pengalaman",
+          "skills": "NWP; marine weather; briefing cuaca",
+          "source": "https://stormgeo.com/careers/weather-forecaster",
+          "site": "https://stormgeo.com/careers",
+          "note": "Lowongan dan syarat pendidikan harus diperiksa kembali pada saat melamar."
+        },
+        {
+          "specialization": "Sains Data Meteorologi",
+          "role": "Data Engineer; Weather Data Scientist",
+          "reason": "Lowongan Data Engineer yang menerima Atmospheric Science",
+          "evidenceType": "Lowongan terdokumentasi",
+          "qualification": "Ya, Atmospheric Science/Geoscience atau bidang terkait tercantum",
+          "skills": "Python; data pipelines; satelit; cloud",
+          "source": "https://stormgeo.com/careers/data-engineer",
+          "site": "https://stormgeo.com/careers",
+          "note": "Lowongan dan syarat pendidikan harus diperiksa kembali pada saat melamar."
+        },
+        {
+          "specialization": "Prediksi Cuaca dan Iklim",
+          "role": "Forecast Model Analyst; Weather Forecaster",
+          "reason": "Evaluasi dan penyempurnaan forecast, termasuk AI",
+          "evidenceType": "Layanan dan lowongan resmi",
+          "qualification": "Periksa syarat per lowongan",
+          "skills": "NWP; statistik verifikasi; AI",
+          "source": "https://stormgeo.com/weather",
+          "site": "https://stormgeo.com/careers",
+          "note": "Lowongan dan syarat pendidikan harus diperiksa kembali pada saat melamar."
+        }
+      ]
     },
     {
-      "No": "28",
-      "Spesialisasi": "Teknologi dan Instrumentasi Meteorologi",
-      "Perusahaan / Instansi": "PT Petrucs Instrument Indonesia",
-      "Jenis Organisasi": "Perusahaan instrumentasi",
-      "Cakupan": "Indonesia",
-      "Contoh Posisi": "AWS Technician; IoT Monitoring Engineer",
-      "Mengapa Relevan": "Instalasi/pemeliharaan AWS kapal",
-      "Jenis Bukti": "Layanan/proyek resmi",
-      "Status Jurusan / S1": "Belum dikonfirmasi untuk jabatan spesifik lulusan Meteorologi",
-      "Skill Utama": "ESP32; IoT; elektronika; AWS",
-      "URL Bukti": "https://petrucsindo.com/",
-      "URL Karier / Situs": "https://petrucsindo.com/",
-      "Catatan Validasi": "Lowongan dan syarat pendidikan harus diperiksa kembali pada saat melamar.",
-      "initials": "PP"
+      "id": "meteomatics",
+      "name": "Meteomatics",
+      "type": "Penyedia data dan prakiraan cuaca",
+      "region": "Internasional",
+      "site": "https://www.meteomatics.com/en/careers/",
+      "specializations": [
+        "Operasional Meteorologi",
+        "Sains Data Meteorologi",
+        "Prediksi Cuaca dan Iklim"
+      ],
+      "references": [
+        {
+          "specialization": "Operasional Meteorologi",
+          "role": "Weather Services Analyst; Meteorologist",
+          "reason": "Layanan prakiraan resolusi tinggi dan energi",
+          "evidenceType": "Layanan dan portal karier",
+          "qualification": "Belum dikonfirmasi untuk jabatan spesifik lulusan Meteorologi",
+          "skills": "Forecast; weather API; Python",
+          "source": "https://www.meteomatics.com/en/about-us/",
+          "site": "https://www.meteomatics.com/en/careers/",
+          "note": "Lowongan dan syarat pendidikan harus diperiksa kembali pada saat melamar."
+        },
+        {
+          "specialization": "Sains Data Meteorologi",
+          "role": "Weather Data Engineer; Modeling Developer",
+          "reason": "Membangun API dan model cuaca resolusi tinggi",
+          "evidenceType": "Halaman karier dan produk",
+          "qualification": "Belum dikonfirmasi untuk jabatan spesifik lulusan Meteorologi",
+          "skills": "Python; API; geospatial; model cuaca",
+          "source": "https://www.meteomatics.com/en/careers/",
+          "site": "https://www.meteomatics.com/en/careers/",
+          "note": "Lowongan dan syarat pendidikan harus diperiksa kembali pada saat melamar."
+        },
+        {
+          "specialization": "Prediksi Cuaca dan Iklim",
+          "role": "Weather Model Developer; Lead Developer Global Model",
+          "reason": "Posisi pengembangan model global dan data cuaca",
+          "evidenceType": "Lowongan/karier terdokumentasi",
+          "qualification": "Periksa syarat pengalaman",
+          "skills": "NWP; Python; HPC; C++/Fortran",
+          "source": "https://www.meteomatics.com/en/careers/",
+          "site": "https://www.meteomatics.com/en/careers/",
+          "note": "Lowongan dan syarat pendidikan harus diperiksa kembali pada saat melamar."
+        }
+      ]
     },
     {
-      "No": "29",
-      "Spesialisasi": "Teknologi dan Instrumentasi Meteorologi",
-      "Perusahaan / Instansi": "PT Kemenangan",
-      "Jenis Organisasi": "Penyedia instrumen meteorologi",
-      "Cakupan": "Indonesia",
-      "Contoh Posisi": "Instrument Support; Weather Station Technical Specialist",
-      "Mengapa Relevan": "Distribusi/peralatan meteorologi dan klimatologi",
-      "Jenis Bukti": "Produk/layanan resmi",
-      "Status Jurusan / S1": "Belum dikonfirmasi untuk jabatan spesifik lulusan Meteorologi",
-      "Skill Utama": "AWS; sensor; pemeliharaan",
-      "URL Bukti": "https://www.kemenangan.co.id/id/produk/produk-klimatologi/",
-      "URL Karier / Situs": "https://www.kemenangan.co.id/id/produk/produk-klimatologi/",
-      "Catatan Validasi": "Lowongan dan syarat pendidikan harus diperiksa kembali pada saat melamar.",
-      "initials": "PK"
-    },
-    {
-      "No": "30",
-      "Spesialisasi": "Teknologi dan Instrumentasi Meteorologi",
-      "Perusahaan / Instansi": "PT Prihaditama",
-      "Jenis Organisasi": "Konsultan dan survei geosains",
-      "Cakupan": "Indonesia",
-      "Contoh Posisi": "Met-Ocean Field Technician; Survey Specialist",
-      "Mengapa Relevan": "Pengukuran met-ocean dengan AWS",
-      "Jenis Bukti": "Layanan resmi",
-      "Status Jurusan / S1": "Belum dikonfirmasi untuk jabatan spesifik lulusan Meteorologi",
-      "Skill Utama": "AWS; survei lapangan; pengolahan data",
-      "URL Bukti": "https://www.prihaditama.com/public/service/survei-metosean",
-      "URL Karier / Situs": "https://www.prihaditama.com/public/service/survei-metosean",
-      "Catatan Validasi": "Lowongan dan syarat pendidikan harus diperiksa kembali pada saat melamar.",
-      "initials": "PP"
-    },
-    {
-      "No": "31",
-      "Spesialisasi": "Teknologi dan Instrumentasi Meteorologi",
-      "Perusahaan / Instansi": "BMKG",
-      "Jenis Organisasi": "Instansi pemerintah",
-      "Cakupan": "Indonesia",
-      "Contoh Posisi": "Pengamat Meteorologi; Specialist Instrumentasi",
-      "Mengapa Relevan": "Jaringan observasi cuaca dan instrumentasi",
-      "Jenis Bukti": "Tugas kelembagaan",
-      "Status Jurusan / S1": "Mengikuti persyaratan formasi pemerintah",
-      "Skill Utama": "Sensor; standar observasi; kalibrasi",
-      "URL Bukti": "https://www.bmkg.go.id/siaran-pers/komitmen-kurangi-impor-peralatan-operasional-bmkg-kerjasama-dengan-pt-len-industri",
-      "URL Karier / Situs": "https://www.bmkg.go.id/",
-      "Catatan Validasi": "Lowongan dan syarat pendidikan harus diperiksa kembali pada saat melamar.",
-      "initials": "B"
-    },
-    {
-      "No": "32",
-      "Spesialisasi": "Operasional Meteorologi",
-      "Perusahaan / Instansi": "Fugro",
-      "Jenis Organisasi": "Perusahaan geodata / offshore",
-      "Cakupan": "Indonesia / Internasional",
-      "Contoh Posisi": "Marine Weather Forecaster; MetOcean Analyst",
-      "Mengapa Relevan": "Lowongan spesifik prakirawan cuaca maritim",
-      "Jenis Bukti": "Lowongan terdokumentasi",
-      "Status Jurusan / S1": "Kompetensi meteorologi dan oseanografi dicantumkan",
-      "Skill Utama": "Sinoptik; satelit; NWP; marine weather",
-      "URL Bukti": "https://id.linkedin.com/jobs/view/marine-weather-forecaster-at-fugro-3709601149",
-      "URL Karier / Situs": "https://www.fugro.com/",
-      "Catatan Validasi": "Lowongan dan syarat pendidikan harus diperiksa kembali pada saat melamar.",
-      "initials": "F"
-    },
-    {
-      "No": "33",
-      "Spesialisasi": "Operasional Meteorologi",
-      "Perusahaan / Instansi": "StormGeo",
-      "Jenis Organisasi": "Penyedia layanan cuaca komersial",
-      "Cakupan": "Internasional",
-      "Contoh Posisi": "Meteorologist; Weather Forecaster",
-      "Mengapa Relevan": "Lowongan forecasting untuk energi dan maritim",
-      "Jenis Bukti": "Lowongan terdokumentasi",
-      "Status Jurusan / S1": "Cek lokasi kerja dan syarat pengalaman",
-      "Skill Utama": "NWP; marine weather; briefing cuaca",
-      "URL Bukti": "https://stormgeo.com/careers/weather-forecaster",
-      "URL Karier / Situs": "https://stormgeo.com/careers",
-      "Catatan Validasi": "Lowongan dan syarat pendidikan harus diperiksa kembali pada saat melamar.",
-      "initials": "S"
-    },
-    {
-      "No": "34",
-      "Spesialisasi": "Operasional Meteorologi",
-      "Perusahaan / Instansi": "BMKG",
-      "Jenis Organisasi": "Instansi pemerintah",
-      "Cakupan": "Indonesia",
-      "Contoh Posisi": "Forecaster; Prakirawan meteorologi publik/penerbangan/maritim",
-      "Mengapa Relevan": "Tugas operasional peringatan dan prakiraan cuaca",
-      "Jenis Bukti": "Tugas kelembagaan",
-      "Status Jurusan / S1": "Mengikuti persyaratan formasi dan jabatan",
-      "Skill Utama": "METAR; TAF; radar; komunikasi risiko",
-      "URL Bukti": "https://ppsdm.bmkg.go.id/jadwaldiklat/info_diklat/694",
-      "URL Karier / Situs": "https://www.bmkg.go.id/",
-      "Catatan Validasi": "Lowongan dan syarat pendidikan harus diperiksa kembali pada saat melamar.",
-      "initials": "B"
-    },
-    {
-      "No": "35",
-      "Spesialisasi": "Operasional Meteorologi",
-      "Perusahaan / Instansi": "Tomorrow.io",
-      "Jenis Organisasi": "Perusahaan teknologi cuaca",
-      "Cakupan": "Internasional",
-      "Contoh Posisi": "Operational Meteorologist; Meteorological Data Scientist",
-      "Mengapa Relevan": "Lowongan mencantumkan pengalaman operational meteorologist",
-      "Jenis Bukti": "Lowongan terdokumentasi",
-      "Status Jurusan / S1": "Ya, gelar Meteorology/Atmospheric Science pada contoh lowongan",
-      "Skill Utama": "Forecast; satelit; AI tools; komunikasi",
-      "URL Bukti": "https://job-boards.greenhouse.io/tomorrow/jobs/8035679003",
-      "URL Karier / Situs": "https://job-boards.greenhouse.io/tomorrow/jobs/8035679003",
-      "Catatan Validasi": "Lowongan dan syarat pendidikan harus diperiksa kembali pada saat melamar.",
-      "initials": "T"
-    },
-    {
-      "No": "36",
-      "Spesialisasi": "Operasional Meteorologi",
-      "Perusahaan / Instansi": "Meteomatics",
-      "Jenis Organisasi": "Penyedia data dan prakiraan cuaca",
-      "Cakupan": "Internasional",
-      "Contoh Posisi": "Weather Services Analyst; Meteorologist",
-      "Mengapa Relevan": "Layanan prakiraan resolusi tinggi dan energi",
-      "Jenis Bukti": "Layanan dan portal karier",
-      "Status Jurusan / S1": "Belum dikonfirmasi untuk jabatan spesifik lulusan Meteorologi",
-      "Skill Utama": "Forecast; weather API; Python",
-      "URL Bukti": "https://www.meteomatics.com/en/about-us/",
-      "URL Karier / Situs": "https://www.meteomatics.com/en/careers/",
-      "Catatan Validasi": "Lowongan dan syarat pendidikan harus diperiksa kembali pada saat melamar.",
-      "initials": "M"
-    },
-    {
-      "No": "37",
-      "Spesialisasi": "Operasional Meteorologi",
-      "Perusahaan / Instansi": "PT Prihaditama",
-      "Jenis Organisasi": "Konsultan met-ocean / survei",
-      "Cakupan": "Indonesia",
-      "Contoh Posisi": "Met-Ocean Analyst; Weather Survey Specialist",
-      "Mengapa Relevan": "Survei angin dan pengamatan met-ocean",
-      "Jenis Bukti": "Layanan resmi",
-      "Status Jurusan / S1": "Belum membuktikan adanya posisi prakirawan operasional",
-      "Skill Utama": "AWS; ocean meteorology; survei lapangan",
-      "URL Bukti": "https://www.prihaditama.com/public/service/survei-metosean",
-      "URL Karier / Situs": "https://www.prihaditama.com/public/service/survei-metosean",
-      "Catatan Validasi": "Lowongan dan syarat pendidikan harus diperiksa kembali pada saat melamar.",
-      "initials": "PP"
-    },
-    {
-      "No": "38",
-      "Spesialisasi": "Sains Data Meteorologi",
-      "Perusahaan / Instansi": "Tomorrow.io",
-      "Jenis Organisasi": "Perusahaan teknologi cuaca / AI",
-      "Cakupan": "Internasional",
-      "Contoh Posisi": "Meteorological Data Scientist",
-      "Mengapa Relevan": "Lowongan sains data yang mensyaratkan Meteorology/Atmospheric Science",
-      "Jenis Bukti": "Lowongan terdokumentasi",
-      "Status Jurusan / S1": "Ya, gelar Meteorology/Atmospheric Science disebut; membutuhkan pengalaman",
-      "Skill Utama": "Python; ML; weather data; visualisasi",
-      "URL Bukti": "https://job-boards.greenhouse.io/tomorrow/jobs/8035679003",
-      "URL Karier / Situs": "https://job-boards.greenhouse.io/tomorrow/jobs/8035679003",
-      "Catatan Validasi": "Lowongan dan syarat pendidikan harus diperiksa kembali pada saat melamar.",
-      "initials": "T"
-    },
-    {
-      "No": "39",
-      "Spesialisasi": "Sains Data Meteorologi",
-      "Perusahaan / Instansi": "StormGeo",
-      "Jenis Organisasi": "Penyedia data dan layanan cuaca",
-      "Cakupan": "Internasional",
-      "Contoh Posisi": "Data Engineer; Weather Data Scientist",
-      "Mengapa Relevan": "Lowongan Data Engineer yang menerima Atmospheric Science",
-      "Jenis Bukti": "Lowongan terdokumentasi",
-      "Status Jurusan / S1": "Ya, Atmospheric Science/Geoscience atau bidang terkait tercantum",
-      "Skill Utama": "Python; data pipelines; satelit; cloud",
-      "URL Bukti": "https://stormgeo.com/careers/data-engineer",
-      "URL Karier / Situs": "https://stormgeo.com/careers",
-      "Catatan Validasi": "Lowongan dan syarat pendidikan harus diperiksa kembali pada saat melamar.",
-      "initials": "S"
-    },
-    {
-      "No": "40",
-      "Spesialisasi": "Sains Data Meteorologi",
-      "Perusahaan / Instansi": "Meteomatics",
-      "Jenis Organisasi": "Perusahaan weather-tech",
-      "Cakupan": "Internasional",
-      "Contoh Posisi": "Weather Data Engineer; Modeling Developer",
-      "Mengapa Relevan": "Membangun API dan model cuaca resolusi tinggi",
-      "Jenis Bukti": "Halaman karier dan produk",
-      "Status Jurusan / S1": "Belum dikonfirmasi untuk jabatan spesifik lulusan Meteorologi",
-      "Skill Utama": "Python; API; geospatial; model cuaca",
-      "URL Bukti": "https://www.meteomatics.com/en/careers/",
-      "URL Karier / Situs": "https://www.meteomatics.com/en/careers/",
-      "Catatan Validasi": "Lowongan dan syarat pendidikan harus diperiksa kembali pada saat melamar.",
-      "initials": "M"
-    },
-    {
-      "No": "41",
-      "Spesialisasi": "Sains Data Meteorologi",
-      "Perusahaan / Instansi": "WRI Indonesia",
-      "Jenis Organisasi": "Lembaga nirlaba / data geospasial",
-      "Cakupan": "Indonesia",
-      "Contoh Posisi": "Geospatial Data Analyst",
-      "Mengapa Relevan": "Posisi pengolahan data geospasial untuk lingkungan",
-      "Jenis Bukti": "Lowongan terdokumentasi",
-      "Status Jurusan / S1": "Syarat jurusan terkait GIS/CS/Geodesi; Meteorologi tidak eksplisit",
-      "Skill Utama": "Python; GIS; GEE; GDAL",
-      "URL Bukti": "https://wri.wd501.myworkdayjobs.com/wri/job/Geospatial-Data-Analyst_2026-JR100472",
-      "URL Karier / Situs": "https://wri.wd501.myworkdayjobs.com/wri/job/Geospatial-Data-Analyst_2026-JR100472",
-      "Catatan Validasi": "Lowongan dan syarat pendidikan harus diperiksa kembali pada saat melamar.",
-      "initials": "WI"
-    },
-    {
-      "No": "42",
-      "Spesialisasi": "Sains Data Meteorologi",
-      "Perusahaan / Instansi": "PT Geo Enviro Omega",
-      "Jenis Organisasi": "Konsultan data risiko bencana",
-      "Cakupan": "Indonesia",
-      "Contoh Posisi": "GIS/Data Analyst; Hazard Modeler",
-      "Mengapa Relevan": "Mengintegrasikan sains, data dan ML untuk risiko bencana",
-      "Jenis Bukti": "Layanan/proyek resmi",
-      "Status Jurusan / S1": "Belum dikonfirmasi untuk jabatan spesifik lulusan Meteorologi",
-      "Skill Utama": "Python; GIS; ML; data spasial",
-      "URL Bukti": "https://www.geo.co.id/",
-      "URL Karier / Situs": "https://www.geo.co.id/",
-      "Catatan Validasi": "Lowongan dan syarat pendidikan harus diperiksa kembali pada saat melamar.",
-      "initials": "PG"
-    },
-    {
-      "No": "43",
-      "Spesialisasi": "Sains Data Meteorologi",
-      "Perusahaan / Instansi": "Rainmaker Technology Corporation",
-      "Jenis Organisasi": "Perusahaan teknologi atmosfer",
-      "Cakupan": "Internasional",
-      "Contoh Posisi": "Quantitative Meteorologist",
-      "Mengapa Relevan": "Peran kombinasi pemodelan atmosfer dan analisis statistik",
-      "Jenis Bukti": "Lowongan terdokumentasi",
-      "Status Jurusan / S1": "Periksa syarat pengalaman",
-      "Skill Utama": "Statistika; NWP; Python; model kuantitatif",
-      "URL Bukti": "https://jobs.ashbyhq.com/rainmaker/ed944a1e-db16-435c-bcc3-5a6c53fc099c",
-      "URL Karier / Situs": "https://jobs.ashbyhq.com/rainmaker/ed944a1e-db16-435c-bcc3-5a6c53fc099c",
-      "Catatan Validasi": "Lowongan dan syarat pendidikan harus diperiksa kembali pada saat melamar.",
-      "initials": "RT"
-    },
-    {
-      "No": "44",
-      "Spesialisasi": "Prediksi Cuaca dan Iklim",
-      "Perusahaan / Instansi": "Pravah",
-      "Jenis Organisasi": "Perusahaan weather-tech",
-      "Cakupan": "Internasional",
-      "Contoh Posisi": "Weather Scientist (Numerical Weather Prediction)",
-      "Mengapa Relevan": "Lowongan eksplisit WRF/MPAS, asimilasi data, verifikasi",
-      "Jenis Bukti": "Lowongan terdokumentasi",
-      "Status Jurusan / S1": "Perlu pengalaman khusus model NWP; lihat lowongan",
-      "Skill Utama": "WRF; MPAS; data assimilation; HPC",
-      "URL Bukti": "https://jobs.ashbyhq.com/pravah/3d580ee8-0b2b-411a-bd39-ca2e8921e5bb",
-      "URL Karier / Situs": "https://jobs.ashbyhq.com/pravah/3d580ee8-0b2b-411a-bd39-ca2e8921e5bb",
-      "Catatan Validasi": "Lowongan dan syarat pendidikan harus diperiksa kembali pada saat melamar.",
-      "initials": "P"
-    },
-    {
-      "No": "45",
-      "Spesialisasi": "Prediksi Cuaca dan Iklim",
-      "Perusahaan / Instansi": "Meteomatics",
-      "Jenis Organisasi": "Perusahaan pemodelan cuaca",
-      "Cakupan": "Internasional",
-      "Contoh Posisi": "Weather Model Developer; Lead Developer Global Model",
-      "Mengapa Relevan": "Posisi pengembangan model global dan data cuaca",
-      "Jenis Bukti": "Lowongan/karier terdokumentasi",
-      "Status Jurusan / S1": "Periksa syarat pengalaman",
-      "Skill Utama": "NWP; Python; HPC; C++/Fortran",
-      "URL Bukti": "https://www.meteomatics.com/en/careers/",
-      "URL Karier / Situs": "https://www.meteomatics.com/en/careers/",
-      "Catatan Validasi": "Lowongan dan syarat pendidikan harus diperiksa kembali pada saat melamar.",
-      "initials": "M"
-    },
-    {
-      "No": "46",
-      "Spesialisasi": "Prediksi Cuaca dan Iklim",
-      "Perusahaan / Instansi": "StormGeo",
-      "Jenis Organisasi": "Perusahaan forecasting dan analytics",
-      "Cakupan": "Internasional",
-      "Contoh Posisi": "Forecast Model Analyst; Weather Forecaster",
-      "Mengapa Relevan": "Evaluasi dan penyempurnaan forecast, termasuk AI",
-      "Jenis Bukti": "Layanan dan lowongan resmi",
-      "Status Jurusan / S1": "Periksa syarat per lowongan",
-      "Skill Utama": "NWP; statistik verifikasi; AI",
-      "URL Bukti": "https://stormgeo.com/weather",
-      "URL Karier / Situs": "https://stormgeo.com/careers",
-      "Catatan Validasi": "Lowongan dan syarat pendidikan harus diperiksa kembali pada saat melamar.",
-      "initials": "S"
-    },
-    {
-      "No": "47",
-      "Spesialisasi": "Prediksi Cuaca dan Iklim",
-      "Perusahaan / Instansi": "Rainmaker Technology Corporation",
-      "Jenis Organisasi": "Perusahaan teknologi atmosfer",
-      "Cakupan": "Internasional",
-      "Contoh Posisi": "Quantitative Meteorologist",
-      "Mengapa Relevan": "Lowongan mencantumkan WRF, HRRR, GFS/ECMWF dan asimilasi",
-      "Jenis Bukti": "Lowongan terdokumentasi",
-      "Status Jurusan / S1": "Periksa syarat pengalaman",
-      "Skill Utama": "NWP; ensemble; WRF; statistika",
-      "URL Bukti": "https://jobs.ashbyhq.com/rainmaker/ed944a1e-db16-435c-bcc3-5a6c53fc099c",
-      "URL Karier / Situs": "https://jobs.ashbyhq.com/rainmaker/ed944a1e-db16-435c-bcc3-5a6c53fc099c",
-      "Catatan Validasi": "Lowongan dan syarat pendidikan harus diperiksa kembali pada saat melamar.",
-      "initials": "RT"
-    },
-    {
-      "No": "48",
-      "Spesialisasi": "Prediksi Cuaca dan Iklim",
-      "Perusahaan / Instansi": "BRIN — Pusat Riset Iklim dan Atmosfer",
-      "Jenis Organisasi": "Instansi riset",
-      "Cakupan": "Indonesia",
-      "Contoh Posisi": "Atmospheric Modeler; Climate Scientist",
-      "Mengapa Relevan": "Kolaborasi pengembangan platform pemodelan iklim",
-      "Jenis Bukti": "Riset/proyek resmi",
-      "Status Jurusan / S1": "Persyaratan rekrutmen riset terpisah",
-      "Skill Utama": "WRF; pemodelan iklim; Python; HPC",
-      "URL Bukti": "https://www.brin.go.id/news/130700/brin-dan-iap-cas-kembangkan-platform-pemodelan-iklim-untuk-baca-risiko-cuaca-ekstrem-dan-pangan-indonesia",
-      "URL Karier / Situs": "https://www.brin.go.id/news/130700/brin-dan-iap-cas-kembangkan-platform-pemodelan-iklim-untuk-baca-risiko-cuaca-ekstrem-dan-pangan-indonesia",
-      "Catatan Validasi": "Lowongan dan syarat pendidikan harus diperiksa kembali pada saat melamar.",
-      "initials": "BP"
-    },
-    {
-      "No": "49",
-      "Spesialisasi": "Prediksi Cuaca dan Iklim",
-      "Perusahaan / Instansi": "BMKG",
-      "Jenis Organisasi": "Instansi pemerintah",
-      "Cakupan": "Indonesia",
-      "Contoh Posisi": "NWP Analyst; Forecast Model Specialist",
-      "Mengapa Relevan": "Penggunaan dan pengembangan sistem prediksi cuaca",
-      "Jenis Bukti": "Kegiatan resmi",
-      "Status Jurusan / S1": "Sesuai formasi pemerintah",
-      "Skill Utama": "NWP; pemodelan; verifikasi",
-      "URL Bukti": "https://ppsdm.bmkg.go.id/beritaadmin/detail/20",
-      "URL Karier / Situs": "https://www.bmkg.go.id/",
-      "Catatan Validasi": "Lowongan dan syarat pendidikan harus diperiksa kembali pada saat melamar.",
-      "initials": "B"
-    },
-    {
-      "No": "50",
-      "Spesialisasi": "Prediksi Cuaca dan Iklim",
-      "Perusahaan / Instansi": "Tomorrow.io",
-      "Jenis Organisasi": "Perusahaan teknologi prakiraan cuaca",
-      "Cakupan": "Internasional",
-      "Contoh Posisi": "Weather Model Scientist; Meteorological Data Scientist",
-      "Mengapa Relevan": "Penggunaan model cuaca AI dan data satelit",
-      "Jenis Bukti": "Lowongan terdokumentasi",
-      "Status Jurusan / S1": "Gelar Meteorology/Atmospheric Science tercantum pada contoh lowongan",
-      "Skill Utama": "AI forecast; satelit; Python",
-      "URL Bukti": "https://job-boards.greenhouse.io/tomorrow/jobs/8035679003",
-      "URL Karier / Situs": "https://job-boards.greenhouse.io/tomorrow/jobs/8035679003",
-      "Catatan Validasi": "Lowongan dan syarat pendidikan harus diperiksa kembali pada saat melamar.",
-      "initials": "T"
+      "id": "pravah",
+      "name": "Pravah",
+      "type": "Perusahaan weather-tech",
+      "region": "Internasional",
+      "site": "https://jobs.ashbyhq.com/pravah/3d580ee8-0b2b-411a-bd39-ca2e8921e5bb",
+      "specializations": [
+        "Prediksi Cuaca dan Iklim"
+      ],
+      "references": [
+        {
+          "specialization": "Prediksi Cuaca dan Iklim",
+          "role": "Weather Scientist (Numerical Weather Prediction)",
+          "reason": "Lowongan eksplisit WRF/MPAS, asimilasi data, verifikasi",
+          "evidenceType": "Lowongan terdokumentasi",
+          "qualification": "Perlu pengalaman khusus model NWP; lihat lowongan",
+          "skills": "WRF; MPAS; data assimilation; HPC",
+          "source": "https://jobs.ashbyhq.com/pravah/3d580ee8-0b2b-411a-bd39-ca2e8921e5bb",
+          "site": "https://jobs.ashbyhq.com/pravah/3d580ee8-0b2b-411a-bd39-ca2e8921e5bb",
+          "note": "Lowongan dan syarat pendidikan harus diperiksa kembali pada saat melamar."
+        }
+      ]
     }
   ],
   "stats": {
+    "totalSpecs": 8,
     "totalAlumni": 33,
-    "totalCompanies": 50,
-    "totalSpecs": 8
+    "totalBSc": 29,
+    "totalCompanies": 29,
+    "totalCompanyMatches": 50,
+    "totalCourseEntries": 75,
+    "totalUniqueCourses": 31
+  },
+  "projects": [
+    {
+      "id": "analisis-hujan-ekstrem-bandung",
+      "track": "sains-atmosfer",
+      "title": "Analisis Hujan Ekstrem Bandung",
+      "level": "Pemula",
+      "summary": "Analisis anomali atmosfer sebelum kejadian hujan ekstrem.",
+      "tools": "Python, ERA5, Matplotlib",
+      "output": "Notebook dan laporan dinamika atmosfer",
+      "steps": [
+        "Tentukan kejadian berdasarkan observasi",
+        "Unduh data ERA5",
+        "Bandingkan dengan klimatologi"
+      ]
+    },
+    {
+      "id": "enso-dan-variasi-hujan-jawa",
+      "track": "sains-atmosfer",
+      "title": "ENSO dan Variasi Hujan Jawa",
+      "level": "Menengah",
+      "summary": "Uji hubungan ENSO dan variabilitas curah hujan.",
+      "tools": "Python, statistik, NOAA",
+      "output": "Grafik korelasi dan interpretasi",
+      "steps": [
+        "Susun deret waktu",
+        "Uji lag korelasi",
+        "Evaluasi signifikansi dan keterbatasan"
+      ]
+    },
+    {
+      "id": "peta-potensi-energi-surya",
+      "track": "energi-terbarukan",
+      "title": "Peta Potensi Energi Surya",
+      "level": "Pemula",
+      "summary": "Analisis radiasi matahari Jawa Barat.",
+      "tools": "QGIS, NASA POWER",
+      "output": "Peta dan laporan potensi energi",
+      "steps": [
+        "Unduh radiasi surya",
+        "Peta distribusi spasial",
+        "Interpretasi variasi musiman"
+      ]
+    },
+    {
+      "id": "wind-resource-screening",
+      "track": "energi-terbarukan",
+      "title": "Wind Resource Screening",
+      "level": "Menengah",
+      "summary": "Pelajari distribusi angin dan kelayakan awal lokasi.",
+      "tools": "Python, ERA5, GIS",
+      "output": "Profil angin dan grafik musiman",
+      "steps": [
+        "Pilih lokasi",
+        "Analisis distribusi angin",
+        "Jelaskan batas data reanalisis"
+      ]
+    },
+    {
+      "id": "atlas-indikator-risiko-banjir",
+      "track": "kebencanaan-hidrometeorologi-dan-lingkungan",
+      "title": "Atlas Indikator Risiko Banjir",
+      "level": "Menengah",
+      "summary": "Kaji hujan ekstrem, elevasi, paparan, dan tata guna lahan.",
+      "tools": "QGIS, DEM, InaRISK",
+      "output": "Peta indikator risiko dan metodologi",
+      "steps": [
+        "Tentukan indikator",
+        "Bangun layer spasial",
+        "Validasi batasan dan paparan"
+      ]
+    },
+    {
+      "id": "hujan-ekstrem-jawa-barat",
+      "track": "kebencanaan-hidrometeorologi-dan-lingkungan",
+      "title": "Hujan Ekstrem Jawa Barat",
+      "level": "Pemula",
+      "summary": "Visualisasikan variasi hujan ekstrem regional.",
+      "tools": "Python, ERA5, BMKG",
+      "output": "Dashboard hujan ekstrem",
+      "steps": [
+        "Cari data andal",
+        "Hitung indikator ekstrem",
+        "Evaluasi tren dan ketidakpastian"
+      ]
+    },
+    {
+      "id": "bandung-climate-risk-explorer",
+      "track": "perubahan-iklim",
+      "title": "Bandung Climate Risk Explorer",
+      "level": "Menengah",
+      "summary": "Bandingkan baseline historis dan skenario iklim.",
+      "tools": "Python, xarray, CMIP6",
+      "output": "Dashboard skenario dengan ketidakpastian",
+      "steps": [
+        "Tentukan baseline",
+        "Hitung proyeksi perubahan",
+        "Tunjukkan rentang antarmodel"
+      ]
+    },
+    {
+      "id": "analisis-hari-panas",
+      "track": "perubahan-iklim",
+      "title": "Analisis Hari Panas",
+      "level": "Pemula",
+      "summary": "Analisis kejadian suhu tinggi antar-tahun.",
+      "tools": "Python, Pandas, ERA5",
+      "output": "Grafik tren dan laporan adaptasi",
+      "steps": [
+        "Tetapkan definisi indikator",
+        "Periksa kualitas deret",
+        "Analisis perubahan frekuensi"
+      ]
+    },
+    {
+      "id": "mini-automatic-weather-station",
+      "track": "teknologi-dan-instrumentasi-meteorologi",
+      "title": "Mini Automatic Weather Station",
+      "level": "Menengah",
+      "summary": "Bangun pengamatan cuaca dengan uji kualitas.",
+      "tools": "ESP32, sensor, Python",
+      "output": "Prototipe AWS dan catatan kalibrasi",
+      "steps": [
+        "Rakit sensor",
+        "Simpan timestamp",
+        "Bandingkan dengan sensor referensi"
+      ]
+    },
+    {
+      "id": "dashboard-qc-sensor",
+      "track": "teknologi-dan-instrumentasi-meteorologi",
+      "title": "Dashboard QC Sensor",
+      "level": "Pemula",
+      "summary": "Deteksi data observasi hilang atau tidak wajar.",
+      "tools": "Python, CSV, Streamlit",
+      "output": "Dashboard pengendalian kualitas",
+      "steps": [
+        "Uji kelengkapan",
+        "Tandai pencilan",
+        "Pisahkan data asli dan hasil QC"
+      ]
+    },
+    {
+      "id": "latihan-weather-briefing",
+      "track": "operasional-meteorologi",
+      "title": "Latihan Weather Briefing",
+      "level": "Menengah",
+      "summary": "Ringkas kondisi penerbangan dari data resmi.",
+      "tools": "METAR, TAF, Python",
+      "output": "Briefing edukatif, bukan resmi",
+      "steps": [
+        "Baca observasi",
+        "Bandingkan prakiraan",
+        "Komunikasikan ketidakpastian"
+      ]
+    },
+    {
+      "id": "catatan-risiko-cuaca-laut",
+      "track": "operasional-meteorologi",
+      "title": "Catatan Risiko Cuaca Laut",
+      "level": "Pemula",
+      "summary": "Susun briefing maritim untuk studi kasus.",
+      "tools": "BMKG, peta, Python",
+      "output": "Laporan risiko maritim edukatif",
+      "steps": [
+        "Pilih rute studi",
+        "Analisis data cuaca",
+        "Bahas risiko dan sumber"
+      ]
+    },
+    {
+      "id": "machine-learning-untuk-hujan",
+      "track": "sains-data-meteorologi",
+      "title": "Machine Learning untuk Hujan",
+      "level": "Menengah",
+      "summary": "Bandingkan baseline dan model ML prediksi hujan.",
+      "tools": "Python, scikit-learn",
+      "output": "Repositori, model, dan evaluasi waktu",
+      "steps": [
+        "Buat baseline",
+        "Pisahkan data berdasarkan waktu",
+        "Hitung galat terhadap observasi"
+      ]
+    },
+    {
+      "id": "clustering-pola-cuaca",
+      "track": "sains-data-meteorologi",
+      "title": "Clustering Pola Cuaca",
+      "level": "Pemula",
+      "summary": "Kelompokkan kondisi atmosfer berdasarkan fitur.",
+      "tools": "Python, KMeans, ERA5",
+      "output": "Notebook dengan interpretasi fisik",
+      "steps": [
+        "Pilih variabel",
+        "Normalisasi dan kelompokkan",
+        "Analisis makna meteorologis"
+      ]
+    },
+    {
+      "id": "verifikasi-model-cuaca",
+      "track": "prediksi-cuaca-dan-iklim",
+      "title": "Verifikasi Model Cuaca",
+      "level": "Pemula",
+      "summary": "Evaluasi keluaran model terhadap observasi.",
+      "tools": "Python, statistik, prakiraan",
+      "output": "Grafik bias dan verifikasi",
+      "steps": [
+        "Pasangkan data",
+        "Hitung metrik",
+        "Bandingkan baseline"
+      ]
+    },
+    {
+      "id": "studi-kasus-wrf",
+      "track": "prediksi-cuaca-dan-iklim",
+      "title": "Studi Kasus WRF",
+      "level": "Lanjutan",
+      "summary": "Eksperimen simulasi satu kejadian hujan ekstrem.",
+      "tools": "Linux, WRF, Python",
+      "output": "Konfigurasi model dan verifikasi",
+      "steps": [
+        "Tentukan domain",
+        "Jalankan eksperimen",
+        "Verifikasi ke observasi"
+      ]
+    }
+  ],
+  "metadata": {
+    "updated": "2026-11-18",
+    "officialCurriculum": "https://meteo.itb.ac.id/?page_id=2621&lang=id",
+    "verifiedAt": null
   }
 };

@@ -1,16 +1,19 @@
-# METEOPATH V5 — No Photos Edition
+# Meteopath v6 — Career Explorer
 
-METEOPATH V5 with all illustrative photos removed. The editorial design, accessibility, scrolling animations, eight specialization views, full Curriculum 2024 lists, alumni and company directories remain. Hero, specialization cards, overview details and industry spotlight now use abstract CSS typography and diagram-like geometry, **not photos or figurative illustrations**.
+Website independen mahasiswa untuk mengeksplorasi karier Meteorologi ITB. https://zeezieprog.github.io/Meteopath/
 
-## Run in VS Code
-1. Unzip and open the `meteopath-v5-no-photos` folder in VS Code.
-2. Open `index.html` and choose **Go Live**.
-3. To publish to GitHub Pages, upload `index.html`, `style.css`, `script.js`, `data.js`, and `curriculum.js` to the repository root.
+## Fitur
+- 8 spesialisasi Kurikulum 2024; 75 kemunculan dari 31 mata kuliah unik.
+- Perbandingan 2–3 spesialisasi, simulator pemilihan 12 SKS, jalur karier, dan 16 proyek portofolio.
+- 33 profil karier dengan keterangan pendidikan; bukan semua terverifikasi alumni S1 Meteorologi.
+- 29 organisasi unik (50 hubungan lintas spesialisasi), dengan sumber dan jenis bukti.
+- Career Planner: rencana tersimpan di localStorage, ekspor teks, tanpa akun.
+- Tema gelap, animasi atmosfer, aksesibilitas keyboard, dan metodologi data.
 
-## Content and limitations
-- Eight specialization groupings and 75 listed course entries (including overlap between packages), code, title, SKS and compulsory-choice marks. Source: https://meteo.itb.ac.id/?lang=id&page_id=2621 . The entries are the course menu, not courses all required to take.
-- 33 alumni references from the supplied dataset with LinkedIn links and professional-relevance-based groupings. **These are not confirmed 2024 curriculum specializations completed by the alumni.**
-- 50 target-company/organization references from the supplied dataset; these are potential sector matches, not guaranteed open vacancies or universal eligibility for Meteorology degrees.
-- Fonts Plus Jakarta Sans and DM Sans are loaded through Google Fonts, falling back to system fonts offline.
-- Animations respect reduced-motion settings. No `assets/` folder or image file is needed.
-- This is an independent student exploration website, not an official ITB website.
+## Berkas
+index.html (halaman), style.css (tema + animasi), script.js (katalog), v6.js (fitur interaktif), data.js (data ternormalisasi), curriculum.js (mata kuliah), atmospheric-motion-v1.js (kontrol animasi), favicon.svg.
+
+## Catatan
+Sumber kurikulum: https://meteo.itb.ac.id/?page_id=2621&lang=id . Data perusahaan adalah kecocokan sektor, bukan lowongan aktif. Data alumni dikelompokkan berdasarkan pengalaman karier, bukan bukti paket spesialisasi akademik. Pemilihan IRS harus dikonfirmasi dengan dosen wali. Revisi data 18 November 2026 tidak berarti semua profil dan tautan diverifikasi ulang. Koreksi: GitHub Issues.
+
+Bukan website resmi ITB.
