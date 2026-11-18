@@ -66,6 +66,7 @@ function drawCompare(){
   }).join("");
   const stateText='<div class="compare-selection-state" role="status"><span>'+comparison.length+' dari 3 spesialisasi dipilih</span>'+(comparison.length?'<button type="button" class="compare-reset" id="compareReset">Hapus pilihan</button>':"")+'</div>';
   const result=$("#compareResult");
+  result.classList.toggle("has-comparison",selected.length>=2);
   if(selected.length<2){
     result.innerHTML=stateText+'<div class="compare-empty"><strong>'+(selected.length===0?'Mulai dengan memilih dua spesialisasi':'Pilih satu spesialisasi lagi')+'</strong><p>Centang dua atau tiga bidang di atas. Tabel akan muncul setelah minimal dua spesialisasi dipilih.</p></div>';
     return;
