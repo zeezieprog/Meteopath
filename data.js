@@ -5,7 +5,6 @@ window.METEOPATH_DATA = {
       "slug": "sains-atmosfer",
       "category": "Sains & Iklim",
       "accent": "#6db6ff",
-      "icon": "☁️",
       "tagline": "Memahami mengapa fenomena atmosfer terjadi.",
       "summary": "Cocok untuk mahasiswa yang ingin meneliti dinamika atmosfer, variabilitas cuaca, dan proses fisik pembentukan hujan secara mendalam.",
       "priorityCourses": [
@@ -44,7 +43,6 @@ window.METEOPATH_DATA = {
       "slug": "energi-terbarukan",
       "category": "Terapan & Industri",
       "accent": "#ffd166",
-      "icon": "☀️",
       "tagline": "Meteorologi untuk transisi energi masa depan.",
       "summary": "Membantu menentukan lokasi, potensi, dan risiko cuaca untuk proyek energi surya, angin, dan sistem energi rendah karbon.",
       "priorityCourses": [
@@ -83,7 +81,6 @@ window.METEOPATH_DATA = {
       "slug": "kebencanaan-hidrometeorologi-dan-lingkungan",
       "category": "Terapan & Industri",
       "accent": "#59d6b6",
-      "icon": "🌧️",
       "tagline": "Mengubah data cuaca menjadi pengurangan risiko.",
       "summary": "Berfokus pada banjir, hujan ekstrem, kualitas lingkungan, dan strategi mitigasi berbasis data spasial serta analisis risiko.",
       "priorityCourses": [
@@ -122,7 +119,6 @@ window.METEOPATH_DATA = {
       "slug": "perubahan-iklim",
       "category": "Sains & Iklim",
       "accent": "#ff8f70",
-      "icon": "🌍",
       "tagline": "Membaca risiko masa depan dalam skala dekade.",
       "summary": "Mempelajari tren iklim, skenario masa depan, risiko fisik, serta strategi adaptasi dan kebijakan iklim.",
       "priorityCourses": [
@@ -162,7 +158,6 @@ window.METEOPATH_DATA = {
       "slug": "teknologi-dan-instrumentasi-meteorologi",
       "category": "Teknologi & Data",
       "accent": "#a78bfa",
-      "icon": "🛰️",
       "tagline": "Membangun sistem observasi yang akurat dan andal.",
       "summary": "Berfokus pada sensor, AWS, telemetri, kualitas data, dan platform monitoring cuaca berbasis instrumentasi.",
       "priorityCourses": [
@@ -203,7 +198,6 @@ window.METEOPATH_DATA = {
       "slug": "operasional-meteorologi",
       "category": "Terapan & Industri",
       "accent": "#40c4ff",
-      "icon": "✈️",
       "tagline": "Cuaca untuk keputusan operasional sehari-hari.",
       "summary": "Menggunakan observasi dan model prakiraan untuk menyusun informasi cuaca yang dibutuhkan dalam penerbangan, pelayaran, offshore, dan operasi lain.",
       "priorityCourses": [
@@ -241,7 +235,6 @@ window.METEOPATH_DATA = {
       "slug": "sains-data-meteorologi",
       "category": "Teknologi & Data",
       "accent": "#63f5d6",
-      "icon": "📊",
       "tagline": "Data atmosfer menjadi insight dan sistem prediksi.",
       "summary": "Mengolah data cuaca skala besar menjadi prediksi, model AI, dan sistem pengambilan keputusan berbasis data.",
       "priorityCourses": [
@@ -283,7 +276,6 @@ window.METEOPATH_DATA = {
       "slug": "prediksi-cuaca-dan-iklim",
       "category": "Teknologi & Data",
       "accent": "#8ab4ff",
-      "icon": "🌀",
       "tagline": "Mengembangkan dan mengevaluasi sistem prediksi.",
       "summary": "Mendalami pemodelan numerik, komputasi, evaluasi prakiraan, dan pengembangan sistem prediksi cuaca maupun musim.",
       "priorityCourses": [
@@ -325,7 +317,7 @@ window.METEOPATH_DATA = {
       "No": "1",
       "Nama Alumni": "Khanifah Afifi",
       "Kelompok Utama": "Sains Atmosfer",
-      "Kelompok Pendukung": "—",
+      "Kelompok Pendukung": "",
       "Peran / Jejak Profesional": "Lecturer; riset dinamika tropopause dan gelombang atmosfer",
       "Institusi / Sektor": "Perguruan tinggi; ITB/BRIN (pengalaman)",
       "Status Karier": "Karier akademik",
@@ -775,7 +767,7 @@ window.METEOPATH_DATA = {
       "No": "26",
       "Nama Alumni": "Alif Abdul Aziz",
       "Kelompok Utama": "Sains Data Meteorologi",
-      "Kelompok Pendukung": "—",
+      "Kelompok Pendukung": "",
       "Peran / Jejak Profesional": "Senior Data Engineer",
       "Institusi / Sektor": "DANA Indonesia",
       "Status Karier": "Profesional teknologi",
@@ -793,7 +785,7 @@ window.METEOPATH_DATA = {
       "No": "27",
       "Nama Alumni": "Kristy Natasha Y.",
       "Kelompok Utama": "Sains Data Meteorologi",
-      "Kelompok Pendukung": "—",
+      "Kelompok Pendukung": "",
       "Peran / Jejak Profesional": "AI/ML Engineer; fintech analytics dan GenAI",
       "Institusi / Sektor": "Industri teknologi keuangan",
       "Status Karier": "Profesional AI",
