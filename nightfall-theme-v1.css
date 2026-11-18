@@ -1,0 +1,167 @@
+/* METEOPATH — NIGHTFALL / readability-first UI refresh
+   A reversible presentation layer. Data, routes and JavaScript stay intact.
+   Designed for 2026-11-18. */
+:root {
+  --navy: #0a1828;
+  --navy-2: #102237;
+  --navy-3: #192f45;
+  --cream: #132334;
+  --cream-2: #1b3044;
+  --paper: #1c3146;
+  --ink: #f0f6fc;
+  --ink-muted: #b8c9db;
+  --muted: #bdcfe0;
+  --coral: #ffa28b;
+  --coral-dark: #fa9279;
+  --line-light: rgba(178, 213, 242, .15);
+  --shadow: 0 25px 65px rgba(0, 8, 20, .34);
+}
+body { background:#0a1625; color:#edf4fc; }
+::selection { background:#f09b7c; color:#0b1827; }
+/* A calmer, dimmed editorial rhythm instead of white-on-white sections */
+.section-light { background:#152637; color:#f0f6fc; }
+.overview-bar { background:#101e2e; border-block:1px solid #2b4054; }
+.intro-section {
+  position:relative;
+  background:
+    radial-gradient(circle at 89% 8%,rgba(92,140,167,.12),transparent 34%),
+    radial-gradient(circle at 9% 100%,rgba(232,132,105,.055),transparent 32%),
+    #142435;
+}
+.alumni-section {
+  background:
+    radial-gradient(circle at 7% 13%,rgba(88,157,184,.10),transparent 29%),
+    #1a2b3c;
+}
+.roadmap-section {
+  background:
+    linear-gradient(135deg,rgba(99,142,164,.075),transparent 42%),
+    #142535;
+}
+.company-section{background:#0b192a;}
+.detail-section{background:radial-gradient(circle at 6% 16%,rgba(40,84,111,.2),transparent 38%),#0a192a;}
+.closing-section{background:#0a192a;}
+/* Typography: bright text, subdued descriptions, a legible hierarchy */
+.section-heading h2 { color:#f3f8fd; letter-spacing:-.055em; }
+.section-heading h2 em{color:#ffae94;}
+.section-heading .section-aside,
+.section-aside,
+.section-small-print {color:#c4d4e4;}
+.dark-kicker {color:#ffb39f;}
+.section-small-print a{color:#9bd7ed;text-underline-offset:4px;}
+.section-small-print a:hover{color:#d2f5ff;}
+/* Compact metrics, not glaring white blocks */
+.metric {border-color:rgba(197,218,238,.13);transition:background .24s ease;}
+.metric:hover{background:rgba(255,255,255,.035);}
+.metric-number {color:#f2f8ff;}
+.metric-label {color:#e5eef8;}
+.metric-hint {color:#a8bfd3;}
+/* Specialization finder */
+.filter-pill {
+  background:#22374a; border:1px solid #466077; color:#dfeaf7;
+  box-shadow:inset 0 1px 0 rgba(255,255,255,.04);
+}
+.filter-pill:hover {border-color:#9ab6cc;background:#2e465d;color:#fff;}
+.filter-pill.active {background:#f8ad96;color:#1b2836;border-color:#f8ad96;}
+.search-field {background:#1f3449;border:1px solid #48637b; box-shadow:0 6px 20px rgba(0,0,0,.07);}
+.search-field svg{color:#adcadc;}
+.search-field input {color:#f2f8ff;}
+.search-field input::placeholder{color:#abc0d1;opacity:1;}
+.search-field:focus-within {border-color:#ffb49e;outline:2px solid rgba(255,175,150,.18);}
+.cards-count,.results-label{color:#b8cddd;}
+.spec-grid{gap:19px;}
+.spec-card {
+  background:linear-gradient(180deg,#21384d,#182b3e);
+  border:1px solid #39536a; border-radius:18px;
+  color:#eef6ff; box-shadow:0 12px 28px rgba(0,8,19,.17);
+  isolation:isolate;
+}
+.spec-card::before{
+  content:"";position:absolute;inset:0 0 auto;height:2px;
+  background:linear-gradient(90deg,transparent,rgba(255,173,146,.75),rgba(127,185,220,.55),transparent);
+  opacity:.6;z-index:2;pointer-events:none;
+}
+.spec-card:hover,.spec-card:focus-visible {
+  transform:translateY(-7px);border-color:#7295ac;
+  box-shadow:0 28px 48px rgba(0,9,21,.33);
+}
+.spec-graphic {height:184px;background:
+  radial-gradient(circle at 75% 38%,color-mix(in srgb,var(--track-accent) 20%,transparent),transparent 50%),
+  linear-gradient(135deg,#10283d,#25435b);}
+.spec-graphic:before{opacity:.6;}
+.spec-graphic-index{font-size:6.3rem;color:#f5f9ff;}
+.spec-card .spec-num{border:1px solid rgba(218,231,245,.45);background:rgba(11,27,43,.54);color:#f5f8fc;}
+.spec-card-inner{padding:23px 21px 21px;}
+.spec-card h3{color:#f0f6fb;font-size:1.17rem;line-height:1.42;}
+.spec-category{color:#ffb29c;}
+.spec-card p{color:#c5d7e6;line-height:1.75;}
+.spec-card-bottom{color:#b4d0dd;border-top:1px solid rgba(206,226,240,.12);margin-top:22px;padding-top:17px;}
+.spec-arrow{background:#355169;color:#f8b29d;transition:background .25s,transform .25s;}
+.spec-card:hover .spec-arrow{background:#f8ac95;color:#152335;transform:rotate(45deg);}
+/* Alumni directory — layered slate cards and readable linked profiles */
+.select-label{color:#d0dfec;}
+.select-label select{
+  background:#20364b;border:1px solid #516a80;color:#ecf4fc;
+  border-radius:10px;min-height:44px;
+}
+.select-label select option{background:#1b3043;color:#fff;}
+.person-card {
+  background:linear-gradient(155deg,#243d53,#1b3043 70%);
+  border:1px solid #456075;border-radius:18px;
+  box-shadow:0 14px 35px rgba(0,11,26,.13);padding:24px;
+}
+.person-card:hover {border-color:#85a7ba;box-shadow:0 23px 45px rgba(0,11,26,.29);}
+.person-avatar{background:linear-gradient(130deg,#34607b,#658da1);border:1px solid #7295ab;border-radius:13px;}
+.person-card h3{color:#f4f8fc;}
+.person-category,.person-meta{color:#ffb99f;}
+.person-work{color:#d8e4f0;line-height:1.78;}
+.person-institution{color:#b8cddd;border-top-color:#465e73;}
+.person-link{color:#9edcec;}
+.person-link:hover{color:#ffc2ab;}
+.person-no-link{color:#adc4d4;}
+/* Roadmap is now a thoughtful, atmospheric dark editorial spread */
+.journey-grid{gap:17px;}
+.journey-card {
+  border:1px solid #425a70;border-radius:17px;
+  background:linear-gradient(160deg,#253a4d,#1c2f42);
+  box-shadow:0 12px 28px rgba(0,9,22,.12);padding:28px 25px;
+}
+.journey-card::before{width:64px;height:3px;background:linear-gradient(90deg,#ffad93,#9abccf);border-radius:0 0 3px 0;}
+.journey-card:hover{transform:translateY(-5px);border-color:#7694ad;box-shadow:0 24px 45px rgba(0,7,20,.3);}
+.journey-number{color:#9cb4c6;font-size:3.8rem;}
+.journey-time{color:#ffb6a0;letter-spacing:.13em;}
+.journey-card h3{color:#f2f7fb;}
+.journey-card p{color:#c6d7e6;font-size:.95rem;line-height:1.78;}
+/* Detail, directory, and CTA finishing touches */
+.detail-shell{border-color:#38556d;border-radius:18px;}
+.detail-tab:focus-visible,.course-toggle:focus-visible,.spec-card:focus-visible{outline:2px solid #ffb49f;outline-offset:3px;}
+.detail-tabbar{background:#11273d;}
+.course-row{background:#1b334a;border-color:#3f5a72;}
+.course-name{color:#f3f8fd;}
+.course-code{color:#a9e2f5;}
+.course-credits{color:#d1dfec;}
+.feature-box{background:#1c344b;border-color:#3d5870;}
+.company-card{border-radius:16px;background:linear-gradient(165deg,#1a344b,#152b40);}
+.company-card>p,.company-note{color:#c8d9e8;}
+.company-spotlight {border-radius:17px;background:#18334b;}
+.closing-card{border-radius:18px;border-color:#456681;}
+/* Mobile: avoid cramped line lengths & maintain large touch targets */
+@media(max-width:930px){
+  .metric{border-bottom-color:rgba(197,218,238,.13);}
+  .metric:nth-child(2){border-right:0;}
+}
+@media(max-width:660px){
+  .intro-section,.alumni-section,.roadmap-section{padding:76px 0 86px;}
+  .section-heading h2{font-size:clamp(2.05rem,9vw,3rem);}
+  .metric{min-height:119px;padding:19px 11px;}
+  .metric:first-child{padding-left:11px;}
+  .spec-card{min-height:0;}
+  .spec-graphic{height:188px;}
+  .person-card,.journey-card{padding:22px;}
+  .search-field input{font-size:.94rem;}
+  .select-label select{min-height:48px;}
+}
+@media(prefers-reduced-motion: reduce){
+  .spec-card:hover,.journey-card:hover,.person-card:hover{transform:none;}
+  .spec-card:hover .spec-arrow{transform:none;}
+}
