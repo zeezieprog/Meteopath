@@ -20,7 +20,7 @@ renderStats=function(){const items=[
 [dataset.alumni.length,"Profil karier","Riwayat publik, status pendidikan ditandai"],
 [orgs.length,"Organisasi unik","50 relasi lintas spesialisasi"]];
 $("#statsGrid").innerHTML=items.map(function(a){return '<div class="metric reveal"><div class="metric-number">'+a[0]+'</div><div><div class="metric-label">'+esc(a[1])+'</div><div class="metric-hint">'+esc(a[2])+'</div></div></div>'}).join('')};
-renderDetailSidebar=function(t){$("#detailName").textContent=t.name;$("#detailShort").textContent=t.summary;$("#detailHeroMini").textContent=String(tracks.indexOf(t)+1).padStart(2,"0");$("#detailHeroMini").style.setProperty("--track-accent",t.accent||"#82bfd7");
+renderDetailSidebar=function(t){$("#detailName").textContent=t.name;$("#detailShort").textContent=t.summary;$("#detailHeroMini").textContent="";$("#detailHeroMini").style.setProperty("--track-accent",t.accent||"#82bfd7");
 const n=dataset.alumni.filter(function(a){return a["Kelompok Utama"]===t.name}).length,m=orgs.filter(function(o){return o.specializations.includes(t.name)}).length;
 $("#detailFacts").innerHTML='<div class="detail-fact"><span>Paket spesialisasi</span><strong>12 SKS</strong></div><div class="detail-fact"><span>Profil utama</span><strong>'+n+'</strong></div><div class="detail-fact"><span>Organisasi terkait</span><strong>'+m+'</strong></div>';$("#detailPicker").value=t.slug;$("#courseCountBadge").textContent=curriculum[t.name].length};
 const baseSelect=selectTrack;
