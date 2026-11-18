@@ -23,3 +23,11 @@ Bukan website resmi ITB.
 Halaman `karier.html` memuat panduan untuk 8 spesialisasi dan 16 proyek dengan aktivitas profesi, jenjang contoh, persiapan akademik, perangkat, tahap belajar, durasi perkiraan, sumber data, langkah pengerjaan, evaluasi, serta keluaran portofolio. Konten disimpan pada `career-content-v8.js`, gaya visual pada `career-explorer-v8.css`, dan tampilan dinamis pada `meteopath-enhancements-v2-20261118.js`.
 
 Syarat kerja bervariasi dan proyek ini bukan sumber lowongan aktif atau panduan akademik resmi.
+
+## Future Planner v10
+
+Halaman `rencana.html` kini menggunakan planner interaktif dengan beberapa rencana tersimpan, tanggal target, spesialisasi, jenis tujuan, prioritas kemampuan, serta alokasi waktu mingguan. Setiap rencana dimulai dengan 12 tugas contoh yang dapat diedit atau dihapus. Pengguna dapat menambah tugas dan tenggat, mencentang penyelesaian, melihat progres, memfilter tugas mendatang dan terlambat, serta menyimpan refleksi berkala.
+
+Tidak ada fitur download, ekspor, atau penyalinan rencana pada halaman ini. Seluruh data planner disimpan secara lokal pada browser (`localStorage`), bukan di server. Data dapat hilang jika penyimpanan browser dibersihkan, dan tidak tersinkron antarperangkat. Kode planner terpisah dalam `future-planner-v10.js` dan `future-planner-v10.css`.
+
+`scroll-bubbles-v10.js` dan `scroll-bubbles-v10.css` memberikan efek kemunculan saat scroll pada tujuh halaman utama, dengan dukungan `prefers-reduced-motion`. Animasi tidak menyembunyikan konten jika JavaScript atau IntersectionObserver tidak tersedia.

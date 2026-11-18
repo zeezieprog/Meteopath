@@ -166,7 +166,7 @@ function planText(){if(!currentPlan)return "";const p=planInfo(currentPlan);retu
 function saveTxt(txt,name){const u=URL.createObjectURL(new Blob([txt],{type:"text/plain;charset=utf-8"})),a=document.createElement("a");a.href=u;a.download=name;document.body.appendChild(a);a.click();a.remove();setTimeout(function(){URL.revokeObjectURL(u)},1200)}
 function drawPlan(){if(!currentPlan)return;const p=planInfo(currentPlan);$("#planOutput").innerHTML='<h3>'+esc(p.title)+'</h3><p><strong>Tahap:</strong> '+esc(p.phase)+', <strong>Target:</strong> '+esc(p.goal)+'</p><p><strong>Skill awal:</strong> '+esc(p.skills.join(", ")||"Belum dipilih")+'</p><ol>'+p.steps.map(function(s){return '<li>'+esc(s)+'</li>'}).join('')+'</ol><p>Rencana ini bukan penilaian bakat atau jaminan kerja.</p><div class="plan-tools"><button type="button" id="downloadPlan">Unduh .txt</button><button type="button" id="copyPlan">Salin</button></div>'}
 function initV6(){
- options($("#careerTrack"),false);options($("#projectTrack"),true);options($("#planTrack"),false);
+ options($("#careerTrack"),false);options($("#projectTrack"),true);if($("#planTrack"))options($("#planTrack"),false);
  $("#careerTrack").addEventListener("change",drawCareer);$("#projectTrack").addEventListener("change",drawProjects);$("#projectLevel").addEventListener("change",drawProjects);
  const projectSearch=$("#projectSearch");if(projectSearch)projectSearch.addEventListener("input",drawProjects);
  drawCompare();drawCareer();drawProjects();
@@ -183,10 +183,13 @@ populateFilter(regionFilter,uniq(orgs.map(function(o){return o.region})).sort(),
 [typeFilter,regionFilter,$("#companyEvidenceFilter")].forEach(function(el){el.addEventListener("change",renderCompanies)});
 $("#alumniDegreeFilter").addEventListener("change",renderAlumni);
 renderCompanies();renderAlumni();
-const skills=$("#planSkills");skills.innerHTML=skillChoices.map(function(s){return '<label><input type="checkbox" value="'+esc(s)+'"><span>'+esc(s)+'</span></label>'}).join('');
+if($("#careerPlannerForm")){
+ const skills=$("#planSkills");skills.innerHTML=skillChoices.map(function(s){return '<label><input type="checkbox" value="'+esc(s)+'"><span>'+esc(s)+'</span></label>'}).join('');
  if(currentPlan&&trackBySlug[currentPlan.track]){$("#planTrack").value=currentPlan.track;$("#planStage").value=currentPlan.stage;$("#planGoal").value=currentPlan.goal||"";$$("#planSkills input").forEach(function(x){x.checked=currentPlan.skills.includes(x.value)});drawPlan()}
  $("#careerPlannerForm").addEventListener("submit",function(e){e.preventDefault();currentPlan={track:$("#planTrack").value,stage:$("#planStage").value,goal:$("#planGoal").value.trim(),skills:$$("#planSkills input:checked").map(function(c){return c.value})};safeSet("meteopath-plan",currentPlan);drawPlan();$("#planOutput").scrollIntoView({behavior:reduceMotion?"auto":"smooth",block:"nearest"})});
  $("#planOutput").addEventListener("click",function(e){if(e.target.id==="downloadPlan")saveTxt(planText(),"meteopath-career-plan.txt");if(e.target.id==="copyPlan"){if(navigator.clipboard&&navigator.clipboard.writeText)navigator.clipboard.writeText(planText()).then(function(){e.target.textContent="Berhasil disalin"}).catch(function(){saveTxt(planText(),"meteopath-career-plan.txt")});else saveTxt(planText(),"meteopath-career-plan.txt")}});
+
+ }
  function route(){const m=location.hash.match(/^#detail\?track=([a-z0-9-]+)$/);if(m&&trackBySlug[m[1]]){window.__meteopathRouteLoading=true;selectTrack(m[1],false);window.__meteopathRouteLoading=false;$("#detail").scrollIntoView({behavior:"auto",block:"start"})}}
  route();window.addEventListener("hashchange",route)
 }

@@ -1,0 +1,192 @@
+/* METEOPATH FUTURE PLANNER v10 | All selectors scoped to the planning page */
+body[data-page="rencana"] #rencana{background:#f7f9fc!important;color:#172235!important}
+body[data-page="rencana"] #rencana .fp-section-heading{margin-bottom:27px!important}
+body[data-page="rencana"] #rencana .fp-how-it-works{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:14px;margin:0 0 28px}
+body[data-page="rencana"] #rencana .fp-how-it-works article{
+  background:#fff;border:1px solid #dce3ee;border-radius:14px;padding:19px 21px;
+  box-shadow:0 6px 24px rgba(29,44,67,.045)
+}
+body[data-page="rencana"] #rencana .fp-how-it-works span{display:block;color:#5249ad!important;font-size:13px;font-weight:800;margin-bottom:12px;line-height:1.3}
+body[data-page="rencana"] #rencana .fp-how-it-works strong{display:block;color:#172235!important;font-size:16px;margin-bottom:6px;line-height:1.4}
+body[data-page="rencana"] #rencana .fp-how-it-works p{color:#46566c!important;font-size:14px;line-height:1.7;margin:0}
+body[data-page="rencana"] #rencana .fp-layout{display:grid;grid-template-columns:minmax(0,400px) minmax(0,1fr);gap:20px;align-items:start}
+body[data-page="rencana"] #rencana .fp-sidebar,body[data-page="rencana"] #rencana .fp-workspace{
+  min-width:0;border:1px solid #dce3ee;border-radius:18px;background:#fff;
+  box-shadow:0 9px 33px rgba(31,48,71,.045)
+}
+body[data-page="rencana"] #rencana .fp-sidebar{padding:24px;display:grid;gap:24px}
+body[data-page="rencana"] #rencana .fp-workspace{padding:26px;min-height:500px}
+body[data-page="rencana"] #rencana .fp-eyebrow{
+  color:#5549a7!important;font-size:12px;font-weight:800;letter-spacing:.075em;
+  line-height:1.3;margin:0 0 7px;text-transform:uppercase
+}
+body[data-page="rencana"] #rencana .fp-sidebar-head h3,
+body[data-page="rencana"] #rencana .fp-empty h3{color:#172235!important;font-size:22px;line-height:1.32;letter-spacing:-.03em;margin:0 0 10px}
+body[data-page="rencana"] #rencana .fp-sidebar-head p:not(.fp-eyebrow),
+body[data-page="rencana"] #rencana .fp-empty>p:not(.fp-eyebrow){
+  color:#46566c!important;font-size:14px;line-height:1.8;margin:0
+}
+body[data-page="rencana"] #rencana .fp-form,body[data-page="rencana"] #rencana #fpTaskForm{display:grid;gap:17px}
+body[data-page="rencana"] #rencana .fp-form label,
+body[data-page="rencana"] #rencana #fpTaskForm label,
+body[data-page="rencana"] #rencana .fp-review-panel label{
+  display:grid;gap:7px;font-size:14px;font-weight:700;color:#2e4057!important;
+  -webkit-text-fill-color:#2e4057!important
+}
+body[data-page="rencana"] #rencana :is(input:not([type="checkbox"]),select,textarea){
+  width:100%;box-sizing:border-box;min-height:45px;padding:11px 12px;
+  color:#172235!important;-webkit-text-fill-color:#172235!important;
+  background:#fff!important;border:1px solid #cbd5e2!important;
+  border-radius:10px!important;font:inherit;font-weight:500!important;font-size:14px!important;
+  box-shadow:none!important
+}
+body[data-page="rencana"] #rencana textarea{min-height:83px!important;resize:vertical}
+body[data-page="rencana"] #rencana input::placeholder,
+body[data-page="rencana"] #rencana textarea::placeholder{color:#718097!important;-webkit-text-fill-color:#718097!important;opacity:1}
+body[data-page="rencana"] #rencana :is(input,select,textarea):focus-visible{border-color:#6760c8!important;outline:3px solid rgba(103,96,200,.22)!important;outline-offset:1px!important}
+body[data-page="rencana"] #rencana .fp-form-pair{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:10px}
+body[data-page="rencana"] #rencana .fp-skillset{padding:15px;border:1px solid #dee5f0;border-radius:12px;min-width:0;margin:0;background:#f8faff!important}
+body[data-page="rencana"] #rencana .fp-skillset legend{font-size:14px;font-weight:700;padding:0 7px;color:#283a50!important}
+body[data-page="rencana"] #rencana .fp-skillset>p{font-size:13px;font-weight:400;color:#506178!important;margin:3px 0 12px;line-height:1.7}
+body[data-page="rencana"] #rencana .fp-skill-options{display:grid;grid-template-columns:minmax(0,1fr);gap:7px}
+body[data-page="rencana"] #rencana .fp-check-skill{display:flex;align-items:center;gap:10px;font-size:13px;font-weight:500;color:#293d54!important;min-width:0}
+body[data-page="rencana"] #rencana .fp-check-skill input,
+body[data-page="rencana"] #rencana .fp-task-check input{
+  flex:none;width:18px;height:18px;accent-color:#5a4db8;
+  appearance:auto;-webkit-appearance:auto
+}
+body[data-page="rencana"] #rencana .fp-check-skill span{color:#293d54!important;line-height:1.5}
+body[data-page="rencana"] #rencana .fp-primary,
+body[data-page="rencana"] #rencana .fp-next button,
+body[data-page="rencana"] #rencana #fpSaveReview{
+  display:inline-flex;justify-content:center;align-items:center;text-align:center;
+  padding:12px 18px;border-radius:10px;background:#4d47a8!important;color:#fff!important;
+  -webkit-text-fill-color:#fff!important;border:1px solid #4d47a8!important;
+  font-size:14px;font-weight:800;min-height:46px;cursor:pointer
+}
+body[data-page="rencana"] #rencana .fp-primary:hover,
+body[data-page="rencana"] #rencana .fp-next button:hover,
+body[data-page="rencana"] #rencana #fpSaveReview:hover{background:#373183!important}
+body[data-page="rencana"] #rencana .fp-minimal{border:1px solid #daddea;background:#f4f5fd;color:#39348e;border-radius:10px;padding:10px 14px;min-height:44px;cursor:pointer;font-weight:700;font-size:13px}
+body[data-page="rencana"] #rencana .fp-privacy{
+  color:#536479!important;font-size:12px;line-height:1.75;margin:0;
+  padding:12px 13px;border-radius:10px;background:#f3f6fb!important;border:1px solid #e4eaf3
+}
+body[data-page="rencana"] #rencana .fp-saved-list{border-top:1px solid #e0e5ef;padding-top:17px;display:grid;gap:8px}
+body[data-page="rencana"] #rencana .fp-saved-list h4{color:#172235!important;font-size:16px;margin:0}
+body[data-page="rencana"] #rencana .fp-saved-list>p{color:#56677c!important;font-size:13px;line-height:1.65;margin:0 0 7px}
+body[data-page="rencana"] #rencana .fp-plan-buttons{display:grid;gap:9px}
+body[data-page="rencana"] #rencana .fp-plan-choice{
+  display:grid;gap:6px;width:100%;text-align:left;border:1px solid #d9e2ee;
+  background:#fff!important;padding:13px 15px;border-radius:10px;cursor:pointer
+}
+body[data-page="rencana"] #rencana .fp-plan-choice.is-active{border-color:#7970d4;background:#f0f0ff!important}
+body[data-page="rencana"] #rencana .fp-plan-choice strong{font-size:14px;color:#1f2d45!important;line-height:1.5}
+body[data-page="rencana"] #rencana .fp-plan-choice span{font-size:12px;color:#5a6980!important}
+body[data-page="rencana"] #rencana .fp-empty{display:grid;align-content:center;gap:13px;min-height:390px}
+body[data-page="rencana"] #rencana .fp-empty h3{font-size:clamp(23px,2.5vw,31px);max-width:600px}
+body[data-page="rencana"] #rencana .fp-empty-preview{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px;margin-top:11px}
+body[data-page="rencana"] #rencana .fp-empty-preview>div{border:1px solid #e1e5f0;border-radius:12px;background:#f7f9fc!important;padding:16px}
+body[data-page="rencana"] #rencana .fp-empty-preview span{font-size:14px;font-weight:800;color:#37358c!important}
+body[data-page="rencana"] #rencana .fp-empty-preview p{font-size:12px;color:#55667a!important;margin:5px 0 0}
+body[data-page="rencana"] #rencana .fp-dashboard{display:grid;gap:23px}
+body[data-page="rencana"] #rencana [hidden]{display:none!important}
+body[data-page="rencana"] #rencana .fp-dash-heading{display:flex;justify-content:space-between;align-items:start;gap:15px;flex-wrap:wrap}
+body[data-page="rencana"] #rencana .fp-dash-heading h3{font-size:clamp(22px,2.3vw,28px);line-height:1.3;color:#15223a!important;margin:0 0 8px}
+body[data-page="rencana"] #rencana #fpActiveMeta{font-size:13px;line-height:1.7;color:#526177!important;margin:0}
+body[data-page="rencana"] #rencana .fp-dash-actions{display:flex;gap:8px;flex-wrap:wrap}
+body[data-page="rencana"] #rencana .fp-dash-actions button,
+body[data-page="rencana"] #rencana .fp-task-actions button{
+  padding:8px 12px;min-height:40px;border-radius:9px;background:#f3f5fb!important;
+  color:#35328a!important;border:1px solid #d9ddec!important;font-size:13px;font-weight:700;cursor:pointer
+}
+body[data-page="rencana"] #rencana .fp-dash-actions .fp-danger-link,
+body[data-page="rencana"] #rencana .fp-task-actions button:last-child{color:#934637!important}
+body[data-page="rencana"] #rencana .fp-summary-grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:10px}
+body[data-page="rencana"] #rencana .fp-metric{
+  border-radius:12px;background:#f7f9fe!important;border:1px solid #e1e6f0;padding:15px;min-width:0;display:grid;gap:5px
+}
+body[data-page="rencana"] #rencana .fp-metric span{font-size:12px;font-weight:700;color:#55647a!important}
+body[data-page="rencana"] #rencana .fp-metric strong{font-size:clamp(18px,2vw,25px);line-height:1.3;color:#172235!important}
+body[data-page="rencana"] #rencana .fp-metric small{font-size:11px;line-height:1.45;color:#64758a!important}
+body[data-page="rencana"] #rencana .fp-progress-wrap{display:grid;gap:8px}
+body[data-page="rencana"] #rencana .fp-progress-top{display:flex;justify-content:space-between;align-items:center;gap:10px}
+body[data-page="rencana"] #rencana .fp-progress-top strong,
+body[data-page="rencana"] #rencana .fp-progress-top span{color:#2c3b53!important;font-size:14px;font-weight:800}
+body[data-page="rencana"] #rencana .fp-progress-track{height:12px;background:#e9edf6;border-radius:30px;overflow:hidden}
+body[data-page="rencana"] #rencana #fpProgressFill{height:100%;width:0;max-width:100%;background:#6055bc;border-radius:30px;transition:width .4s ease}
+body[data-page="rencana"] #rencana .fp-due-summary{color:#52657b!important;font-size:13px;line-height:1.7;margin:0}
+body[data-page="rencana"] #rencana .fp-next{
+  display:flex;align-items:center;justify-content:space-between;gap:18px;flex-wrap:wrap;
+  border:1px solid #d9d8f4;background:#f5f4ff!important;border-radius:14px;padding:18px 20px
+}
+body[data-page="rencana"] #rencana .fp-next h4{font-size:17px;line-height:1.4;color:#252158!important;margin:0 0 7px}
+body[data-page="rencana"] #rencana .fp-next p:not(.fp-eyebrow){font-size:13px;color:#55527e!important;margin:0;line-height:1.7}
+body[data-page="rencana"] #rencana .fp-next>strong{color:#252158!important}
+body[data-page="rencana"] #rencana .fp-dash-tools{display:flex;justify-content:space-between;align-items:end;gap:15px;flex-wrap:wrap;padding-top:4px}
+body[data-page="rencana"] #rencana .fp-dash-tools h4{font-size:20px;color:#172235!important;margin:0 0 7px}
+body[data-page="rencana"] #rencana .fp-dash-tools p{font-size:13px;color:#526278!important;margin:0;line-height:1.65;max-width:550px}
+body[data-page="rencana"] #rencana .fp-dash-tools label{display:grid;gap:6px;font-size:13px;font-weight:700;color:#2c3c53!important;min-width:170px}
+body[data-page="rencana"] #rencana .fp-milestones{display:grid;gap:18px}
+body[data-page="rencana"] #rencana .fp-phase{border:1px solid #dfe6f0;border-radius:15px;background:#fff;padding:20px;min-width:0}
+body[data-page="rencana"] #rencana .fp-phase-head{display:flex;align-items:start;justify-content:space-between;gap:10px;flex-wrap:wrap;border-bottom:1px solid #e4e9f1;padding-bottom:13px;margin-bottom:13px}
+body[data-page="rencana"] #rencana .fp-phase-head>div{display:flex;align-items:center;gap:11px}
+body[data-page="rencana"] #rencana .fp-phase-head span{font-size:13px;color:#5751a3!important;font-weight:800}
+body[data-page="rencana"] #rencana .fp-phase-head h5{font-size:16px;color:#16243a!important;line-height:1.4;margin:0}
+body[data-page="rencana"] #rencana .fp-phase-head p{font-size:12px;color:#53627a!important;margin:0}
+body[data-page="rencana"] #rencana .fp-tasks{display:grid;gap:10px}
+body[data-page="rencana"] #rencana .fp-task{background:#fbfcff!important;border:1px solid #e2e8f1;border-radius:12px;padding:14px;display:grid;gap:9px}
+body[data-page="rencana"] #rencana .fp-task.is-done{background:#f7faf9!important}
+body[data-page="rencana"] #rencana .fp-task.is-late{border-color:#eed5ce;background:#fffaf8!important}
+body[data-page="rencana"] #rencana .fp-task-check{display:flex;gap:11px;align-items:start;cursor:pointer}
+body[data-page="rencana"] #rencana .fp-task-check input{margin-top:3px}
+body[data-page="rencana"] #rencana .fp-task-title{font-size:14px;font-weight:700;color:#22334b!important;line-height:1.55;overflow-wrap:anywhere}
+body[data-page="rencana"] #rencana .fp-task.is-done .fp-task-title{text-decoration:line-through;color:#728296!important}
+body[data-page="rencana"] #rencana .fp-task-info{display:flex;gap:8px;align-items:center;flex-wrap:wrap;padding-left:30px}
+body[data-page="rencana"] #rencana .fp-task-info time{font-size:12px;color:#607086!important}
+body[data-page="rencana"] #rencana .fp-priority,
+body[data-page="rencana"] #rencana .fp-late-tag{font-size:11px;font-weight:700;padding:3px 9px;border-radius:40px;background:#ecedf9;color:#423c8a!important}
+body[data-page="rencana"] #rencana .fp-priority-tinggi{background:#fceae4;color:#884c38!important}
+body[data-page="rencana"] #rencana .fp-priority-rendah{background:#eff5f2;color:#385f4f!important}
+body[data-page="rencana"] #rencana .fp-late-tag{background:#f8e6e1;color:#85452e!important}
+body[data-page="rencana"] #rencana .fp-task-notes{font-size:12px;color:#516278!important;line-height:1.75;margin:0;padding-left:30px;white-space:pre-line}
+body[data-page="rencana"] #rencana .fp-task-actions{display:flex;gap:8px;justify-content:flex-end}
+body[data-page="rencana"] #rencana .fp-task-actions button{min-height:33px;font-size:12px;padding:6px 10px}
+body[data-page="rencana"] #rencana .fp-phase-empty{font-size:13px;color:#596981!important;line-height:1.65;margin:7px 0}
+body[data-page="rencana"] #rencana .fp-task-editor,
+body[data-page="rencana"] #rencana .fp-review-panel{border-top:1px solid #e1e7f0;padding-top:22px;display:grid;gap:17px}
+body[data-page="rencana"] #rencana .fp-task-editor h4,
+body[data-page="rencana"] #rencana .fp-review-panel h4{font-size:20px;line-height:1.4;color:#1a2940!important;margin:0}
+body[data-page="rencana"] #rencana .fp-task-editor>div>p:not(.fp-eyebrow),
+body[data-page="rencana"] #rencana .fp-review-panel>p{color:#52647b!important;font-size:13px;line-height:1.75;margin:6px 0 0}
+body[data-page="rencana"] #rencana .fp-form-triple{display:grid;grid-template-columns:1.15fr 1fr .8fr;gap:10px}
+body[data-page="rencana"] #rencana .fp-form-actions{display:flex;gap:10px;flex-wrap:wrap}
+body[data-page="rencana"] #rencana .fp-review-header{display:flex;justify-content:space-between;align-items:start;gap:15px;flex-wrap:wrap}
+body[data-page="rencana"] #rencana .fp-review-header>span{font-size:12px;color:#606f84!important}
+body[data-page="rencana"] #rencana .fp-live-status{font-size:12px;color:#4b5c74!important;margin-top:16px;line-height:1.65}
+body[data-page="rencana"] #rencana :is(button,input,select,textarea):focus-visible{outline:3px solid #837be1!important;outline-offset:2px!important}
+@media(max-width:1130px){
+ body[data-page="rencana"] #rencana .fp-layout{grid-template-columns:minmax(0,355px) minmax(0,1fr)}
+ body[data-page="rencana"] #rencana .fp-summary-grid{grid-template-columns:repeat(2,minmax(0,1fr))}
+ body[data-page="rencana"] #rencana .fp-form-triple{grid-template-columns:1fr 1fr}
+}
+@media(max-width:880px){
+ body[data-page="rencana"] #rencana .fp-layout{grid-template-columns:minmax(0,1fr)}
+ body[data-page="rencana"] #rencana .fp-skill-options{grid-template-columns:repeat(2,minmax(0,1fr))}
+}
+@media(max-width:650px){
+ body[data-page="rencana"] #rencana .fp-how-it-works{grid-template-columns:1fr}
+ body[data-page="rencana"] #rencana :is(.fp-sidebar,.fp-workspace){padding:18px!important;border-radius:15px}
+ body[data-page="rencana"] #rencana .fp-empty-preview{grid-template-columns:1fr}
+ body[data-page="rencana"] #rencana .fp-skill-options{grid-template-columns:1fr}
+ body[data-page="rencana"] #rencana .fp-form-pair,
+ body[data-page="rencana"] #rencana .fp-form-triple{grid-template-columns:1fr}
+ body[data-page="rencana"] #rencana .fp-next{align-items:stretch}
+ body[data-page="rencana"] #rencana .fp-next button{width:100%}
+ body[data-page="rencana"] #rencana .fp-summary-grid{grid-template-columns:repeat(2,minmax(0,1fr))}
+ body[data-page="rencana"] #rencana .fp-dash-actions{width:100%}
+ body[data-page="rencana"] #rencana .fp-dash-actions button{flex:1}
+}
+@media(prefers-reduced-motion:reduce){
+ body[data-page="rencana"] #rencana #fpProgressFill{transition:none}
+}
