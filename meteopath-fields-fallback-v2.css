@@ -1,0 +1,111 @@
+/* METEOPATH | Field-first cards & legacy-cache safety | 2026-11-18
+   Last stylesheet, deliberately independent of old theme.
+   Both new and cached legacy markup display without numbered graphics. */
+
+/* Legacy markup must NEVER show decorative TRACK or 01–08.
+   On a stale JS render, use the existing card body heading instead. */
+#specGrid .spec-card > .spec-graphic:not(:has(.spec-graphic-name)) {
+  display:none !important;
+}
+#specGrid .spec-card .spec-num,
+#specGrid .spec-card .spec-graphic-index,
+#specGrid .spec-card .spec-graphic-caption,
+#specGrid .spec-card .spec-graphic-orbit {
+  display:none !important;
+}
+#specGrid .spec-card {
+  background:#fff!important;
+  border:1px solid #E2E5EC!important;
+  border-radius:12px!important;
+  overflow:hidden!important;
+  min-height:0!important;
+  box-shadow:none!important;
+}
+#specGrid .spec-card > .spec-graphic.spec-graphic--name {
+  display:flex!important;
+  flex:0 0 auto!important;
+  width:100%!important;
+  max-width:100%!important;
+  min-width:0!important;
+  height:auto!important;
+  min-height:110px!important;
+  align-items:flex-end!important;
+  justify-content:flex-start!important;
+  padding:20px!important;
+  background:#F5F6F9!important;
+  border:0!important;
+  border-bottom:1px solid #E4E7EF!important;
+  border-radius:0!important;
+}
+#specGrid .spec-card .spec-graphic-name {
+  display:block!important;
+  margin:0!important;
+  font-family:"General Sans","DM Sans",sans-serif!important;
+  font-size:clamp(16px,1.45vw,21px)!important;
+  line-height:1.3!important;
+  font-weight:700!important;
+  letter-spacing:-.035em!important;
+  text-align:left!important;
+  color:#171923!important;
+  -webkit-text-fill-color:#171923!important;
+  overflow-wrap:anywhere!important;
+  text-shadow:none!important;
+}
+#specGrid .spec-card > .spec-card-inner {
+  background:#fff!important;
+  padding:18px 20px!important;
+  flex:1 1 auto!important;
+  display:flex!important;
+  flex-direction:column!important;
+  min-width:0!important;
+}
+#specGrid .spec-card .spec-category {color:#677185!important;}
+#specGrid .spec-card .spec-card-inner p {
+  color:#4B5563!important;
+  -webkit-text-fill-color:#4B5563!important;
+  opacity:1!important;
+}
+#specGrid .spec-card .spec-card-bottom {
+  color:#626C7C!important;
+  -webkit-text-fill-color:#626C7C!important;
+  margin-top:auto!important;
+  padding-top:12px!important;
+  border-top:1px solid #E8EAF0!important;
+}
+/* Cached old markup: name in the content is the primary heading,
+   so it remains visible at the top rather than leaving a blank artwork panel. */
+#specGrid .spec-card:not(:has(.spec-graphic-name)) > .spec-card-inner > h3{
+  color:#171923!important;
+  -webkit-text-fill-color:#171923!important;
+  font-family:"General Sans","DM Sans",sans-serif!important;
+  font-weight:700!important;
+  font-size:19px!important;
+  line-height:1.33!important;
+  margin:6px 0 12px!important;
+}
+/* The other legacy numeric ornaments in the detail panel are unnecessary. */
+#detailHeroMini,
+.detail-mini-mark,
+#detailBody .detail-banner-data,
+#detailBody .detail-banner-index {
+  display:none!important;
+}
+#detailBody .detail-banner {display:block!important;}
+@media(max-width:760px){
+  #specGrid .spec-card > .spec-graphic.spec-graphic--name{
+    min-height:97px!important;
+    padding:13px!important;
+  }
+  #specGrid .spec-card .spec-graphic-name {
+    font-size:clamp(13px,3.45vw,17px)!important;
+    line-height:1.31!important;
+  }
+  #specGrid .spec-card > .spec-card-inner {padding:13px!important;}
+  #specGrid .spec-card:not(:has(.spec-graphic-name)) > .spec-card-inner > h3{
+    font-size:15px!important;
+  }
+}
+@media(max-width:380px){
+  #specGrid .spec-card > .spec-graphic.spec-graphic--name{padding:11px!important;}
+  #specGrid .spec-card .spec-graphic-name{font-size:13px!important;}
+}
