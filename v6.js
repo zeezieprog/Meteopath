@@ -34,7 +34,7 @@ filteredCompanies=function(){const type=$("#companyTypeFilter")?.value||"all",re
  return baseCompanyFilter().filter(function(o){
   if(type!=="all"&&o.type!==type)return false;
   if(region!=="all"&&o.region!==region)return false;
-  const hasJob=o.references.some(function(r){return /lowongan/i.test(r.evidenceType||"")});
+  const related=state.companyFilter==="all"?o.references:o.references.filter(function(r){return r.specialization===labelFilter(state.companyFilter)});const hasJob=related.some(function(r){return /lowongan/i.test(r.evidenceType||"")});
   return evidence==="all"||(evidence==="lowongan"&&hasJob)||(evidence==="sektor"&&!hasJob)
  })
 };
