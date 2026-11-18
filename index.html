@@ -98,9 +98,9 @@
       <div class="wrap hero-layout">
         <div class="hero-copy reveal-on-load">
           <p class="kicker light-kicker"><span class="status-dot"></span> PANDUAN KARIER METEOROLOGI · PROYEK INDEPENDEN</p>
-          <h1 id="heroTitle">Your field.<br><span class="serif-accent">Your future.</span><br>Beyond the clouds.</h1>
+          <h1 id="heroTitle">Temukan Arah Kariermu<br><span class="serif-accent">di Dunia Meteorologi.</span></h1>
           <p class="hero-desc">Delapan spesialisasi, beragam peluang. Pahami bidang ilmu dan keterampilan yang dibutuhkan, kenali perjalanan alumni, serta temukan organisasi dan proyek yang relevan dengan tujuanmu.</p>
-          <div class="hero-actions"><a class="btn btn-coral" href="#spesialisasi">Mulai eksplorasi <span aria-hidden="true">↗</span></a><a class="text-action" href="#alumni">Bandingkan spesialisasi <span aria-hidden="true">↗</span></a></div>
+          <div class="hero-actions"><a class="btn btn-coral" href="#spesialisasi">Mulai eksplorasi <span aria-hidden="true">↗</span></a><a class="text-action" href="#bandingkan">Bandingkan spesialisasi <span aria-hidden="true">↗</span></a></div>
           <div class="hero-trust"><span class="trust-rule"></span><p>Kurikulum 2024 · Referensi publik · Bukan situs resmi ITB</p></div>
         </div>
         <div class="hero-visual hero-visual-data reveal-on-load" aria-label="Infografik abstrak tentang delapan bidang spesialisasi">
@@ -170,7 +170,9 @@
       <div class="wrap">
         <div class="section-heading reveal"><div><p class="kicker dark-kicker">03 / PEOPLE BEHIND THE PATHS</p><h2>Satu Ilmu.<br><em>Beragam Perjalanan.</em></h2></div><p class="section-aside">Jejak alumni membantu membayangkan perjalanan karier yang mungkin kamu pilih. Klasifikasi berdasarkan kesesuaian pekerjaan dan riset, bukan konfirmasi pengambilan paket kurikulum. Status pendidikan ditampilkan untuk transparansi.</p></div>
         <div class="directory-controls reveal"><label class="select-label">SPESIALISASI <select id="alumniFilter" aria-label="Filter alumni berdasarkan spesialisasi"></select></label><label class="search-field"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="7"></circle><path d="m16 16 4 4"></path></svg><input id="alumniSearch" type="search" placeholder="Cari alumni, profesi, atau institusi..." aria-label="Cari alumni"></label><span id="alumniResults" class="results-label"></span></div>
-        <div id="alumniGrid" class="people-grid"></div><p class="data-note">Klasifikasi profil berdasarkan pengalaman profesional, bukan konfirmasi spesialisasi. <a href="#tentang">Pelajari metodologi ↗</a></p>
+        <div class="advanced-filters" aria-label="Filter tambahan profil">
+<label class="field-label" for="alumniDegreeFilter">Riwayat pendidikan<select id="alumniDegreeFilter"><option value="all">Semua profil</option><option value="s1">S1 Meteorologi ITB tercantum</option><option value="unknown">S1 Meteorologi belum terverifikasi</option></select></label>
+</div><div id="alumniGrid" class="people-grid"></div><p class="data-note">Klasifikasi profil berdasarkan pengalaman profesional, bukan konfirmasi spesialisasi. <a href="#tentang">Pelajari metodologi ↗</a></p>
       </div>
     </section>
 
@@ -179,7 +181,11 @@
         <div class="section-heading on-dark reveal"><div><p class="kicker light-kicker">04 / THE INDUSTRY LANDSCAPE</p><h2>Kenali Industri<br><em>yang Relevan.</em></h2></div><p class="section-aside">Telusuri instansi, perusahaan, dan sektor yang berhubungan dengan delapan bidang. Satu organisasi dapat terkait beberapa bidang. Entri bukan jaminan sedang merekrut atau menerima lulusan Meteorologi.</p></div>
         <div class="company-spotlight reveal"><div class="company-spotlight-art" aria-hidden="true"><div class="company-spotlight-lines"></div><span class="industry-label">INDUSTRY CONNECTIONS</span><strong>29<span>↗</span></strong><small>ORGANISASI UNIK · 08 SPESIALISASI</small></div><div class="company-spotlight-copy"><span class="eyebrow-pill">FIELD TO INDUSTRY</span><h3>Hubungkan ilmu<br>dengan dunia kerja.</h3><p>Kenali contoh posisi, kemampuan yang dicari, dan tautan bukti relevansi. Cocok untuk merancang magang, portofolio, atau eksplorasi profesional.</p></div></div>
         <div class="directory-controls dark-controls reveal"><label class="select-label">SPESIALISASI <select id="companyFilter" aria-label="Filter perusahaan berdasarkan spesialisasi"></select></label><label class="search-field"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="7"></circle><path d="m16 16 4 4"></path></svg><input id="companySearch" type="search" placeholder="Cari organisasi, skill, atau posisi..." aria-label="Cari company"></label><span id="companyResults" class="results-label"></span></div>
-        <div id="companyGrid" class="company-grid"></div><p class="data-note">29 organisasi unik, 50 hubungan lintas spesialisasi. Lowongan terdokumentasi belum tentu masih aktif. <a href="#tentang">Metodologi ↗</a></p>
+        <div class="advanced-filters" aria-label="Filter tambahan organisasi">
+<label class="field-label" for="companyTypeFilter">Jenis organisasi<select id="companyTypeFilter"><option value="all">Semua jenis</option></select></label>
+<label class="field-label" for="companyRegionFilter">Wilayah<select id="companyRegionFilter"><option value="all">Semua wilayah</option></select></label>
+<label class="field-label" for="companyEvidenceFilter">Bukti hubungan<select id="companyEvidenceFilter"><option value="all">Semua jenis bukti</option><option value="lowongan">Ada contoh lowongan terdokumentasi</option><option value="sektor">Relevansi sektor / proyek</option></select></label>
+</div><div id="companyGrid" class="company-grid"></div><p class="data-note">29 organisasi unik, 50 hubungan lintas spesialisasi. Lowongan terdokumentasi belum tentu masih aktif. <a href="#tentang">Metodologi ↗</a></p>
       </div>
     </section>
 

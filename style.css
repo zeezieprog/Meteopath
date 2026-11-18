@@ -528,3 +528,11 @@ body{overflow-x:hidden}
 @media(max-width:930px){.spec-grid,.projects-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.compare-options{grid-template-columns:repeat(2,minmax(0,1fr))}.career-steps{grid-template-columns:repeat(2,minmax(0,1fr))}.planner-layout{grid-template-columns:1fr}}
 @media(max-width:660px){.compare-section,.project-section,.planner-section,.career-section,.method-section{padding:70px 0}.compare-shell,.career-explorer,.planner-form,.plan-output{padding:18px}.compare-options,.spec-grid,.projects-grid,.method-grid,.career-steps{grid-template-columns:1fr}.project-filters .field-label{width:100%}.skill-checks{grid-template-columns:1fr}.nav a{font-size:.91rem}.hero h1{font-size:clamp(2.45rem,9.4vw,4rem)}}
 @media(prefers-reduced-motion:reduce){.project-card,.compare-option{animation:none!important;transition:none!important}}
+
+/* V6 refined filters and hero copy */
+.advanced-filters{display:flex;flex-wrap:wrap;gap:12px;margin:0 0 20px;align-items:end}
+.advanced-filters .field-label{max-width:310px;min-width:185px;flex:1}
+.advanced-filters .field-label select{width:100%;min-height:44px}
+.alumni-section .advanced-filters{margin-top:-4px;margin-bottom:22px}
+.hero .hero-copy h1{max-width:760px;font-size:clamp(2.6rem,4.8vw,5.6rem);text-wrap:balance}
+@media(max-width:660px){.advanced-filters .field-label{max-width:100%;min-width:100%}.hero .hero-copy h1{font-size:clamp(2.35rem,9.2vw,3.8rem)}}

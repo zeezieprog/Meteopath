@@ -29,6 +29,15 @@ renderTabs=function(){$$("#detailTabs [role=tab]").forEach(function(b){const act
 companyFor=function(t){return orgs.filter(function(o){return o.specializations.includes(t.name)})};
 filteredCompanies=function(){const track=labelFilter(state.companyFilter),q=norm(state.companySearch);return orgs.filter(function(o){return (state.companyFilter==="all"||o.specializations.includes(track))&&(!q||norm([o.name,o.type,o.region,o.specializations.join(" "),o.references.map(function(r){return r.role+" "+r.skills+" "+r.reason}).join(" ")].join(" ")).includes(q))})};
 function links(o,r){return linkTo(o.site,"Situs / karier")+linkTo(r.source,"Sumber relevansi")}
+const baseCompanyFilter=filteredCompanies;
+filteredCompanies=function(){const type=$("#companyTypeFilter")?.value||"all",region=$("#companyRegionFilter")?.value||"all",evidence=$("#companyEvidenceFilter")?.value||"all";
+ return baseCompanyFilter().filter(function(o){
+  if(type!=="all"&&o.type!==type)return false;
+  if(region!=="all"&&o.region!==region)return false;
+  const hasJob=o.references.some(function(r){return /lowongan/i.test(r.evidenceType||"")});
+  return evidence==="all"||(evidence==="lowongan"&&hasJob)||(evidence==="sektor"&&!hasJob)
+ })
+};
 companyCard=function(o,i){const r=refFor(o,state.companyFilter==="all"?null:labelFilter(state.companyFilter)),skills=uniq((r.skills||"").split(";").map(function(x){return x.trim()})).slice(0,3);
 return '<article class="company-card reveal" style="--delay:'+Math.min(i%3*60,120)+'ms"><div class="company-top"><span class="company-monogram">'+esc(initials(o.name))+'</span><div><h3>'+esc(o.name)+'</h3><div class="company-kind">'+esc(o.type)+' · '+esc(o.region)+'</div></div></div><div class="company-role">'+esc(r.role)+'</div><p>'+esc(r.reason)+'</p><div class="company-specialties">'+o.specializations.map(function(s){return '<span>'+esc(s)+'</span>'}).join('')+'</div><div class="company-tags">'+skills.map(function(s){return '<span class="company-tag">'+esc(s)+'</span>'}).join('')+'</div><div class="evidence-label '+(/lowongan/i.test(r.evidenceType)?"strong":"")+'">'+esc(r.evidenceType)+'</div><p class="company-note">Kualifikasi: '+esc(r.qualification)+'</p><div class="company-links">'+links(o,r)+'</div></article>'};
 renderCompanies=function(){const a=filteredCompanies();$("#companyResults").textContent=a.length+" ORGANISASI UNIK";$("#companyGrid").innerHTML=a.length?a.map(companyCard).join(''):'<div class="no-results" style="grid-column:1/-1">Tidak ada organisasi yang cocok.</div>';reveal()};
@@ -36,6 +45,10 @@ companyEntry=function(o){const r=refFor(o,trackBySlug[state.active].name);return
 companiesTab=function(t){const a=companyFor(t);return '<p class="detail-eyebrow">KETERKAITAN INDUSTRI</p><h3 class="section-mini-title">'+a.length+' organisasi terkait '+esc(t.name)+'</h3><p class="detail-intro-copy">Katalog organisasi relevan, bukan daftar lowongan aktif. Lihat persyaratan pada situs resmi.</p><div class="tab-list">'+a.map(companyEntry).join('')+'</div>'};
 alumniCard=function(a,i){const url=trustedUrl(a["URL LinkedIn"],true),unknown=a.degreeStatus!=="S1 Meteorologi ITB tercantum";
 return '<article class="person-card reveal" style="--delay:'+Math.min(i%3*60,120)+'ms"><div class="person-top"><div class="person-avatar">'+esc(a.initials||initials(a["Nama Alumni"]))+'</div><div><h3>'+esc(a["Nama Alumni"])+'</h3><div class="person-category">'+esc(a["Kelompok Utama"])+'</div></div></div><p class="person-work">'+esc(a["Peran / Jejak Profesional"])+'</p><div class="person-institution">'+esc(a["Institusi / Sektor"])+'</div><div class="profile-status '+(unknown?"profile-caution":"")+'">'+esc(a.degreeStatus)+'</div><details><summary>Dasar klasifikasi</summary><p>'+esc(a["Alasan Klasifikasi"])+'</p><p>Pendidikan: '+esc(a["Pendidikan ITB"])+'</p><p>Kekuatan bukti: '+esc(a["Kekuatan Bukti"])+' · tanggal verifikasi tidak tercatat.</p></details>'+(url?'<a class="person-link" href="'+esc(url)+'" target="_blank" rel="noopener noreferrer">Lihat LinkedIn ↗</a>':'')+'</article>'};
+const baseAlumniFilter=filteredAlumni;
+filteredAlumni=function(){const d=$("#alumniDegreeFilter")?.value||"all";
+ return baseAlumniFilter().filter(function(a){return d==="all"||(d==="s1"&&a.degreeStatus==="S1 Meteorologi ITB tercantum")||(d==="unknown"&&a.degreeStatus!=="S1 Meteorologi ITB tercantum")})
+};
 const oldOverview=overviewTab;
 overviewTab=function(t){return oldOverview(t)+'<div class="feature-box"><h4>Eksplorasi berikutnya</h4><p>Bandingkan bidang ini dengan pilihan lain dan mulai satu proyek portofolio.</p><p><a href="#bandingkan">Bandingkan ↗</a> · <a href="#proyek">Pustaka proyek ↗</a></p></div>'};
 const courseState=safeGet("meteopath-courses",{});
@@ -67,8 +80,15 @@ function initV6(){
  $("#careerResult").addEventListener("click",function(e){const a=e.target.closest("[data-choose-project]");if(a){$("#projectTrack").value=a.dataset.chooseProject;drawProjects()}});
  $("#detailTabs").addEventListener("keydown",function(e){if(!["ArrowRight","ArrowLeft","Home","End"].includes(e.key))return;const tabs=$$("#detailTabs [role=tab]"),at=tabs.indexOf(document.activeElement);if(at<0)return;e.preventDefault();const i=e.key==="Home"?0:e.key==="End"?tabs.length-1:(at+(e.key==="ArrowRight"?1:-1)+tabs.length)%tabs.length;tabs[i].focus();tabs[i].click()});
  $("#detailBody").addEventListener("change",function(e){const c=e.target.closest("input[data-course]");if(!c)return;const t=trackBySlug[state.active],list=chosen(t);if(c.checked&&list.length<4)list.push(c.dataset.course);else if(!c.checked)list.splice(list.indexOf(c.dataset.course),1);else{c.checked=false;$("#courseStatus").textContent="Maksimal 12 SKS dapat dipilih.";return}courseState[t.slug]=list;safeSet("meteopath-courses",courseState);renderDetailBody()});
- $("#detailBody").addEventListener("click",function(e){if(e.target.id!=="copyCourse")return;const t=trackBySlug[state.active],codes=chosen(t),txt="Simulasi 12 SKS — "+t.name+"\n"+curriculum[t.name].filter(function(c){return codes.includes(c.code)}).map(function(c){return c.code+" "+c.name+" ("+c.credits+" SKS)"}).join("\n")+"\nKonsultasikan dengan dosen wali.";saveTxt(txt,"meteopath-rencana-mk.txt")});
- const skills=$("#planSkills");skills.innerHTML=skillChoices.map(function(s){return '<label><input type="checkbox" value="'+esc(s)+'"><span>'+esc(s)+'</span></label>'}).join('');
+ $("#detailBody").addEventListener("click",function(e){if(e.target.id!=="copyCourse")return;const t=trackBySlug[state.active],codes=chosen(t),txt="Simulasi 12 SKS — "+t.name+"\n"+curriculum[t.name].filter(function(c){return codes.includes(c.code)}).map(function(c){return c.code+" "+c.name+" ("+c.credits+" SKS)"}).join("\n")+"\nKonsultasikan dengan dosen wali.";if(navigator.clipboard&&navigator.clipboard.writeText)navigator.clipboard.writeText(txt).then(function(){e.target.textContent="Rencana tersalin ✓"}).catch(function(){saveTxt(txt,"meteopath-rencana-mk.txt")});else saveTxt(txt,"meteopath-rencana-mk.txt")});
+ const typeFilter=$("#companyTypeFilter"),regionFilter=$("#companyRegionFilter");
+function populateFilter(el,values,label){el.innerHTML='<option value="all">'+label+'</option>'+values.map(function(v){return '<option value="'+esc(v)+'">'+esc(v)+'</option>'}).join('')}
+populateFilter(typeFilter,uniq(orgs.map(function(o){return o.type})).sort(),"Semua jenis");
+populateFilter(regionFilter,uniq(orgs.map(function(o){return o.region})).sort(),"Semua wilayah");
+[typeFilter,regionFilter,$("#companyEvidenceFilter")].forEach(function(el){el.addEventListener("change",renderCompanies)});
+$("#alumniDegreeFilter").addEventListener("change",renderAlumni);
+renderCompanies();renderAlumni();
+const skills=$("#planSkills");skills.innerHTML=skillChoices.map(function(s){return '<label><input type="checkbox" value="'+esc(s)+'"><span>'+esc(s)+'</span></label>'}).join('');
  if(currentPlan&&trackBySlug[currentPlan.track]){$("#planTrack").value=currentPlan.track;$("#planStage").value=currentPlan.stage;$("#planGoal").value=currentPlan.goal||"";$$("#planSkills input").forEach(function(x){x.checked=currentPlan.skills.includes(x.value)});drawPlan()}
  $("#careerPlannerForm").addEventListener("submit",function(e){e.preventDefault();currentPlan={track:$("#planTrack").value,stage:$("#planStage").value,goal:$("#planGoal").value.trim(),skills:$$("#planSkills input:checked").map(function(c){return c.value})};safeSet("meteopath-plan",currentPlan);drawPlan();$("#planOutput").scrollIntoView({behavior:reduceMotion?"auto":"smooth",block:"nearest"})});
  $("#planOutput").addEventListener("click",function(e){if(e.target.id==="downloadPlan")saveTxt(planText(),"meteopath-career-plan.txt");if(e.target.id==="copyPlan"){if(navigator.clipboard&&navigator.clipboard.writeText)navigator.clipboard.writeText(planText()).then(function(){e.target.textContent="Disalin ✓"}).catch(function(){saveTxt(planText(),"meteopath-career-plan.txt")});else saveTxt(planText(),"meteopath-career-plan.txt")}});
