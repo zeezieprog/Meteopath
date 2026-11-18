@@ -2,7 +2,6 @@
 (function(){
 "use strict";
 const orgs=dataset.companies;
-const skillChoices=["Python","QGIS dan GIS","Statistika","Linux dan Git","Remote sensing","Visualisasi data","Riset ilmiah","Komunikasi"];
 function safeGet(k,d){try{return JSON.parse(localStorage.getItem(k))||d}catch(e){return d}}
 function safeSet(k,v){try{localStorage.setItem(k,JSON.stringify(v))}catch(e){}}
 function uniq(v){return [...new Set(v.filter(Boolean))]}
@@ -159,14 +158,9 @@ function drawProjects(){
 }
 
 function dataSetProjects(){return dataset.projects}
-let currentPlan=safeGet("meteopath-plan",null);
-function planInfo(p){const t=trackBySlug[p.track]||tracks[0],phases={awal:"Tahun awal kuliah",menengah:"Tahun menengah kuliah",akhir:"Menjelang lulus",lulusan:"Lulusan baru"},actions={awal:"Kuatkan dasar kuliah dan uji minat lewat satu proyek kecil.",menengah:"Bangun portofolio lengkap dan mulai cari pengalaman riset atau magang.",akhir:"Selaraskan tugas akhir, magang, dan lamaran kerja atau studi lanjut.",lulusan:"Evaluasi persyaratan posisi entry-level dan tunjukkan bukti kompetensi."};
-return {title:t.name,phase:phases[p.stage]||phases.awal,goal:p.goal||t.careerPath.split("→").slice(-1)[0].trim(),skills:p.skills,steps:[actions[p.stage]||actions.awal,"Pelajari: "+t.skills.slice(0,4).join(", ")+".","Kerjakan proyek: "+t.project,"Baca profil profesional dan persyaratan posisi yang relevan.","Diskusikan progres dengan dosen atau mentor dan evaluasi kembali rencanamu."]}}
-function planText(){if(!currentPlan)return "";const p=planInfo(currentPlan);return "METEOPATH RENCANA KARIER\nSpesialisasi: "+p.title+"\nTahap: "+p.phase+"\nTarget: "+p.goal+"\nSkill awal: "+(p.skills.join(", ")||"Belum dipilih")+"\n\n"+p.steps.map(function(x,i){return (i+1)+". "+x}).join("\n")+"\nPanduan eksploratif, bukan persyaratan akademik resmi."}
 function saveTxt(txt,name){const u=URL.createObjectURL(new Blob([txt],{type:"text/plain;charset=utf-8"})),a=document.createElement("a");a.href=u;a.download=name;document.body.appendChild(a);a.click();a.remove();setTimeout(function(){URL.revokeObjectURL(u)},1200)}
-function drawPlan(){if(!currentPlan)return;const p=planInfo(currentPlan);$("#planOutput").innerHTML='<h3>'+esc(p.title)+'</h3><p><strong>Tahap:</strong> '+esc(p.phase)+', <strong>Target:</strong> '+esc(p.goal)+'</p><p><strong>Skill awal:</strong> '+esc(p.skills.join(", ")||"Belum dipilih")+'</p><ol>'+p.steps.map(function(s){return '<li>'+esc(s)+'</li>'}).join('')+'</ol><p>Rencana ini bukan penilaian bakat atau jaminan kerja.</p><div class="plan-tools"><button type="button" id="downloadPlan">Unduh .txt</button><button type="button" id="copyPlan">Salin</button></div>'}
 function initV6(){
- options($("#careerTrack"),false);options($("#projectTrack"),true);if($("#planTrack"))options($("#planTrack"),false);
+ options($("#careerTrack"),false);options($("#projectTrack"),true);
  $("#careerTrack").addEventListener("change",drawCareer);$("#projectTrack").addEventListener("change",drawProjects);$("#projectLevel").addEventListener("change",drawProjects);
  const projectSearch=$("#projectSearch");if(projectSearch)projectSearch.addEventListener("input",drawProjects);
  drawCompare();drawCareer();drawProjects();
@@ -183,13 +177,6 @@ populateFilter(regionFilter,uniq(orgs.map(function(o){return o.region})).sort(),
 [typeFilter,regionFilter,$("#companyEvidenceFilter")].forEach(function(el){el.addEventListener("change",renderCompanies)});
 $("#alumniDegreeFilter").addEventListener("change",renderAlumni);
 renderCompanies();renderAlumni();
-if($("#careerPlannerForm")){
- const skills=$("#planSkills");skills.innerHTML=skillChoices.map(function(s){return '<label><input type="checkbox" value="'+esc(s)+'"><span>'+esc(s)+'</span></label>'}).join('');
- if(currentPlan&&trackBySlug[currentPlan.track]){$("#planTrack").value=currentPlan.track;$("#planStage").value=currentPlan.stage;$("#planGoal").value=currentPlan.goal||"";$$("#planSkills input").forEach(function(x){x.checked=currentPlan.skills.includes(x.value)});drawPlan()}
- $("#careerPlannerForm").addEventListener("submit",function(e){e.preventDefault();currentPlan={track:$("#planTrack").value,stage:$("#planStage").value,goal:$("#planGoal").value.trim(),skills:$$("#planSkills input:checked").map(function(c){return c.value})};safeSet("meteopath-plan",currentPlan);drawPlan();$("#planOutput").scrollIntoView({behavior:reduceMotion?"auto":"smooth",block:"nearest"})});
- $("#planOutput").addEventListener("click",function(e){if(e.target.id==="downloadPlan")saveTxt(planText(),"meteopath-career-plan.txt");if(e.target.id==="copyPlan"){if(navigator.clipboard&&navigator.clipboard.writeText)navigator.clipboard.writeText(planText()).then(function(){e.target.textContent="Berhasil disalin"}).catch(function(){saveTxt(planText(),"meteopath-career-plan.txt")});else saveTxt(planText(),"meteopath-career-plan.txt")}});
-
- }
  function route(){const m=location.hash.match(/^#detail\?track=([a-z0-9-]+)$/);if(m&&trackBySlug[m[1]]){window.__meteopathRouteLoading=true;selectTrack(m[1],false);window.__meteopathRouteLoading=false;$("#detail").scrollIntoView({behavior:"auto",block:"start"})}}
  route();window.addEventListener("hashchange",route)
 }

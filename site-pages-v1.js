@@ -13,8 +13,6 @@
     perusahaan:"perusahaan.html#perusahaan",
     karier:"karier.html#karier",
     proyek:"karier.html#proyek",
-    roadmap:"karier.html#roadmap",
-    rencana:"rencana.html#rencana",
     tentang:"tentang.html#tentang"
   });
   const pageFile = {
@@ -24,7 +22,6 @@
     alumni:"alumni.html",
     perusahaan:"perusahaan.html",
     karier:"karier.html",
-    rencana:"rencana.html",
     tentang:"tentang.html"
   };
   const current = document.body.dataset.page || "home";

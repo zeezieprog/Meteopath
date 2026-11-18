@@ -7,7 +7,6 @@ Website independen mahasiswa untuk mengeksplorasi karier Meteorologi ITB. https:
 - Perbandingan 2–3 spesialisasi, simulator pemilihan 12 SKS, jalur karier, dan 16 proyek portofolio.
 - 33 profil karier dengan keterangan pendidikan; bukan semua terverifikasi alumni S1 Meteorologi.
 - 29 organisasi unik (50 hubungan lintas spesialisasi), dengan sumber dan jenis bukti.
-- Career Planner: rencana tersimpan di localStorage, ekspor teks, tanpa akun.
 - Tema gelap, animasi atmosfer, aksesibilitas keyboard, dan metodologi data.
 
 ## Berkas
@@ -24,10 +23,13 @@ Halaman `karier.html` memuat panduan untuk 8 spesialisasi dan 16 proyek dengan a
 
 Syarat kerja bervariasi dan proyek ini bukan sumber lowongan aktif atau panduan akademik resmi.
 
-## Future Planner v10
+## Arsip fitur Rencana
 
-Halaman `rencana.html` kini menggunakan planner interaktif dengan beberapa rencana tersimpan, tanggal target, spesialisasi, jenis tujuan, prioritas kemampuan, serta alokasi waktu mingguan. Setiap rencana dimulai dengan 12 tugas contoh yang dapat diedit atau dihapus. Pengguna dapat menambah tugas dan tenggat, mencentang penyelesaian, melihat progres, memfilter tugas mendatang dan terlambat, serta menyimpan refleksi berkala.
+Fitur perencanaan karier sementara disembunyikan dari versi utama Meteopath atas permintaan pengelola proyek. Halaman, navigasi, roadmap umum, dan komponen planner tidak lagi diterbitkan di branch `main`.
 
-Tidak ada fitur download, ekspor, atau penyalinan rencana pada halaman ini. Seluruh data planner disimpan secara lokal pada browser (`localStorage`), bukan di server. Data dapat hilang jika penyimpanan browser dibersihkan, dan tidak tersinkron antarperangkat. Kode planner terpisah dalam `future-planner-v10.js` dan `future-planner-v10.css`.
+**Cadangan utuh** tersedia pada branch `archive/future-planner-v10`:
+https://github.com/zeezieprog/Meteopath/tree/archive/future-planner-v10
 
-`scroll-bubbles-v10.js` dan `scroll-bubbles-v10.css` memberikan efek kemunculan saat scroll pada tujuh halaman utama, dengan dukungan `prefers-reduced-motion`. Animasi tidak menyembunyikan konten jika JavaScript atau IntersectionObserver tidak tersedia.
+Cadangan tersebut berisi `rencana.html`, `future-planner-v10.js`, `future-planner-v10.css`, template 12 tugas awal, fitur timeline/milestone, pelacakan progres, review, serta animasi scroll. Untuk mengaktifkan kembali, integrasikan kembali halaman dan aset dari branch tersebut dan tambahkan lagi navigasi ke halaman Rencana.
+
+Data pengguna yang pernah diisi tidak tersimpan di repositori. Versi planner memakai `localStorage` dengan kunci `meteopath-future-planner-v10` dan `meteopath-plan`. Pembaruan ini tidak memanggil penghapusan browser storage; data dapat tetap tersedia jika pemilik perangkat tidak menghapus data situs.
