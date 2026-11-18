@@ -56,12 +56,30 @@ function chosen(t){const req=curriculum[t.name].filter(function(c){return c.mand
 courseRows=function(t){const codes=chosen(t),items=courseList(t);return items.length?items.map(function(c){return '<label class="course-row course-select"><input data-course="'+esc(c.code)+'" type="checkbox" '+(codes.includes(c.code)?"checked ":"")+(c.mandatory?"disabled ":"")+'><span class="course-code">'+esc(c.code)+'</span><span class="course-name">'+esc(c.name)+'</span><span class="course-credits">'+(c.mandatory?'<span class="tag-required">Pilihan wajib</span>':"")+' <span>'+c.credits+' SKS</span></span></label>'}).join(''):'<div class="no-results">Tidak ada mata kuliah sesuai pencarian.</div>'};
 const oldCourses=coursesTab;
 coursesTab=function(t){return oldCourses(t).replace('<div class="course-list" id="courseRows">','<div class="course-planner-status" role="status" id="courseStatus"><strong>Simulasi: '+(chosen(t).length*3)+'/12 SKS terpilih</strong><p>Dua pilihan wajib sudah ditandai. Centang dua mata kuliah tambahan dari paket; ini bukan IRS resmi.</p></div><div class="course-list" id="courseRows">')+'<button type="button" id="copyCourse" class="copy-course">Salin rencana mata kuliah </button>'};
-let comparison=safeGet("meteopath-comparison",["perubahan-iklim","kebencanaan-hidrometeorologi-dan-lingkungan"]).filter(function(s){return Boolean(trackBySlug[s])}).slice(0,3);
-if(comparison.length<2)comparison=["perubahan-iklim","kebencanaan-hidrometeorologi-dan-lingkungan"];
-function drawCompare(){const selected=comparison.map(function(s){return trackBySlug[s]});
-$("#compareOptions").innerHTML=tracks.map(function(t){const yes=comparison.includes(t.slug);return '<label class="compare-option"><input type="checkbox" value="'+esc(t.slug)+'" '+(yes?"checked ":"")+(comparison.length>=3&&!yes?"disabled ":"")+'><span>'+esc(t.name)+'</span></label>'}).join('');
-const rows=[["Fokus",function(t){return t.summary}],["Mata kuliah pilihan wajib",function(t){return curriculum[t.name].filter(function(c){return c.mandatory}).map(function(c){return c.code+" "+c.name}).join("; ")}],["Skill",function(t){return t.skills.slice(0,5).join(", ")}],["Kegiatan profesional",function(t){return t.work}],["Jalur karier",function(t){return t.careerPath.replace(/→/g,", kemudian ")}],["Proyek",function(t){return t.project}]];
-$("#compareResult").innerHTML='<table class="compare-table"><thead><tr><th scope="col">Aspek</th>'+selected.map(function(t){return '<th scope="col">'+esc(t.name)+'</th>'}).join('')+'</tr></thead><tbody>'+rows.map(function(r){return '<tr><th scope="row">'+esc(r[0])+'</th>'+selected.map(function(t){return '<td>'+esc(r[1](t))+'</td>'}).join('')+'</tr>'}).join('')+'<tr><th scope="row">Lihat detail</th>'+selected.map(function(t){return '<td><a data-open-track="'+esc(t.slug)+'" href="#detail?track='+esc(t.slug)+'">Buka spesialisasi </a></td>'}).join('')+'</tr></tbody></table><p class="compare-note">Konsultasikan pilihan mata kuliah dengan dosen wali.</p>'}
+/* Comparison starts empty on every visit: the visitor chooses two or three tracks. */
+let comparison=[];
+function drawCompare(){
+  const selected=comparison.map(function(slug){return trackBySlug[slug]}).filter(Boolean);
+  $("#compareOptions").innerHTML=tracks.map(function(t){
+    const yes=comparison.includes(t.slug);
+    return '<label class="compare-option"><input type="checkbox" value="'+esc(t.slug)+'" '+(yes?"checked ":"")+(comparison.length>=3&&!yes?"disabled ":"")+'><span>'+esc(t.name)+'</span></label>';
+  }).join("");
+  const stateText='<div class="compare-selection-state" role="status"><span>'+comparison.length+' dari 3 spesialisasi dipilih</span>'+(comparison.length?'<button type="button" class="compare-reset" id="compareReset">Hapus pilihan</button>':"")+'</div>';
+  const result=$("#compareResult");
+  if(selected.length<2){
+    result.innerHTML=stateText+'<div class="compare-empty"><strong>'+(selected.length===0?'Mulai dengan memilih dua spesialisasi':'Pilih satu spesialisasi lagi')+'</strong><p>Centang dua atau tiga bidang di atas. Tabel akan muncul setelah minimal dua spesialisasi dipilih.</p></div>';
+    return;
+  }
+  const rows=[
+    ["Fokus",function(t){return t.summary}],
+    ["Mata kuliah pilihan wajib",function(t){return curriculum[t.name].filter(function(c){return c.mandatory}).map(function(c){return c.code+" "+c.name}).join("; ")}],
+    ["Skill",function(t){return t.skills.slice(0,5).join(", ")}],
+    ["Kegiatan profesional",function(t){return t.work}],
+    ["Jalur karier",function(t){return t.careerPath.replace(/→/g,", kemudian ")}],
+    ["Proyek",function(t){return t.project}]
+  ];
+  result.innerHTML=stateText+'<div class="compare-table-wrap"><table class="compare-table"><thead><tr><th scope="col">Aspek</th>'+selected.map(function(t){return '<th scope="col">'+esc(t.name)+'</th>'}).join('')+'</tr></thead><tbody>'+rows.map(function(row){return '<tr><th scope="row">'+esc(row[0])+'</th>'+selected.map(function(t){return '<td>'+esc(row[1](t))+'</td>'}).join('')+'</tr>'}).join('')+'<tr><th scope="row">Lihat detail</th>'+selected.map(function(t){return '<td><a data-open-track="'+esc(t.slug)+'" href="spesialisasi.html#detail?track='+esc(t.slug)+'">Buka spesialisasi</a></td>'}).join('')+'</tr></tbody></table></div><p class="compare-note">Pilihan ini hanya untuk eksplorasi. Konsultasikan mata kuliah dengan dosen wali.</p>';
+}
 function drawCareer(){const t=trackBySlug[$("#careerTrack").value],st=t.careerPath.split("→").map(function(x){return x.trim()}).filter(Boolean).slice(0,4);$("#careerResult").innerHTML='<div class="career-overview"><h3>'+esc(t.name)+'</h3><p>'+esc(t.work)+'</p></div><div class="career-steps">'+st.map(function(s,i){return '<div class="career-step"><small>TAHAP '+(i+1)+'</small><strong>'+esc(s)+'</strong></div>'}).join('')+'</div><p class="career-tips"><strong>Kompetensi:</strong> '+esc(t.skills.slice(0,5).join(", "))+'. <a href="#proyek" data-choose-project="'+esc(t.slug)+'">Lihat contoh proyek </a></p>'}
 function drawProjects(){const tr=$("#projectTrack").value,level=$("#projectLevel").value,p=dataSetProjects().filter(function(x){return (tr==="all"||x.track===tr)&&(level==="all"||x.level===level)});$("#projectCount").textContent=p.length+" PROYEK";$("#projectGrid").innerHTML=p.length?p.map(function(x){return '<article class="project-card"><span class="project-level">'+esc(x.level)+'</span><h3>'+esc(x.title)+'</h3><small>'+esc(trackBySlug[x.track].name)+'</small><p>'+esc(x.summary)+'</p><small>Tools: '+esc(x.tools)+'</small><p><strong>Hasil:</strong> '+esc(x.output)+'</p><details><summary>Lihat langkah-langkah</summary><ol>'+x.steps.map(function(s){return '<li>'+esc(s)+'</li>'}).join('')+'</ol></details></article>'}).join(''):'<div class="no-results">Tidak ada proyek yang cocok.</div>'}
 function dataSetProjects(){return dataset.projects}
@@ -75,8 +93,8 @@ function initV6(){
  options($("#careerTrack"),false);options($("#projectTrack"),true);options($("#planTrack"),false);
  $("#careerTrack").addEventListener("change",drawCareer);$("#projectTrack").addEventListener("change",drawProjects);$("#projectLevel").addEventListener("change",drawProjects);
  drawCompare();drawCareer();drawProjects();
- $("#compareOptions").addEventListener("change",function(e){const c=e.target.closest("input");if(!c)return;if(c.checked&&comparison.length<3)comparison.push(c.value);else if(!c.checked&&comparison.length>2)comparison=comparison.filter(function(v){return v!==c.value});else c.checked=!c.checked;safeSet("meteopath-comparison",comparison);drawCompare()});
- $("#compareResult").addEventListener("click",function(e){const a=e.target.closest("[data-open-track]");if(a){e.preventDefault();selectTrack(a.dataset.openTrack,true)}});
+ $("#compareOptions").addEventListener("change",function(e){const c=e.target.closest("input");if(!c)return;if(c.checked&&comparison.length<3&&!comparison.includes(c.value))comparison.push(c.value);else if(!c.checked)comparison=comparison.filter(function(v){return v!==c.value});drawCompare()});
+ $("#compareResult").addEventListener("click",function(e){const reset=e.target.closest("#compareReset");if(reset){comparison=[];drawCompare();return}const a=e.target.closest("[data-open-track]");if(a){e.preventDefault();window.location.assign("spesialisasi.html#detail?track="+encodeURIComponent(a.dataset.openTrack))}});
  $("#careerResult").addEventListener("click",function(e){const a=e.target.closest("[data-choose-project]");if(a){$("#projectTrack").value=a.dataset.chooseProject;drawProjects()}});
  $("#detailTabs").addEventListener("keydown",function(e){if(!["ArrowRight","ArrowLeft","Home","End"].includes(e.key))return;const tabs=$$("#detailTabs [role=tab]"),at=tabs.indexOf(document.activeElement);if(at<0)return;e.preventDefault();const i=e.key==="Home"?0:e.key==="End"?tabs.length-1:(at+(e.key==="ArrowRight"?1:-1)+tabs.length)%tabs.length;tabs[i].focus();tabs[i].click()});
  $("#detailBody").addEventListener("change",function(e){const c=e.target.closest("input[data-course]");if(!c)return;const t=trackBySlug[state.active],list=chosen(t);if(c.checked&&list.length<4)list.push(c.dataset.course);else if(!c.checked)list.splice(list.indexOf(c.dataset.course),1);else{c.checked=false;$("#courseStatus").textContent="Maksimal 12 SKS dapat dipilih.";return}courseState[t.slug]=list;safeSet("meteopath-courses",courseState);renderDetailBody()});
