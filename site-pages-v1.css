@@ -147,3 +147,22 @@ body[data-page] .footer{margin-top:0!important;}
 @media(prefers-reduced-motion:reduce){
  .home-feature:hover,.home-feature:focus-visible{transform:none}
 }
+
+/* Compact landing-page navigation on phones: two destinations per row. */
+@media (max-width:640px) {
+  .home-feature-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:11px}
+  .home-feature{min-height:185px;padding:15px}
+  .home-feature .feature-index{font-size:10px;margin-bottom:14px}
+  .home-feature h3{font-size:16px!important;line-height:1.25!important}
+  .home-feature p{
+    font-size:12.5px!important;line-height:1.55!important;
+    margin-bottom:10px;display:-webkit-box;-webkit-box-orient:vertical;
+    -webkit-line-clamp:4;overflow:hidden;
+  }
+  .home-feature .feature-cta{font-size:11px!important}
+}
+@media (max-width:355px) {
+  .home-feature{padding:12px}
+  .home-feature .feature-index{font-size:9px}
+  .home-feature h3{font-size:15px!important}
+}
