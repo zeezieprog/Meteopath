@@ -1,0 +1,157 @@
+/* METEOPATH / contrast & type audit v2
+   High-contrast Genesis surface refinements, including JavaScript-rendered content.
+   Loaded last; intentionally uses explicit component rules over blanket color resets.
+*/
+:root {
+  --read-ink:#171923;
+  --read-muted:#4B5563;
+  --read-subtle:#626B79;
+  --read-line:#E2E5EB;
+  --read-accent:#4F46E5;
+  --read-surface:#FFFFFF;
+  --read-bg:#FAFAFA;
+}
+html, body {background:var(--read-bg)!important;color:var(--read-ink)!important;}
+body {font-family:"DM Sans",system-ui,sans-serif!important;}
+body :is(h1,h2,h3,h4,h5,h6),
+body :is(h1,h2,h3,h4,h5,h6) *,
+body .brand-name,body .footer-logo,body .spec-graphic-index,
+body .metric-number,body .journey-number,body .atlas-center strong{
+ font-family:"General Sans","DM Sans",system-ui,sans-serif!important;
+}
+body :is(p,li,dd,dt,small,summary,label,button,input,select,textarea){
+ font-family:"DM Sans",system-ui,sans-serif!important;
+}
+body .course-code,body .course-credits,body .spec-num,
+body .journey-time,body .atlas-topline,body .atlas-bottomline{
+ font-family:"JetBrains Mono",ui-monospace,monospace!important;
+}
+body main {background:var(--read-bg)!important;}
+/* Overrule legacy dark-text tokens on the light Genesis surfaces. */
+body main :is(
+ .hero-desc,.hero-trust p,.section-aside,.section-small-print,.data-note,
+ .detail-intro-copy,.detail-short,.tab-item-note,.career-tips,.compare-note,
+ .feature-box p,.detail-banner p,.detail-body p,.detail-body li,
+ .person-work,.person-institution,.person-meta,.company-note,.company-role,
+ .company-kind,.company-card p,.company-spotlight-copy p,.project-card p,
+ .project-card small,.project-card ol,.career-overview p,.career-overview,
+ .career-steps p,.career-tips p,.planner-form p,.plan-output p,.plan-output li,
+ .journey-card p,.method-grid p,.method-grid li,.profile-status,
+ .tab-item-body small,.tab-item-body p,.career-step p,
+ .course-planner-status p,.course-planner-status,.skill-fieldset label
+) {color:var(--read-muted)!important;opacity:1!important;}
+body main :is(
+ .detail-body h3,.detail-body h4,.detail-sidebar h3,
+ .feature-box h4,.tab-item-body strong,.tab-item strong,
+ .career-overview h3,.career-steps strong,.career-step strong,
+ .person-card h3,.company-card h3,.project-card h3,.journey-card h3,
+ .plan-output h3,.compare-shell h3,.method-grid h3,
+ .company-spotlight-copy h3,.course-name
+){color:var(--read-ink)!important;opacity:1!important;}
+body main :is(.detail-eyebrow,.section-mini-title,.career-step small,
+ .course-code,.course-credits,.project-level,.metric-hint,.detail-label,
+ .detail-jump-label,.person-category,.journey-time,.results-label,
+ .cards-count,.section-aside){opacity:1!important;}
+body main :is(.detail-eyebrow,.career-step small,.detail-label,.detail-jump-label,
+ .project-level,.person-category,.journey-time){
+ color:var(--read-subtle)!important;
+}
+body main :is(.profile-caution,.error){color:#A13535!important;}
+body main :is(.person-link,.method-grid a,.company-links a,.project-card a,
+ .career-tips a,.footer a,.detail-body a){color:var(--read-accent)!important;}
+/* Firmly set light background and dark body copy, including nested dynamically
+   inserted sections carrying styles from the old dark theme. */
+body main :is(
+ .career-explorer,.compare-shell,.career-overview,.career-step,
+ .career-tips,.career-steps,.project-card,.person-card,.company-card,
+ .planner-form,.plan-output,.detail-shell,.detail-sidebar,.detail-content,
+ .detail-body,.detail-banner,.feature-box,.tab-item,.tab-list,.course-row,
+ .method-grid article,.journey-card,.company-spotlight,.company-spotlight-copy
+){
+ background:var(--read-surface)!important;
+ border-color:var(--read-line)!important;
+ color:var(--read-ink)!important;
+ text-shadow:none!important;
+ box-shadow:none!important;
+}
+body main .career-explorer,body main .career-overview,
+body main .career-tips,body main .career-steps{min-height:0!important;}
+body main .career-overview{padding:18px 20px!important;}
+body main .career-overview p{
+ font-size:14px!important;line-height:1.7!important;
+ margin:8px 0 0!important;max-width:75ch;
+}
+body main .career-steps{
+ display:grid!important;
+ grid-template-columns:repeat(4,minmax(0,1fr))!important;
+ align-items:stretch!important;
+ gap:12px!important;
+ margin:16px 0!important;
+}
+body main .career-step{
+ display:flex!important;flex-direction:column!important;
+ align-items:flex-start!important;justify-content:flex-start!important;
+ gap:8px!important;min-height:0!important;height:auto!important;
+ padding:16px!important;
+ border:1px solid var(--read-line)!important;
+ border-radius:10px!important;
+}
+body main .career-step small{
+ display:block!important;margin:0!important;
+ color:#6366F1!important;font-size:11px!important;
+ line-height:1.45!important;font-weight:700!important;
+ letter-spacing:.04em!important;
+}
+body main .career-step strong{
+ display:block!important;font-size:14px!important;
+ font-weight:700!important;line-height:1.48!important;
+ margin:0!important;white-space:normal!important;
+ overflow-wrap:anywhere!important;
+}
+body main .career-tips {
+ font-size:14px!important;line-height:1.7!important;
+ padding:12px 0!important;margin-top:12px!important;
+}
+body main .career-tips strong{color:var(--read-ink)!important;}
+body main .career-tips a{font-weight:700!important;text-underline-offset:3px;}
+body main .tab-item-body small{color:var(--read-muted)!important;}
+body main .course-row :is(small,span,strong,label){opacity:1!important;}
+body main .course-name {font-size:14px!important;line-height:1.5!important;}
+body main .feature-box p {font-size:14px!important;line-height:1.7!important;}
+body main .project-card :is(small,p,ol,li){color:var(--read-muted)!important;opacity:1!important;}
+body main .company-card :is(.company-role,.company-note,.company-kind,.company-tag,.evidence-label){
+ color:var(--read-muted)!important;opacity:1!important;
+}
+body main .person-card :is(.person-work,.person-institution,.profile-status){
+ color:var(--read-muted)!important;opacity:1!important;
+}
+/* Search/filter UI: label and placeholder must be legible on white */
+body main :is(.field-label,.select-label){color:#3F4653!important;}
+body main :is(input,select,textarea){background:#FFF!important;color:var(--read-ink)!important;border-color:#D5D9E2!important;}
+body main :is(input,textarea)::placeholder{color:#6B7280!important;opacity:1!important;}
+body main :is(.filter-pill,.detail-tab,.course-toggle){font-size:13px!important;}
+body main .detail-tab:not(.active){color:#505A69!important;}
+body main .detail-tab.active{color:#4F46E5!important;}
+body main .metric :is(.metric-number,.metric-label){color:var(--read-ink)!important;}
+body main .metric .metric-hint{color:var(--read-muted)!important;}
+/* All cards have compact vertical rhythm on iPhone */
+@media(max-width:930px){
+ body main .career-steps{grid-template-columns:repeat(2,minmax(0,1fr))!important;}
+}
+@media(max-width:640px){
+ body main .career-explorer {padding:16px!important;}
+ body main .career-overview{padding:14px!important;}
+ body main .career-steps{grid-template-columns:repeat(2,minmax(0,1fr))!important;gap:10px!important;}
+ body main .career-step{min-height:0!important;gap:6px!important;padding:12px!important;}
+ body main .career-step small{font-size:10px!important;}
+ body main .career-step strong{font-size:13px!important;line-height:1.38!important;}
+ body main .career-tips{font-size:13px!important;line-height:1.6!important;}
+ body main .career-overview p{font-size:13px!important;}
+ body main :is(.section-aside,.detail-intro-copy,.person-work,.company-card p,
+  .plan-output p,.plan-output li,.project-card p,.journey-card p){font-size:14px!important;}
+ body main .detail-body p,body main .detail-body li {font-size:14px!important;}
+}
+@media(max-width:360px){
+ body main .career-step{padding:10px!important;}
+ body main .career-step strong{font-size:12px!important;}
+}
