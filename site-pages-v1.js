@@ -36,6 +36,8 @@
     const filename = destination.split("#")[0];
     return filename === pageFile[current] ? null : filename + hash;
   }
+  const backToTop = document.querySelector(".footer-bottom a[href='index.html']");
+  if (backToTop) backToTop.setAttribute("href", "#top");
   const legacyHash = routeForHash(window.location.hash);
   if (legacyHash) {
     // Keeps existing shared METEOPATH links working after the redesign.
