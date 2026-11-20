@@ -1749,7 +1749,7 @@ window.METEOPATH_DATA = {
           "specialization": "Prediksi Cuaca dan Iklim",
           "role": "Forecast Model Analyst; Weather Forecaster",
           "reason": "Evaluasi dan penyempurnaan forecast, termasuk AI",
-          "evidenceType": "Layanan dan lowongan resmi",
+          "evidenceType": "Layanan resmi",
           "qualification": "Periksa syarat per lowongan",
           "skills": "NWP; statistik verifikasi; AI",
           "source": "https://stormgeo.com/weather",
@@ -1796,7 +1796,7 @@ window.METEOPATH_DATA = {
           "specialization": "Prediksi Cuaca dan Iklim",
           "role": "Weather Model Developer; Lead Developer Global Model",
           "reason": "Posisi pengembangan model global dan data cuaca",
-          "evidenceType": "Lowongan/karier terdokumentasi",
+          "evidenceType": "Profil profesi pada halaman karier",
           "qualification": "Periksa syarat pengalaman",
           "skills": "NWP; Python; HPC; C++/Fortran",
           "source": "https://www.meteomatics.com/en/careers/",
@@ -2065,7 +2065,7 @@ window.METEOPATH_DATA = {
     }
   ],
   "metadata": {
-    "updated": "2026-11-18",
+    "updated": "2026-11-20",
     "officialCurriculum": "https://meteo.itb.ac.id/?page_id=2621&lang=id",
     "verifiedAt": null
   }

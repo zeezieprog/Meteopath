@@ -1,27 +1,35 @@
-# Meteopath v6 — Career Explorer
+# METEOPATH
 
-Website independen mahasiswa untuk mengeksplorasi karier Meteorologi ITB. https://zeezieprog.github.io/Meteopath/
+Atlas karier independen untuk mahasiswa Meteorologi ITB. [Buka METEOPATH](https://zeezieprog.github.io/Meteopath/).
 
-## Fitur
-- 8 spesialisasi Kurikulum 2024; 75 kemunculan dari 31 mata kuliah unik.
-- Perbandingan 2–3 spesialisasi, simulator pemilihan 12 SKS, jalur karier, dan 16 proyek portofolio.
-- 33 profil karier dengan keterangan pendidikan; bukan semua terverifikasi alumni S1 Meteorologi.
-- 29 organisasi unik (50 hubungan lintas spesialisasi), dengan sumber dan jenis bukti.
-- Tema gelap, animasi atmosfer, aksesibilitas keyboard, dan metodologi data.
+## Isi atlas
 
-## Berkas
-index.html (halaman), style.css (tema + animasi), script.js (katalog), v6.js (fitur interaktif), data.js (data ternormalisasi), curriculum.js (mata kuliah), atmospheric-motion-v1.js (kontrol animasi), favicon.svg.
+| Halaman | Fitur |
+| --- | --- |
+| Beranda | Ringkasan isi atlas, pintu masuk ke lima bagian, dan informasi platform |
+| Spesialisasi | Delapan paket Kurikulum 2024, filter kategori, pencarian mata kuliah, detail bidang, dan simulasi 12 SKS |
+| Komparasi | Perbandingan dua atau tiga spesialisasi berdasarkan enam aspek |
+| Alumni | 33 profil profesional dengan riwayat pendidikan dan dasar klasifikasi |
+| Perusahaan | 29 organisasi, 50 keterkaitan bidang, contoh peran, kualifikasi, dan sumber |
+| Karier | Delapan panduan profesi dan 16 proyek portofolio dengan perangkat, sumber data, langkah kerja, dan evaluasi |
 
-## Catatan
-Sumber kurikulum: https://meteo.itb.ac.id/?page_id=2621&lang=id . Data perusahaan adalah kecocokan sektor, bukan lowongan aktif. Data alumni dikelompokkan berdasarkan pengalaman karier, bukan bukti paket spesialisasi akademik. Pemilihan IRS harus dikonfirmasi dengan dosen wali. Revisi data 18 November 2026 tidak berarti semua profil dan tautan diverifikasi ulang. Koreksi: GitHub Issues.
+## Menjalankan situs
 
-Bukan website resmi ITB.
+GitHub Pages menyajikan berkas statis dari akar repositori. Untuk pratinjau lokal, jalankan `python -m http.server 8000` dari direktori ini dan buka `http://localhost:8000/`. Situs memakai HTML, CSS, dan JavaScript tanpa langkah build. Gambar, ikon, dan fon disajikan dari direktori `assets/`.
 
-## Panduan karier dan proyek yang lebih rinci
+## Mengelola isi
 
-Halaman `karier.html` memuat panduan untuk 8 spesialisasi dan 16 proyek dengan aktivitas profesi, jenjang contoh, persiapan akademik, perangkat, tahap belajar, durasi perkiraan, sumber data, langkah pengerjaan, evaluasi, serta keluaran portofolio. Konten disimpan pada `career-content-v8.js`, gaya visual pada `career-explorer-v8.css`, dan tampilan dinamis pada `meteopath-enhancements-v2-20261118.js`.
+- `data.js` menyimpan spesialisasi, profil profesional, relasi organisasi, dan katalog proyek.
+- `curriculum.js` memuat 75 entri pada delapan paket, setara dengan 31 kode mata kuliah unik. Acuannya adalah [Skema Pembelajaran dalam Program](https://meteo.itb.ac.id/?lang=id&page_id=2621).
+- `career-content-v8.js` memuat panduan karier, proyek, dan dokumentasi sumber.
+- Halaman HTML memuat konten dan navigasi masing-masing. `assets/atlas.css` dan `assets/atlas.js` menangani gaya serta navigasi bersama. Modul di `assets/` menangani interaksi khusus per halaman.
+- Tautan lama seperti `#spesialisasi`, `#proyek`, dan `#detail?track=perubahan-iklim` tetap mengarah ke halaman yang sesuai. Simulasi mata kuliah memakai kunci penyimpanan peramban `meteopath-courses`.
 
-Syarat kerja bervariasi dan proyek ini bukan sumber lowongan aktif atau panduan akademik resmi.
+Dasar klasifikasi alumni adalah riwayat studi dan pekerjaan yang tercantum di profil publik. Status pendidikan ditampilkan per profil. Keterkaitan organisasi menunjukkan relevansi sektor, peran, atau contoh rekrutmen terdokumentasi. Status lowongan dan kualifikasi perlu diperiksa pada sumber terkait. Konfirmasikan pengisian IRS dengan dosen wali.
+
+Pemeriksaan 20 November 2026 mencakup 75 entri kurikulum dan dua label sumber organisasi. Laman layanan [StormGeo](https://stormgeo.com/weather) serta profil profesi di [Meteomatics Careers](https://www.meteomatics.com/en/careers/) diklasifikasikan sesuai isi halaman. Tanggal pemeriksaan profil profesional individual masih mengikuti data masing-masing. [Ajukan koreksi data](https://github.com/zeezieprog/Meteopath/issues/new).
+
+Ilustrasi awan pada beranda dibuat untuk METEOPATH dengan bantuan AI. Ilustrasi globe memakai garis pantai [Natural Earth](https://www.naturalearthdata.com/). DM Sans dan Instrument Serif disertakan beserta lisensi SIL Open Font License di `assets/fonts/`.
 
 ## Arsip fitur Rencana
 
